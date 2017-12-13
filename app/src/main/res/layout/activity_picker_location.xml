@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:background="0x106000b" app:layout_width="match_parent" app:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout app:layout_width="match_parent" app:layout_height="wrap_content">
+        <RelativeLayout app:layout_width="match_parent" app:layout_height="wrap_content">
+            <ImageView app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0xc801" app:foreground="@color/overlay_dark_50" app:src="@drawable/image_3" app:scaleType="centerCrop" />
+            <ImageView app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x6401" app:src="@drawable/img_wizard_1" app:tint="0x106000b" app:layout_centerInParent="true" />
+            <android.support.v7.widget.Toolbar app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" app:id="@id/toolbar" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f010046" app:contentInsetStartWithNavigation="0dp" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+        </RelativeLayout>
+    </android.support.design.widget.AppBarLayout>
+    <LinearLayout app:orientation="vertical" app:padding="@dimen/spacing_mlarge" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x1" app:layout_weight="1.0"
+        <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content">
+            <ImageButton app:background="0x106000d" app:layout_width="UNKNOWN_DATA_0x7f0800d6" app:layout_height="UNKNOWN_DATA_0x7f0800d6" app:tint="@color/colorPrimary" app:srcCompat="@drawable/ic_home" />
+            <View app:layout_width="UNKNOWN_DATA_0x7f0800d2" app:layout_height="match_parent" />
+            <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content">
+                <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textColor="@color/grey_80" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@id/tv_origin" app:background="?attr/selectableItemBackground" app:layout_width="match_parent" app:layout_height="wrap_content" app:minHeight="@dimen/spacing_xmlarge" app:text="Origin" app:maxLines="1" app:singleLine="true" />
+                <View app:background="@color/grey_20" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x101" />
+            </LinearLayout>
+        </LinearLayout>
+        <View app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f0800d2" />
+        <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content">
+            <ImageButton app:background="0x106000d" app:layout_width="UNKNOWN_DATA_0x7f0800d6" app:layout_height="UNKNOWN_DATA_0x7f0800d6" app:tint="@color/colorPrimary" app:srcCompat="@drawable/ic_location" />
+            <View app:layout_width="UNKNOWN_DATA_0x7f0800d2" app:layout_height="match_parent" />
+            <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content">
+                <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textColor="@color/grey_80" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@id/tv_destination" app:background="?attr/selectableItemBackground" app:layout_width="match_parent" app:layout_height="wrap_content" app:minHeight="@dimen/spacing_xmlarge" app:text="Destination" app:maxLines="1" app:singleLine="true" />
+                <View app:background="@color/grey_20" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x101" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <android.support.v7.widget.AppCompatButton app:textColor="0x106000b" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/bt_pick_color" app:background="@drawable/btn_rounded_primary" app:paddingLeft="@dimen/spacing_xlarge" app:paddingRight="@dimen/spacing_xlarge" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_margin="@dimen/spacing_mlarge" app:text="GET DIRECTION" />
+</LinearLayout>

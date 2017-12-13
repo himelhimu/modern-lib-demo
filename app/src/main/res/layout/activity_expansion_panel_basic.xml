@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:background="@color/grey_10" app:layout_width="match_parent" app:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout app:layout_width="match_parent" app:layout_height="wrap_content">
+        <include layout="@layout/toolbar" />
+    </android.support.design.widget.AppBarLayout>
+    <android.support.v4.widget.NestedScrollView app:id="@id/nested_scroll_view" app:scrollbars="UNKNOWN_DATA_0x0" app:layout_width="match_parent" app:layout_height="match_parent" app:scrollingCache="true">
+        <LinearLayout app:orientation="vertical" app:paddingTop="@dimen/spacing_medium" app:layout_width="match_parent" app:layout_height="wrap_content">
+            <android.support.v7.widget.CardView app:visibility="visible" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/spacing_middle" app:layout_marginTop="@dimen/spacing_medium" app:layout_marginRight="@dimen/spacing_middle" app:layout_marginBottom="@dimen/spacing_medium" app:cardCornerRadius="2dp" app:cardElevation="2dp">
+                <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content"
+                    <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:background="0x106000b" app:layout_width="match_parent" app:layout_height="wrap_content" app:minHeight="?attr/actionBarSize">
+                        <View app:layout_width="UNKNOWN_DATA_0x7f0800d2" app:layout_height="wrap_content" />
+                        <TextView app:textAppearance="@style/TextAppearance.AppCompat.Medium" app:textColor="@color/grey_80" app:id="@id/textView3" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:text="Text" app:layout_weight="1.0" />
+                        <ImageButton app:id="@id/bt_toggle_text" app:background="?attr/selectableItemBackgroundBorderless" app:layout_width="UNKNOWN_DATA_0x7f010046" app:layout_height="UNKNOWN_DATA_0x7f010046" app:tint="@color/grey_80" app:srcCompat="@drawable/ic_expand_arrow" />
+                    </LinearLayout>
+                    <LinearLayout app:orientation="vertical" app:id="@id/lyt_expand_text" app:layout_width="match_parent" app:layout_height="wrap_content">
+                        <TextView app:padding="@dimen/spacing_large" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="@string/lorem_ipsum" />
+                        <View app:background="@color/grey_10" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x101" />
+                        <LinearLayout app:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content">
+                            <Button app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/bt_hide_text" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="@string/HIDE" style="@style/Widget.AppCompat.Button.Borderless" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView app:visibility="visible" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/spacing_middle" app:layout_marginTop="@dimen/spacing_medium" app:layout_marginRight="@dimen/spacing_middle" app:layout_marginBottom="@dimen/spacing_medium" app:cardCornerRadius="2dp" app:cardElevation="2dp">
+                <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content"
+                    <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:background="0x106000b" app:layout_width="match_parent" app:layout_height="wrap_content" app:minHeight="?attr/actionBarSize">
+                        <View app:layout_width="UNKNOWN_DATA_0x7f0800d2" app:layout_height="wrap_content" />
+                        <TextView app:textAppearance="@style/TextAppearance.AppCompat.Medium" app:textColor="@color/grey_80" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:text="Input" app:layout_weight="1.0" />
+                        <ImageButton app:id="@id/bt_toggle_input" app:background="?attr/selectableItemBackgroundBorderless" app:layout_width="UNKNOWN_DATA_0x7f010046" app:layout_height="UNKNOWN_DATA_0x7f010046" app:tint="@color/grey_80" app:srcCompat="@drawable/ic_expand_arrow" />
+                    </LinearLayout>
+                    <LinearLayout app:orientation="vertical" app:id="@id/lyt_expand_input" app:layout_width="match_parent" app:layout_height="wrap_content">
+                        <EditText app:textColor="@color/grey_60" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@id/appCompatEditText" app:background="@color/grey_5" app:padding="@dimen/spacing_middle" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x3201" app:layout_marginLeft="@dimen/spacing_large" app:layout_marginTop="@dimen/spacing_large" app:layout_marginRight="@dimen/spacing_large" app:hint="Name" />
+                        <RadioGroup app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_margin="@dimen/spacing_large" app:layout_marginTop="@dimen/spacing_medium">
+                            <android.support.v7.widget.AppCompatRadioButton app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="Male" />
+                            <android.support.v7.widget.AppCompatRadioButton app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="Female" />
+                        </RadioGroup>
+                        <View app:background="@color/grey_10" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x101" />
+                        <LinearLayout app:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content">
+                            <Button app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/bt_hide_input" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="@string/HIDE" style="@style/Widget.AppCompat.Button.Borderless" />
+                            <Button app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/bt_save_input" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="@string/SAVE" style="@style/Button.Accent.Borderless" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>

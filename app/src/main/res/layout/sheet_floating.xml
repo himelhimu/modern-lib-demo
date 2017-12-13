@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="vertical" app:background="0x106000d" app:layout_width="match_parent" app:layout_height="wrap_content">
+    <android.support.v7.widget.CardView app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_margin="@dimen/spacing_middle" app:cardCornerRadius="3dp" app:cardElevation="5dp">
+        <LinearLayout app:orientation="vertical" app:padding="@dimen/spacing_smlarge" app:layout_width="match_parent" app:layout_height="wrap_content"
+            <LinearLayout app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content" app:minHeight="@dimen/spacing_mxlarge"
+                <LinearLayout app:orientation="vertical" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_weight="1.0">
+                    <TextView app:textAppearance="@style/TextAppearance.AppCompat.Title" app:textColor="@color/grey_90" app:id="@c2766e/name" app:layout_width="match_parent" app:layout_height="wrap_content" app:text="Name" />
+                    <TextView app:textAppearance="@style/TextAppearance.AppCompat.Small" app:textColor="@color/grey_60" app:id="@id/brief" app:layout_width="wrap_content" app:layout_height="match_parent" app:text="5 July 2017" />
+                </LinearLayout>
+                <ImageButton app:id="@id/bt_close" app:background="?attr/selectableItemBackgroundBorderless" app:layout_width="UNKNOWN_DATA_0x7f0800d6" app:layout_height="UNKNOWN_DATA_0x7f0800d6" app:tint="@color/grey_60" app:srcCompat="@drawable/ic_close" />
+            </LinearLayout>
+            <View app:background="@color/grey_5" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x100" app:layout_marginTop="@dimen/spacing_middle" app:layout_marginBottom="@dimen/spacing_middle" />
+            <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textColor="@color/grey_90" app:id="@id/description" app:layout_width="match_parent" app:layout_height="wrap_content" app:text="Description" />
+            <LinearLayout app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f010046">
+                <android.support.v7.widget.AppCompatRatingBar app:theme="@style/Yellow.AppCompatRatingBar" app:layout_width="wrap_content" app:layout_height="wrap_content" app:numStars="5" app:rating="5.0" app:stepSize="1.0" app:isIndicator="false" style="@style/Yellow.AppCompatRatingBar" />
+            </LinearLayout>
+            <android.support.v7.widget.AppCompatButton app:textColor="0x106000b" app:id="@id/submit_rating" app:background="@drawable/btn_rounded_accent" app:paddingLeft="@dimen/spacing_mlarge" app:paddingRight="@dimen/spacing_mlarge" app:layout_width="match_parent" app:layout_height="wrap_content" app:text="SUBMIT RATING" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

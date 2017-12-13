@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:id="@id/parent_view" app:background="@color/grey_5" app:layout_width="match_parent" app:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout app:layout_width="match_parent" app:layout_height="wrap_content">
+        <include layout="@layout/toolbar" />
+    </android.support.design.widget.AppBarLayout>
+    <android.support.v7.widget.RecyclerView app:id="@id/recyclerView" app:scrollbars="vertical" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x1" app:scrollingCache="true" app:layout_weight="1.0" />
+    <android.support.v7.widget.CardView app:layout_width="match_parent" app:layout_height="wrap_content" app:cardBackgroundColor="0x106000b" app:cardCornerRadius="0dp" app:cardElevation="10dp">
+        <LinearLayout app:orientation="vertical" app:id="@id/player_control" app:layout_width="match_parent" app:layout_height="wrap_content"
+            <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:paddingTop="@dimen/spacing_small" app:layout_width="match_parent" app:layout_height="wrap_content">
+                <ImageButton app:id="@id/bt_expand" app:background="?attr/selectableItemBackgroundBorderless" app:layout_width="UNKNOWN_DATA_0x7f010046" app:layout_height="UNKNOWN_DATA_0x7f010046" app:tint="@color/grey_80" app:onClick="controlClick" app:rotation="180.0" app:srcCompat="@drawable/ic_expand_arrow" />
+                <LinearLayout app:orientation="vertical" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_weight="1.0">
+                    <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textColor="@color/grey_90" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="Locking Up Your Symptoms" />
+                    <TextView app:textAppearance="@style/TextAppearance.AppCompat.Caption" app:textColor="@color/grey_60" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="Who He Should Be" />
+                </LinearLayout>
+                <ImageButton app:id="@id/bt_play" app:background="?attr/selectableItemBackgroundBorderless" app:layout_width="UNKNOWN_DATA_0x7f010046" app:layout_height="UNKNOWN_DATA_0x7f010046" app:tint="@color/grey_80" app:srcCompat="@drawable/ic_play_arrow" />
+            </LinearLayout>
+            <ProgressBar app:id="@id/song_progressbar" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f0800d7" app:max="100" app:progress="10" app:indeterminate="false" app:progressDrawable="@drawable/progressbar_red" style="@style/Widget.AppCompat.ProgressBar.Horizontal" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

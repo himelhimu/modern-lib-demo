@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.balysv.materialripple.MaterialRippleLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:layout_width="match_parent" app:layout_height="wrap_content" style="@style/RippleStyleBlack">
+    <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:id="@id/lyt_parent" app:clickable="true" app:layout_width="match_parent" app:layout_height="wrap_content" app:minHeight="?attr/actionBarSize">
+        <View app:layout_width="UNKNOWN_DATA_0x7f0800d2" app:layout_height="UNKNOWN_DATA_0x1" />
+        <ImageView app:id="@id/image" app:layout_width="UNKNOWN_DATA_0x2801" app:layout_height="UNKNOWN_DATA_0x2801" app:layout_marginTop="@dimen/spacing_large" app:layout_marginBottom="@dimen/spacing_large" app:src="@drawable/image_2" app:scaleType="centerCrop" />
+        <View app:layout_width="UNKNOWN_DATA_0x7f0800d2" app:layout_height="UNKNOWN_DATA_0x1" />
+        <RelativeLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="match_parent">
+            <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_centerVertical="true"
+                <LinearLayout app:orientation="vertical" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_weight="1.0">
+                    <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textColor="@color/grey_90" app:id="@id/title" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="Locking Up Your Symptoms" />
+                    <TextView app:textAppearance="@style/TextAppearance.AppCompat.Caption" app:textColor="@color/grey_40" app:id="@id/brief" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="Who He Should Be" app:maxLines="1" />
+                </LinearLayout>
+                <View app:layout_width="UNKNOWN_DATA_0x7f0800d2" app:layout_height="UNKNOWN_DATA_0x1" />
+                <ImageButton app:id="@id/more" app:background="?attr/selectableItemBackgroundBorderless" app:layout_width="wrap_content" app:layout_height="UNKNOWN_DATA_0x7f010046" app:tint="@color/grey_60" app:srcCompat="@drawable/ic_more_vert" />
+                <View app:layout_width="UNKNOWN_DATA_0x7f0800d2" app:layout_height="UNKNOWN_DATA_0x1" />
+            </LinearLayout>
+            <View app:background="@color/grey_20" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x100" app:layout_alignParentBottom="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</com.balysv.materialripple.MaterialRippleLayout>

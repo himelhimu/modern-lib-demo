@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:background="@color/grey_10" app:fitsSystemWindows="true" app:layout_width="match_parent" app:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" app:id="@id/app_bar_layout" app:fitsSystemWindows="true" app:layout_width="match_parent" app:layout_height="wrap_content">
+        <android.support.design.widget.CollapsingToolbarLayout app:id="@id/collapsing_toolbar" app:fitsSystemWindows="true" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_scrollFlags="9" app:expandedTitleTextAppearance="@style/TextAppearance.AppCompat.Title" app:contentScrim="?attr/colorPrimary">
+            <ImageView app:id="@id/image" app:fitsSystemWindows="true" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0xfa01" app:foreground="@color/overlay_dark_40" app:src="@drawable/image_8" app:scaleType="centerCrop" app:layout_collapseMode="2" />
+            <FrameLayout app:layout_width="match_parent" app:layout_height="wrap_content">
+                <android.support.v7.widget.Toolbar app:id="@id/toolbar" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f010046" app:contentInsetStartWithNavigation="0dp" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+            </FrameLayout>
+            <LinearLayout app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:layout_width="wrap_content" app:layout_height="wrap_content">
+                <ImageView app:layout_width="UNKNOWN_DATA_0x5001" app:layout_height="UNKNOWN_DATA_0x5001" app:tint="0x106000b" app:srcCompat="@drawable/img_wizard_1" />
+                <View app:layout_width="UNKNOWN_DATA_0x7f0800d4" app:layout_height="UNKNOWN_DATA_0x1" />
+                <TextView app:textAppearance="@style/Base.TextAppearance.AppCompat.Title" app:textColor="0x106000b" app:id="@id/textView9" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="Nature Park" />
+            </LinearLayout>
+        </android.support.design.widget.CollapsingToolbarLayout>
+    </android.support.design.widget.AppBarLayout>
+    <android.support.v4.widget.NestedScrollView app:id="@id/nested_content" app:scrollbars="UNKNOWN_DATA_0x0" app:clipToPadding="false" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_marginTop="-35dp" app:scrollingCache="true" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content">
+            <android.support.v7.widget.CardView app:background="0x106000b" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/spacing_large" app:layout_marginRight="@dimen/spacing_large" app:cardCornerRadius="2dp" app:cardElevation="2dp">
+                <LinearLayout app:orientation="vertical" app:paddingLeft="@dimen/spacing_large" app:paddingRight="@dimen/spacing_large" app:paddingBottom="@dimen/spacing_large" app:layout_width="match_parent" app:layout_height="wrap_content">
+                    <TextView app:textAppearance="@style/TextAppearance.AppCompat.Title" app:textColor="@color/grey_80" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f010046" app:text="Facilities" />
+                    <LinearLayout app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content" app:minHeight="@dimen/spacing_xmlarge">
+                        <ImageButton app:background="0x106000d" app:layout_width="wrap_content" app:layout_height="UNKNOWN_DATA_0x7f0800db" app:tint="@color/grey_40" app:srcCompat="@drawable/ic_local_cafe" />
+                        <View app:layout_width="UNKNOWN_DATA_0x7f0800d4" app:layout_height="UNKNOWN_DATA_0x1" />
+                        <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textColor="@color/grey_40" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="match_parent" app:layout_height="wrap_content" app:minHeight="@dimen/spacing_xmlarge" app:text="Food & Cafe" />
+                    </LinearLayout>
+                    <LinearLayout app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content" app:minHeight="@dimen/spacing_xmlarge">
+                        <ImageButton app:background="0x106000d" app:layout_width="wrap_content" app:layout_height="UNKNOWN_DATA_0x7f0800db" app:tint="@color/grey_40" app:srcCompat="@drawable/ic_local_florist" />
+                        <View app:layout_width="UNKNOWN_DATA_0x7f0800d4" app:layout_height="UNKNOWN_DATA_0x1" />
+                        <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textColor="@color/grey_40" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="match_parent" app:layout_height="wrap_content" app:minHeight="@dimen/spacing_xmlarge" app:text="Fresh Air" />
+                    </LinearLayout>
+                    <LinearLayout app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content" app:minHeight="@dimen/spacing_xmlarge">
+                        <ImageButton app:background="0x106000d" app:layout_width="wrap_content" app:layout_height="UNKNOWN_DATA_0x7f0800db" app:tint="@color/grey_40" app:srcCompat="@drawable/ic_airport_shuttle" />
+                        <View app:layout_width="UNKNOWN_DATA_0x7f0800d4" app:layout_height="UNKNOWN_DATA_0x1" />
+                        <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textColor="@color/grey_40" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@id/textView10" app:layout_width="match_parent" app:layout_height="wrap_content" app:minHeight="@dimen/spacing_xmlarge" app:text="Parking Area" />
+                    </LinearLayout>
+                    <LinearLayout app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content" app:minHeight="@dimen/spacing_xmlarge">
+                        <ImageButton app:background="0x106000d" app:layout_width="wrap_content" app:layout_height="UNKNOWN_DATA_0x7f0800db" app:tint="@color/grey_40" app:srcCompat="@drawable/ic_beach_access" />
+                        <View app:layout_width="UNKNOWN_DATA_0x7f0800d4" app:layout_height="UNKNOWN_DATA_0x1" />
+                        <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textColor="@color/grey_40" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="match_parent" app:layout_height="wrap_content" app:minHeight="@dimen/spacing_xmlarge" app:text="Cozy Canopy" />
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <View app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f0800d2" />
+            <android.support.v7.widget.CardView app:background="0x106000b" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/spacing_large" app:layout_marginRight="@dimen/spacing_large" app:cardCornerRadius="2dp" app:cardElevation="2dp">
+                <LinearLayout app:orientation="vertical" app:paddingLeft="@dimen/spacing_large" app:paddingRight="@dimen/spacing_large" app:paddingBottom="@dimen/spacing_large" app:layout_width="match_parent" app:layout_height="wrap_content">
+                    <TextView app:textAppearance="@style/TextAppearance.AppCompat.Title" app:textColor="@color/grey_80" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f010046" app:text="Address" />
+                    <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textColor="@color/grey_40" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="match_parent" app:layout_height="wrap_content" app:text="14321 Saddle Wood Dr, North Little Rock 
+AR, 72117" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <View app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f0800d2" />
+            <android.support.v7.widget.CardView app:background="0x106000b" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/spacing_large" app:layout_marginRight="@dimen/spacing_large" app:cardCornerRadius="2dp" app:cardElevation="2dp">
+                <LinearLayout app:orientation="vertical" app:paddingLeft="@dimen/spacing_large" app:paddingRight="@dimen/spacing_large" app:paddingBottom="@dimen/spacing_large" app:layout_width="match_parent" app:layout_height="wrap_content">
+                    <TextView app:textAppearance="@style/TextAppearance.AppCompat.Title" app:textColor="@color/grey_80" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f010046" app:text="Description" />
+                    <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textColor="@color/grey_40" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="match_parent" app:layout_height="wrap_content" app:text="@string/long_lorem_ipsum" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <View app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f0800d2" />
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</android.support.design.widget.CoordinatorLayout>

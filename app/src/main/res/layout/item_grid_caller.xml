@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.balysv.materialripple.MaterialRippleLayout
+    style="@style/RippleStyleBlack"
+    app:id="@id/lyt_parent"
+    app:layout_height="UNKNOWN_DATA_0xa001"
+    app:layout_width="match_parent">
+
+    <RelativeLayout
+        app:layout_height="match_parent"
+        app:layout_width="match_parent">
+
+        <ImageView
+            app:id="@id/image"
+            app:layout_height="match_parent"
+            app:layout_width="match_parent"
+            app:scaleType="centerCrop"
+            app:src="@drawable/image_2" />
+
+        <LinearLayout
+            app:background="@drawable/bg_gradient"
+            app:layout_alignParentBottom="true"
+            app:layout_height="wrap_content"
+            app:layout_width="match_parent"
+            app:orientation="vertical"
+            app:padding="@dimen/spacing_large"
+
+        <LinearLayout
+            app:gravity="top|bottom|center_vertical|fill_vertical|center|fill"
+            app:layout_height="wrap_content"
+            app:layout_width="match_parent"
+            app:orientation="horizontal">
+
+            <TextView
+                app:id="@c2766e/name"
+                app:layout_height="wrap_content"
+                app:layout_width="wrap_content"
+                app:maxLines="1"
+                app:singleLine="true"
+                app:text="Two Line"
+                app:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead"
+                app:textColor="0x106000b" />
+
+            <View
+                app:layout_height="UNKNOWN_DATA_0x1"
+                app:layout_width="UNKNOWN_DATA_0x7f0800d3" />
+
+            <ImageView
+                app:background="0x106000d"
+                app:layout_height="UNKNOWN_DATA_0x7f0800d2"
+                app:layout_width="UNKNOWN_DATA_0x7f0800d2"
+                app:srcCompat="@drawable/ic_star"
+                app:tint="@color/grey_5" />
+        </LinearLayout>
+
+        <TextView
+            app:id="@id/brief"
+            app:layout_height="wrap_content"
+            app:layout_width="match_parent"
+            app:maxLines="1"
+            app:singleLine="true"
+            app:text="Support Text"
+            app:textAppearance="@style/Base.TextAppearance.AppCompat.Caption"
+            app:textColor="0x106000b" />
+    </LinearLayout>
+</RelativeLayout></com.balysv.materialripple.MaterialRippleLayout>

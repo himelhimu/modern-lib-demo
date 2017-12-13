@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="0x106000b" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include layout="@layout/toolbar" />
+    </android.support.design.widget.AppBarLayout>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_width="UNKNOWN_DATA_0x3201" android:layout_height="UNKNOWN_DATA_0x3201" android:layout_marginRight="@dimen/spacing_mlarge" android:src="@drawable/shape_circle" android:tint="@color/grey_20" />
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <View android:background="@color/grey_20" android:layout_width="UNKNOWN_DATA_0x4601" android:layout_height="UNKNOWN_DATA_0x7f0800d4" />
+                    <View android:background="@color/grey_20" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0800d4" android:layout_marginTop="@dimen/spacing_middle" />
+                    <View android:background="@color/grey_20" android:layout_width="UNKNOWN_DATA_0x2801" android:layout_height="UNKNOWN_DATA_0x7f0800d4" android:layout_marginTop="@dimen/spacing_middle" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_large">
+                <ImageView android:layout_width="UNKNOWN_DATA_0x3201" android:layout_height="UNKNOWN_DATA_0x3201" android:layout_marginRight="@dimen/spacing_xlarge" android:src="@drawable/shape_circle" android:tint="@color/grey_10" />
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <View android:background="@color/grey_10" android:layout_width="UNKNOWN_DATA_0x6401" android:layout_height="UNKNOWN_DATA_0x7f0800d4" />
+                    <View android:background="@color/grey_10" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0800d4" android:layout_marginTop="@dimen/spacing_middle" />
+                    <View android:background="@color/grey_10" android:layout_width="UNKNOWN_DATA_0x2801" android:layout_height="UNKNOWN_DATA_0x7f0800d4" android:layout_marginTop="@dimen/spacing_middle" />
+                </LinearLayout>
+            </LinearLayout>
+            <TextView android:textAppearance="@style/Base.TextAppearance.AppCompat.Small" android:textColor="@color/grey_90" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_large" android:text="Archived conversations appear here" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

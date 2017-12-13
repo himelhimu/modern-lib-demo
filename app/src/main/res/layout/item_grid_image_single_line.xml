@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0xc801">
+    <com.balysv.materialripple.MaterialRippleLayout app:id="@id/lyt_parent" app:layout_width="match_parent" app:layout_height="match_parent" style="@style/RippleStyleBlack">
+        <RelativeLayout app:layout_width="match_parent" app:layout_height="wrap_content">
+            <ImageView app:id="@id/image" app:layout_width="match_parent" app:layout_height="match_parent" app:src="@drawable/image_2" app:scaleType="centerCrop" />
+            <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:background="@color/overlay_dark_50" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f0800dd" app:layout_alignParentLeft="true" app:layout_alignParentBottom="true">
+                <View app:layout_width="UNKNOWN_DATA_0x7f0800d2" app:layout_height="UNKNOWN_DATA_0x1" />
+                <TextView app:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" app:textColor="0x106000b" app:id="@c2766e/name" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:text="Item Name" app:layout_weight="1.0" />
+                <ImageButton app:background="0x106000d" app:layout_width="UNKNOWN_DATA_0x7f0800dd" app:layout_height="UNKNOWN_DATA_0x7f0800dd" app:tint="@color/grey_20" app:srcCompat="@drawable/ic_info" />
+            </LinearLayout>
+        </RelativeLayout>
+    </com.balysv.materialripple.MaterialRippleLayout>
+</LinearLayout>

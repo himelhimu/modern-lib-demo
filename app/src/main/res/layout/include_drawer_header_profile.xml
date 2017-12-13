@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:id="@id/lyt_view_profile" app:background="@color/grey_5" app:layout_width="match_parent" app:layout_height="wrap_content"
+    <LinearLayout app:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:padding="@dimen/spacing_mlarge" app:clickable="true" app:layout_width="match_parent" app:layout_height="wrap_content">
+        <com.mikhaellopez.circularimageview.CircularImageView app:id="@id/image" app:layout_width="UNKNOWN_DATA_0x5001" app:layout_height="UNKNOWN_DATA_0x5001" app:src="@drawable/photo_male_7" app:civ_border_width="2dp" app:civ_border_color="@color/grey_60" app:civ_border="true" />
+        <LinearLayout app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_large">
+            <TextView app:textAppearance="@style/TextAppearance.AppCompat.Title" app:textColor="@color/grey_90" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="James Pratterson" />
+            <LinearLayout app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="horizontal" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_medium">
+                <ImageView app:layout_width="UNKNOWN_DATA_0x7f0800d5" app:layout_height="UNKNOWN_DATA_0x7f0800d5" app:layout_marginRight="@dimen/spacing_medium" app:tint="@color/grey_60" app:srcCompat="@drawable/ic_location" />
+                <TextView app:textAppearance="@style/TextAppearance.AppCompat.Body1" app:textColor="@color/grey_60" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="San Francisco, CA" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <View app:background="@color/grey_10" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x101" />
+</LinearLayout>

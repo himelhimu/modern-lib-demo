@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:id="@id/main_content" app:background="@color/grey_10" app:fitsSystemWindows="true" app:layout_width="match_parent" app:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout app:theme="@style/AppTheme.AppBarOverlay" app:id="@id/appbar" app:layout_width="match_parent" app:layout_height="wrap_content">
+        <android.support.v7.widget.Toolbar app:id="@id/toolbar" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f010046" app:contentInsetStartWithNavigation="0dp" app:popupTheme="@style/AppTheme.PopupOverlay" />
+    </android.support.design.widget.AppBarLayout>
+    <android.support.v4.widget.NestedScrollView app:id="@id/nested_content" app:scrollbars="UNKNOWN_DATA_0x0" app:clipToPadding="false" app:layout_width="match_parent" app:layout_height="match_parent" app:scrollingCache="true" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content">
+            <HorizontalScrollView app:scrollbars="UNKNOWN_DATA_0x0" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_middle" app:minHeight="?attr/actionBarSize">
+                <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:layout_width="wrap_content" app:layout_height="match_parent">
+                    <View app:layout_width="UNKNOWN_DATA_0x7f0800d4" app:layout_height="UNKNOWN_DATA_0x1" />
+                    <Button app:textColor="0x106000b" app:id="@id/tab_home" app:background="@drawable/tab_rounded_accent" app:paddingLeft="@dimen/spacing_xlarge" app:paddingRight="@dimen/spacing_xlarge" app:layout_width="wrap_content" app:layout_height="UNKNOWN_DATA_0x7f0800db" app:text="HOME" app:onClick="onButtonTabClick" />
+                    <Button app:textColor="0x106000b" app:id="@id/tab_top_artists" app:background="@drawable/tab_rounded_accent" app:paddingLeft="@dimen/spacing_xlarge" app:paddingRight="@dimen/spacing_xlarge" app:layout_width="wrap_content" app:layout_height="UNKNOWN_DATA_0x7f0800db" app:text="TOP ARTISTS" app:onClick="onButtonTabClick" />
+                    <Button app:textColor="0x106000b" app:id="@id/tab_top_albums" app:background="@drawable/tab_rounded_accent" app:paddingLeft="@dimen/spacing_xlarge" app:paddingRight="@dimen/spacing_xlarge" app:layout_width="wrap_content" app:layout_height="UNKNOWN_DATA_0x7f0800db" app:text="TOP ALBUMS" app:onClick="onButtonTabClick" />
+                    <Button app:textColor="0x106000b" app:id="@id/tab_new_releases" app:background="@drawable/tab_rounded_accent" app:paddingLeft="@dimen/spacing_xlarge" app:paddingRight="@dimen/spacing_xlarge" app:layout_width="wrap_content" app:layout_height="UNKNOWN_DATA_0x7f0800db" app:text="NEW RELEASES" app:onClick="onButtonTabClick" />
+                    <Button app:textColor="0x106000b" app:id="@id/tab_top_songs" app:background="@drawable/tab_rounded_accent" app:paddingLeft="@dimen/spacing_xlarge" app:paddingRight="@dimen/spacing_xlarge" app:layout_width="wrap_content" app:layout_height="UNKNOWN_DATA_0x7f0800db" app:text="TOP SONGS" app:onClick="onButtonTabClick" />
+                    <View app:layout_width="UNKNOWN_DATA_0x7f0800d4" app:layout_height="UNKNOWN_DATA_0x1" />
+                </LinearLayout>
+            </HorizontalScrollView>
+            <include layout="@layout/include_store_simple" />
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</android.support.design.widget.CoordinatorLayout>

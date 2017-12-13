@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:background="@color/grey_10" app:layout_width="match_parent" app:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout app:layout_width="match_parent" app:layout_height="wrap_content">
+        <include layout="@layout/toolbar" />
+    </android.support.design.widget.AppBarLayout>
+    <android.support.v4.widget.NestedScrollView app:id="@id/nested_scroll_view" app:scrollbars="UNKNOWN_DATA_0x0" app:layout_width="match_parent" app:layout_height="match_parent" app:scrollingCache="true">
+        <LinearLayout app:orientation="vertical" app:paddingTop="@dimen/spacing_medium" app:descendantFocusability="blocksDescendants" app:layout_width="match_parent" app:layout_height="wrap_content">
+            <android.support.v7.widget.CardView app:visibility="visible" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/spacing_middle" app:layout_marginTop="@dimen/spacing_medium" app:layout_marginRight="@dimen/spacing_middle" app:layout_marginBottom="@dimen/spacing_medium" app:cardCornerRadius="2dp" app:cardElevation="2dp">
+                <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content"
+                    <LinearLayout app:orientation="horizontal" app:padding="@dimen/spacing_large" app:layout_width="match_parent" app:layout_height="wrap_content">
+                        <com.mikhaellopez.circularimageview.CircularImageView app:layout_width="UNKNOWN_DATA_0x7f0800dd" app:layout_height="UNKNOWN_DATA_0x7f0800dd" app:src="@drawable/photo_female_2" app:civ_border="false" />
+                        <View app:layout_width="UNKNOWN_DATA_0x7f0800d2" app:layout_height="UNKNOWN_DATA_0x1" />
+                        <LinearLayout app:orientation="vertical" app:layout_width="wrap_content" app:layout_height="wrap_content">
+                            <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textColor="0x106000c" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="match_parent" app:layout_height="wrap_content" app:text="Bsilico Eat" />
+                            <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textColor="@color/grey_60" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_small" app:text="June 1, 2015" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textColor="@color/grey_60" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/spacing_large" app:layout_marginRight="@dimen/spacing_large" app:layout_marginBottom="@dimen/spacing_large" app:text="@string/middle_lorem_ipsum" />
+                    <ImageView app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x9601" app:src="@drawable/image_7" app:scaleType="centerCrop" />
+                    <LinearLayout app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f010046">
+                        <ImageButton app:background="?attr/selectableItemBackgroundBorderless" app:layout_width="UNKNOWN_DATA_0x7f010046" app:layout_height="UNKNOWN_DATA_0x7f010046" app:tint="@color/grey_60" app:srcCompat="@drawable/ic_favorites" />
+                        <ImageButton app:background="?attr/selectableItemBackgroundBorderless" app:layout_width="UNKNOWN_DATA_0x7f010046" app:layout_height="UNKNOWN_DATA_0x7f010046" app:tint="@color/grey_60" app:srcCompat="@drawable/ic_share" />
+                        <View app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_weight="1.0" />
+                        <ImageButton app:background="?attr/selectableItemBackgroundBorderless" app:layout_width="UNKNOWN_DATA_0x7f010046" app:layout_height="UNKNOWN_DATA_0x7f010046" app:tint="@color/grey_60" app:srcCompat="@drawable/ic_comment" />
+                        <TextView app:textAppearance="@style/TextAppearance.AppCompat.Medium" app:textColor="@color/grey_60" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="wrap_content" app:layout_height="UNKNOWN_DATA_0x7f010046" app:layout_marginRight="@dimen/spacing_large" app:text="12" />
+                    </LinearLayout>
+                    <View app:background="@color/grey_10" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x101" />
+                    <LinearLayout app:orientation="vertical" app:paddingLeft="@dimen/spacing_large" app:paddingTop="@dimen/spacing_middle" app:paddingRight="@dimen/spacing_large" app:paddingBottom="@dimen/spacing_middle" app:layout_width="match_parent" app:layout_height="wrap_content">
+                        <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textColor="0x106000c" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="match_parent" app:layout_height="wrap_content" app:text="Sandra Adams" />
+                        <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textColor="@color/grey_60" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_small" app:text="@string/short_lorem_ipsum" app:maxLines="1" app:singleLine="true" />
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView app:visibility="visible" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/spacing_middle" app:layout_marginTop="@dimen/spacing_medium" app:layout_marginRight="@dimen/spacing_middle" app:layout_marginBottom="@dimen/spacing_medium" app:cardCornerRadius="2dp" app:cardElevation="2dp">
+                <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content">
+                    <ImageView app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x9601" app:src="@drawable/image_7" app:scaleType="centerCrop" />
+                    <LinearLayout app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f010046">
+                        <ImageButton app:background="?attr/selectableItemBackgroundBorderless" app:layout_width="UNKNOWN_DATA_0x7f010046" app:layout_height="UNKNOWN_DATA_0x7f010046" app:tint="@color/grey_60" app:srcCompat="@drawable/ic_favorites" />
+                        <ImageButton app:background="?attr/selectableItemBackgroundBorderless" app:layout_width="UNKNOWN_DATA_0x7f010046" app:layout_height="UNKNOWN_DATA_0x7f010046" app:tint="@color/grey_60" app:srcCompat="@drawable/ic_share" />
+                        <View app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_weight="1.0" />
+                        <ImageButton app:background="?attr/selectableItemBackgroundBorderless" app:layout_width="UNKNOWN_DATA_0x7f010046" app:layout_height="UNKNOWN_DATA_0x7f010046" app:tint="@color/grey_60" app:srcCompat="@drawable/ic_comment" />
+                        <TextView app:textAppearance="@style/TextAppearance.AppCompat.Medium" app:textColor="@color/grey_60" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="wrap_content" app:layout_height="UNKNOWN_DATA_0x7f010046" app:layout_marginRight="@dimen/spacing_large" app:text="12" />
+                    </LinearLayout>
+                    <LinearLayout app:orientation="vertical" app:background="@color/grey_3" app:layout_width="match_parent" app:layout_height="wrap_content"
+                        <LinearLayout app:orientation="horizontal" app:padding="@dimen/spacing_large" app:layout_width="match_parent" app:layout_height="wrap_content">
+                            <com.mikhaellopez.circularimageview.CircularImageView app:layout_width="UNKNOWN_DATA_0x7f0800dd" app:layout_height="UNKNOWN_DATA_0x7f0800dd" app:src="@drawable/photo_female_8" app:civ_border="false" />
+                            <View app:layout_width="UNKNOWN_DATA_0x7f0800d2" app:layout_height="UNKNOWN_DATA_0x1" />
+                            <LinearLayout app:orientation="vertical" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_weight="1.0">
+                                <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textColor="0x106000c" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="match_parent" app:layout_height="wrap_content" app:text="Sandra Adams" />
+                                <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textColor="@color/grey_60" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_small" app:text="@string/middle_lorem_ipsum" />
+                            </LinearLayout>
+                            <View app:layout_width="UNKNOWN_DATA_0x7f0800d2" app:layout_height="UNKNOWN_DATA_0x1" />
+                            <TextView app:textAppearance="@style/TextAppearance.AppCompat.Small" app:textColor="@color/grey_60" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="1d" />
+                        </LinearLayout>
+                        <View app:background="@color/grey_10" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x101" />
+                        <LinearLayout app:orientation="horizontal" app:padding="@dimen/spacing_large" app:layout_width="match_parent" app:layout_height="wrap_content">
+                            <com.mikhaellopez.circularimageview.CircularImageView app:layout_width="UNKNOWN_DATA_0x7f0800dd" app:layout_height="UNKNOWN_DATA_0x7f0800dd" app:src="@drawable/photo_male_8" app:civ_border="false" />
+                            <View app:layout_width="UNKNOWN_DATA_0x7f0800d2" app:layout_height="UNKNOWN_DATA_0x1" />
+                            <LinearLayout app:orientation="vertical" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_weight="1.0">
+                                <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textColor="0x106000c" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="match_parent" app:layout_height="wrap_content" app:text="David Park" />
+                                <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textColor="@color/grey_60" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@id/textView4" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_small" app:text="@string/middle_lorem_ipsum" />
+                            </LinearLayout>
+                            <View app:layout_width="UNKNOWN_DATA_0x7f0800d2" app:layout_height="UNKNOWN_DATA_0x1" />
+                            <TextView app:textAppearance="@style/TextAppearance.AppCompat.Small" app:textColor="@color/grey_60" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="1d" />
+                        </LinearLayout>
+                        <View app:background="@color/grey_10" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x101" />
+                        <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:background="?attr/selectableItemBackground" app:clickable="true" app:layout_width="match_parent" app:layout_height="wrap_content">
+                            <TextView app:textAppearance="@style/TextAppearance.AppCompat.Medium" app:textColor="@color/grey_60" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/spacing_large" app:layout_marginRight="@dimen/spacing_large" app:text="VIEW MORE COMMENTS" app:layout_weight="1.0" app:textAllCaps="true" />
+                            <ImageButton app:background="?attr/selectableItemBackgroundBorderless" app:layout_width="UNKNOWN_DATA_0x7f010046" app:layout_height="UNKNOWN_DATA_0x7f010046" app:tint="@color/grey_60" app:srcCompat="@drawable/ic_expand_arrow" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>

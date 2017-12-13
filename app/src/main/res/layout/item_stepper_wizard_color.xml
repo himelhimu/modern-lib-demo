@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/lyt_parent" android:background="@color/grey_60" android:padding="@dimen/spacing_xlarge" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:paddingBottom="?attr/actionBarSize" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:id="@id/image" android:padding="@dimen/spacing_xlarge" android:layout_width="UNKNOWN_DATA_0xfa01" android:layout_height="UNKNOWN_DATA_0xfa01" android:src="@drawable/img_wizard_1" android:tint="0x106000b" />
+        <TextView android:textAppearance="@style/TextAppearance.AppCompat.Medium" android:textStyle="bold" android:textColor="0x106000b" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Ready to Travel" />
+        <TextView android:textAppearance="@style/TextAppearance.AppCompat.Subhead" android:textColor="@color/grey_20" android:id="@id/description" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_middle" android:text="Find Featured and Premium 
+Item From Our Store" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:id="@id/parent_view" app:background="0x106000b" app:layout_width="match_parent" app:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" app:id="@id/app_bar_layout" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x10401">
+        <android.support.design.widget.CollapsingToolbarLayout app:id="@id/collapsing_toolbar" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_scrollFlags="3" app:expandedTitleTextAppearance="@style/TextAppearance.AppCompat.Headline" app:contentScrim="?attr/colorPrimary" app:titleEnabled="false">
+            <ImageView app:id="@id/image" app:layout_width="match_parent" app:layout_height="match_parent" app:src="@drawable/image_shop_10" app:scaleType="centerCrop" app:layout_collapseMode="2" />
+        </android.support.design.widget.CollapsingToolbarLayout>
+    </android.support.design.widget.AppBarLayout>
+    <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <android.support.v7.widget.CardView app:layout_width="match_parent" app:layout_height="wrap_content" app:cardCornerRadius="0dp" app:cardElevation="3dp">
+            <android.support.v7.widget.Toolbar app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@id/toolbar" app:background="@color/colorPrimary" app:layout_width="match_parent" app:layout_height="wrap_content" app:contentInsetStartWithNavigation="0dp" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" app:layout_collapseMode="1">
+                <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_large" app:layout_marginRight="@dimen/spacing_large" app:layout_marginBottom="@dimen/spacing_large">
+                    <TextView app:textAppearance="@style/TextAppearance.AppCompat.Large" app:textColor="0x106000b" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="Roll-Up Neocity Backpack" />
+                    <TextView app:textAppearance="@style/TextAppearance.AppCompat.Small" app:textColor="@color/grey_10" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_medium" app:text="Shop Adidas" />
+                    <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_large">
+                        <android.support.v7.widget.AppCompatRatingBar app:theme="@style/Yellow.Small.AppCompatRatingBar.White" app:clickable="false" app:layout_width="wrap_content" app:layout_height="wrap_content" app:numStars="5" app:rating="3.5" app:stepSize="1.0" style="@style/Yellow.Small.AppCompatRatingBar.White" />
+                        <TextView app:textAppearance="@style/TextAppearance.AppCompat.Caption" app:textColor="@color/grey_10" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/spacing_medium" app:text="381,380" />
+                        <View app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="UNKNOWN_DATA_0x1" app:layout_weight="1.0" />
+                        <TextView app:textAppearance="@style/TextAppearance.AppCompat.Large" app:textStyle="bold" app:textColor="0x106000b" app:id="@id/price" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="$ 80.00" />
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.Toolbar>
+        </android.support.v7.widget.CardView>
+        <android.support.v4.widget.NestedScrollView app:id="@id/nested_scroll_view" app:scrollbars="UNKNOWN_DATA_0x0" app:clipToPadding="false" app:layout_width="match_parent" app:layout_height="match_parent" app:scrollingCache="true" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+            <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content"
+                <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content" app:minHeight="?attr/actionBarSize">
+                    <ImageButton app:background="0x106000d" app:layout_width="UNKNOWN_DATA_0x7f010046" app:layout_height="UNKNOWN_DATA_0x7f010046" app:tint="@color/grey_60" app:srcCompat="@drawable/ic_error_outline" />
+                    <TextView app:textAppearance="@style/TextAppearance.AppCompat.Medium" app:textColor="@color/grey_80" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:text="Description" app:layout_weight="1.0" />
+                    <View app:layout_width="UNKNOWN_DATA_0x7f0800d2" app:layout_height="wrap_content" />
+                    <ImageButton app:id="@id/bt_toggle_description" app:background="?attr/selectableItemBackgroundBorderless" app:layout_width="UNKNOWN_DATA_0x7f010046" app:layout_height="UNKNOWN_DATA_0x7f010046" app:tint="@color/grey_60" app:srcCompat="@drawable/ic_arrow_drop" />
+                </LinearLayout>
+                <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:id="@id/lyt_expand_description" app:paddingTop="@dimen/spacing_medium" app:paddingBottom="@dimen/spacing_large" app:visibility="gone" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="?attr/actionBarSize" app:layout_marginRight="@dimen/spacing_smlarge" app:layout_marginBottom="@dimen/spacing_middle">
+                    <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:text="@string/lorem_ipsum" app:layout_weight="1.0" />
+                </LinearLayout>
+                <View app:background="@color/grey_20" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x100" />
+                <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content" app:minHeight="?attr/actionBarSize">
+                    <ImageButton app:background="0x106000d" app:layout_width="UNKNOWN_DATA_0x7f010046" app:layout_height="UNKNOWN_DATA_0x7f010046" app:tint="@color/grey_60" app:srcCompat="@drawable/ic_chat" />
+                    <TextView app:textAppearance="@style/TextAppearance.AppCompat.Medium" app:textColor="@color/grey_80" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:text="Reviews" app:layout_weight="1.0" />
+                    <View app:layout_width="UNKNOWN_DATA_0x7f0800d8" app:layout_height="wrap_content" />
+                    <ImageButton app:id="@id/bt_toggle_reviews" app:background="?attr/selectableItemBackgroundBorderless" app:layout_width="UNKNOWN_DATA_0x7f010046" app:layout_height="UNKNOWN_DATA_0x7f010046" app:tint="@color/grey_60" app:srcCompat="@drawable/ic_arrow_drop" />
+                </LinearLayout>
+                <LinearLayout app:orientation="vertical" app:id="@id/lyt_expand_reviews" app:visibility="gone" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginBottom="@dimen/spacing_middle"
+                    <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="?attr/actionBarSize" app:layout_marginRight="@dimen/spacing_smlarge" app:minHeight="@dimen/spacing_mxlarge">
+                        <android.support.v7.widget.AppCompatRatingBar app:theme="@style/Yellow.Small.AppCompatRatingBar" app:clickable="false" app:layout_width="wrap_content" app:layout_height="wrap_content" app:numStars="5" app:rating="4.0" app:stepSize="1.0" style="@style/Yellow.Small.AppCompatRatingBar" />
+                        <TextView app:textAppearance="@style/TextAppearance.AppCompat.Small" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/spacing_middle" app:text="Adams Green" app:maxLines="1" app:singleLine="true" />
+                    </LinearLayout>
+                    <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="?attr/actionBarSize" app:layout_marginRight="@dimen/spacing_smlarge" app:minHeight="@dimen/spacing_mxlarge">
+                        <android.support.v7.widget.AppCompatRatingBar app:theme="@style/Yellow.Small.AppCompatRatingBar" app:clickable="false" app:layout_width="wrap_content" app:layout_height="wrap_content" app:numStars="5" app:rating="5.0" app:stepSize="1.0" style="@style/Yellow.Small.AppCompatRatingBar" />
+                        <TextView app:textAppearance="@style/TextAppearance.AppCompat.Small" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/spacing_middle" app:text="Anderson Thomas" app:maxLines="1" app:singleLine="true" />
+                    </LinearLayout>
+                    <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="?attr/actionBarSize" app:layout_marginRight="@dimen/spacing_smlarge" app:minHeight="@dimen/spacing_mxlarge">
+                        <android.support.v7.widget.AppCompatRatingBar app:theme="@style/Yellow.Small.AppCompatRatingBar" app:clickable="false" app:layout_width="wrap_content" app:layout_height="wrap_content" app:numStars="5" app:rating="5.0" app:stepSize="1.0" style="@style/Yellow.Small.AppCompatRatingBar" />
+                        <TextView app:textAppearance="@style/TextAppearance.AppCompat.Small" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/spacing_middle" app:text="Roberts Turner" app:maxLines="1" app:singleLine="true" />
+                    </LinearLayout>
+                    <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="?attr/actionBarSize" app:layout_marginRight="@dimen/spacing_smlarge" app:minHeight="@dimen/spacing_mxlarge">
+                        <android.support.v7.widget.AppCompatRatingBar app:theme="@style/Yellow.Small.AppCompatRatingBar" app:clickable="false" app:layout_width="wrap_content" app:layout_height="wrap_content" app:numStars="5" app:rating="4.5" app:stepSize="0.5" style="@style/Yellow.Small.AppCompatRatingBar" />
+                        <TextView app:textAppearance="@style/TextAppearance.AppCompat.Small" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/spacing_middle" app:text="Evans Collins" app:maxLines="1" app:singleLine="true" />
+                    </LinearLayout>
+                    <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="?attr/actionBarSize" app:layout_marginRight="@dimen/spacing_smlarge" app:minHeight="@dimen/spacing_mxlarge">
+                        <android.support.v7.widget.AppCompatRatingBar app:theme="@style/Yellow.Small.AppCompatRatingBar" app:clickable="false" app:layout_width="wrap_content" app:layout_height="wrap_content" app:numStars="5" app:rating="5.0" app:stepSize="1.0" style="@style/Yellow.Small.AppCompatRatingBar" />
+                        <TextView app:textAppearance="@style/TextAppearance.AppCompat.Small" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/spacing_middle" app:text="Garcia Lewis" app:maxLines="1" app:singleLine="true" />
+                    </LinearLayout>
+                </LinearLayout>
+                <View app:background="@color/grey_20" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x100" />
+                <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content" app:minHeight="?attr/actionBarSize">
+                    <ImageButton app:background="0x106000d" app:layout_width="UNKNOWN_DATA_0x7f010046" app:layout_height="UNKNOWN_DATA_0x7f010046" app:tint="@color/grey_60" app:srcCompat="@drawable/ic_verified_user" />
+                    <TextView app:textAppearance="@style/TextAppearance.AppCompat.Medium" app:textColor="@color/grey_80" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:text="Warranty" app:layout_weight="1.0" />
+                    <View app:layout_width="UNKNOWN_DATA_0x7f0800d2" app:layout_height="wrap_content" />
+                    <ImageButton app:id="@id/bt_toggle_warranty" app:background="?attr/selectableItemBackgroundBorderless" app:layout_width="UNKNOWN_DATA_0x7f010046" app:layout_height="UNKNOWN_DATA_0x7f010046" app:tint="@color/grey_60" app:srcCompat="@drawable/ic_arrow_drop" />
+                </LinearLayout>
+                <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:id="@id/lyt_expand_warranty" app:paddingTop="@dimen/spacing_medium" app:paddingBottom="@dimen/spacing_medium" app:visibility="gone" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="?attr/actionBarSize" app:layout_marginRight="@dimen/spacing_smlarge" app:layout_marginBottom="@dimen/spacing_middle">
+                    <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:text="@string/invoice_address" app:layout_weight="1.0" />
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v4.widget.NestedScrollView>
+    </LinearLayout>
+    <android.support.design.widget.FloatingActionButton app:id="@id/fab" app:clickable="true" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_margin="@dimen/spacing_large" app:tint="0x106000b" app:srcCompat="@drawable/ic_add" app:layout_anchor="@id/app_bar_layout" app:layout_anchorGravity="800055" app:rippleColor="0x106000b" app:fabSize="0" app:backgroundTint="@color/deep_orange_500" />
+</android.support.design.widget.CoordinatorLayout>

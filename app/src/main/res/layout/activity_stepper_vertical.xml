@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="0x106000b" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include layout="@layout/toolbar" />
+    </android.support.design.widget.AppBarLayout>
+    <android.support.v4.widget.NestedScrollView android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+        <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/spacing_large" android:paddingRight="@dimen/spacing_large" android:layout_width="match_parent" android:layout_height="match_parent"
+            <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x7f0800d9" android:layout_height="UNKNOWN_DATA_0x7f0800d5">
+                <View android:background="@color/grey_10" android:layout_width="UNKNOWN_DATA_0x201" android:layout_height="match_parent" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content"
+                <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="match_parent">
+                    <RelativeLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/step_title" android:background="@drawable/shape_round_solid" android:layout_width="UNKNOWN_DATA_0x7f0800d9" android:layout_height="UNKNOWN_DATA_0x7f0800d9">
+                        <TextView android:textAppearance="@style/TextAppearance.AppCompat.Subhead" android:textColor="0x106000b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1" />
+                    </RelativeLayout>
+                    <View android:background="@color/grey_10" android:layout_width="UNKNOWN_DATA_0x201" android:layout_height="match_parent" android:minHeight="?attr/actionBarSize" />
+                </LinearLayout>
+                <View android:layout_width="UNKNOWN_DATA_0x7f0800d2" android:layout_height="UNKNOWN_DATA_0x1" />
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?attr/actionBarSize">
+                    <TextView android:textAppearance="@style/TextAppearance.AppCompat.Medium" android:textColor="@color/grey_90" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/tv_label_title" android:paddingLeft="@dimen/spacing_small" android:paddingRight="@dimen/spacing_small" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0800d9" android:text="Title" android:onClick="clickLabel" />
+                    <LinearLayout android:orientation="vertical" android:id="@id/lyt_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacing_large">
+                        <android.support.v7.widget.AppCompatEditText android:id="@id/et_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Event title" />
+                        <Button android:theme="@style/Button.Primary" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/bt_continue_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="0dp" android:text="CONTINUE" android:onClick="clickAction" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content"
+                <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="match_parent">
+                    <RelativeLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/step_description" android:background="@drawable/shape_round_solid" android:layout_width="UNKNOWN_DATA_0x7f0800d9" android:layout_height="UNKNOWN_DATA_0x7f0800d9">
+                        <TextView android:textAppearance="@style/TextAppearance.AppCompat.Subhead" android:textColor="0x106000b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2" />
+                    </RelativeLayout>
+                    <View android:background="@color/grey_10" android:layout_width="UNKNOWN_DATA_0x201" android:layout_height="match_parent" />
+                </LinearLayout>
+                <View android:layout_width="UNKNOWN_DATA_0x7f0800d2" android:layout_height="UNKNOWN_DATA_0x1" />
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?attr/actionBarSize">
+                    <TextView android:textAppearance="@style/TextAppearance.AppCompat.Medium" android:textColor="@color/grey_90" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/tv_label_description" android:paddingLeft="@dimen/spacing_small" android:paddingRight="@dimen/spacing_small" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0800d9" android:text="Description" android:onClick="clickLabel" />
+                    <LinearLayout android:orientation="vertical" android:id="@id/lyt_description" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacing_large">
+                        <android.support.v7.widget.AppCompatEditText android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/et_description" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Event description" android:lines="4" />
+                        <Button android:theme="@style/Button.Primary" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/bt_continue_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="0dp" android:text="CONTINUE" android:onClick="clickAction" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content"
+                <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="match_parent">
+                    <RelativeLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/step_time" android:background="@drawable/shape_round_solid" android:layout_width="UNKNOWN_DATA_0x7f0800d9" android:layout_height="UNKNOWN_DATA_0x7f0800d9">
+                        <TextView android:textAppearance="@style/TextAppearance.AppCompat.Subhead" android:textColor="0x106000b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="3" />
+                    </RelativeLayout>
+                    <View android:background="@color/grey_10" android:layout_width="UNKNOWN_DATA_0x201" android:layout_height="match_parent" />
+                </LinearLayout>
+                <View android:layout_width="UNKNOWN_DATA_0x7f0800d2" android:layout_height="UNKNOWN_DATA_0x1" />
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?attr/actionBarSize">
+                    <TextView android:textAppearance="@style/TextAppearance.AppCompat.Medium" android:textColor="@color/grey_90" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/tv_label_time" android:paddingLeft="@dimen/spacing_small" android:paddingRight="@dimen/spacing_small" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0800d9" android:text="Time" android:onClick="clickLabel" />
+                    <LinearLayout android:orientation="vertical" android:id="@id/lyt_time" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacing_large">
+                        <TextView android:textAppearance="@style/TextAppearance.AppCompat.Display3" android:textColor="@color/grey_60" android:id="@id/tv_time" android:background="?attr/selectableItemBackground" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="00:00" />
+                        <Button android:theme="@style/Button.Primary" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/bt_continue_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="0dp" android:text="CONTINUE" android:onClick="clickAction" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content"
+                <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="match_parent">
+                    <RelativeLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/step_date" android:background="@drawable/shape_round_solid" android:layout_width="UNKNOWN_DATA_0x7f0800d9" android:layout_height="UNKNOWN_DATA_0x7f0800d9">
+                        <TextView android:textAppearance="@style/TextAppearance.AppCompat.Subhead" android:textColor="0x106000b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="4" />
+                    </RelativeLayout>
+                    <View android:background="@color/grey_10" android:layout_width="UNKNOWN_DATA_0x201" android:layout_height="match_parent" />
+                </LinearLayout>
+                <View android:layout_width="UNKNOWN_DATA_0x7f0800d2" android:layout_height="UNKNOWN_DATA_0x1" />
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?attr/actionBarSize">
+                    <TextView android:textAppearance="@style/TextAppearance.AppCompat.Medium" android:textColor="@color/grey_90" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/tv_label_date" android:paddingLeft="@dimen/spacing_small" android:paddingRight="@dimen/spacing_small" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0800d9" android:text="Date" android:onClick="clickLabel" />
+                    <LinearLayout android:orientation="vertical" android:id="@id/lyt_date" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacing_large">
+                        <TextView android:textAppearance="@style/TextAppearance.AppCompat.Display1" android:textColor="@color/grey_60" android:id="@id/tv_date" android:background="?attr/selectableItemBackground" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="01 Jan 2000" />
+                        <Button android:theme="@style/Button.Primary" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/bt_continue_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="0dp" android:text="CONTINUE" android:onClick="clickAction" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content"
+                <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="match_parent">
+                    <RelativeLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/step_confirmation" android:background="@drawable/shape_round_solid" android:layout_width="UNKNOWN_DATA_0x7f0800d9" android:layout_height="UNKNOWN_DATA_0x7f0800d9">
+                        <TextView android:textAppearance="@style/TextAppearance.AppCompat.Subhead" android:textColor="0x106000b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="5" />
+                    </RelativeLayout>
+                    <View android:background="@color/grey_10" android:layout_width="UNKNOWN_DATA_0x201" android:layout_height="match_parent" />
+                </LinearLayout>
+                <View android:layout_width="UNKNOWN_DATA_0x7f0800d2" android:layout_height="UNKNOWN_DATA_0x1" />
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?attr/actionBarSize">
+                    <TextView android:textAppearance="@style/TextAppearance.AppCompat.Medium" android:textColor="@color/grey_90" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/tv_label_confirmation" android:paddingLeft="@dimen/spacing_small" android:paddingRight="@dimen/spacing_small" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0800d9" android:text="Confirmation" android:onClick="clickLabel" />
+                    <LinearLayout android:orientation="vertical" android:id="@id/lyt_confirmation" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacing_large">
+                        <Button android:theme="@style/Button.Primary" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/bt_add_event" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="0dp" android:text="ADD EVENT" android:onClick="clickAction" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x7f0800d9" android:layout_height="match_parent">
+                <View android:background="@color/grey_10" android:layout_width="UNKNOWN_DATA_0x201" android:layout_height="match_parent" />
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>

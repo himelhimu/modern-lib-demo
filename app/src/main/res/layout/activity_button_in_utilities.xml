@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:layout_width="match_parent" app:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout app:layout_width="match_parent" app:layout_height="wrap_content">
+        <include layout="@layout/toolbar" />
+    </android.support.design.widget.AppBarLayout>
+    <android.support.v4.widget.NestedScrollView app:background="0x106000b" app:layout_width="match_parent" app:layout_height="match_parent">
+        <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="match_parent"
+            <LinearLayout app:orientation="horizontal" app:paddingLeft="@dimen/spacing_middle" app:paddingTop="@dimen/spacing_large" app:paddingRight="@dimen/spacing_middle" app:paddingBottom="@dimen/spacing_large" app:layout_width="match_parent" app:layout_height="wrap_content">
+                <ImageButton app:background="?attr/selectableItemBackgroundBorderless" app:layout_width="UNKNOWN_DATA_0x7f010046" app:layout_height="UNKNOWN_DATA_0x7f010046" app:tint="@color/colorPrimary" app:srcCompat="@drawable/ic_contacts" />
+                <View app:layout_width="UNKNOWN_DATA_0x7f0800d2" app:layout_height="UNKNOWN_DATA_0x1" />
+                <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content">
+                    <TextView app:textAppearance="@style/TextAppearance.AppCompat.Headline" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="match_parent" app:layout_height="wrap_content" app:minHeight="?attr/actionBarSize" app:text="Morning Pizza" />
+                    <LinearLayout app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content">
+                        <android.support.v7.widget.AppCompatButton app:theme="@style/Button.White.TextDark" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="FORCE STOP" />
+                        <View app:layout_width="UNKNOWN_DATA_0x7f0800d4" app:layout_height="UNKNOWN_DATA_0x1" />
+                        <android.support.v7.widget.AppCompatButton app:theme="@style/Button.Accent" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="UNINSTALL" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <View app:background="@color/grey_10" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x101" />
+            <LinearLayout app:orientation="horizontal" app:paddingLeft="@dimen/spacing_middle" app:paddingTop="@dimen/spacing_large" app:paddingRight="@dimen/spacing_middle" app:paddingBottom="@dimen/spacing_large" app:layout_width="match_parent" app:layout_height="wrap_content">
+                <ImageButton app:background="?attr/selectableItemBackgroundBorderless" app:layout_width="UNKNOWN_DATA_0x7f010046" app:layout_height="UNKNOWN_DATA_0x7f010046" app:tint="@color/grey_40" app:srcCompat="@drawable/ic_storage" />
+                <View app:layout_width="UNKNOWN_DATA_0x7f0800d2" app:layout_height="UNKNOWN_DATA_0x1" />
+                <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content">
+                    <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textColor="@color/grey_60" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="match_parent" app:layout_height="wrap_content" app:minHeight="?attr/actionBarSize" app:text="Storage" />
+                    <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textColor="0x106000c" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="match_parent" app:layout_height="wrap_content" app:text="Total" />
+                    <TextView app:textAppearance="@style/TextAppearance.AppCompat.Display1" app:textColor="0x106000c" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="match_parent" app:layout_height="wrap_content" app:text="11.64 MB" />
+                    <ProgressBar app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:clickable="true" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_medium" app:max="100" app:progress="70" app:progressDrawable="@drawable/progressbar_square_accent" style="@style/Widget.AppCompat.ProgressBar.Horizontal" />
+                    <LinearLayout app:orientation="horizontal" app:paddingTop="@dimen/spacing_medium" app:paddingBottom="@dimen/spacing_medium" app:layout_width="match_parent" app:layout_height="wrap_content"
+                        <LinearLayout app:orientation="vertical" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_weight="70.0">
+                            <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textColor="0x106000c" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="match_parent" app:layout_height="wrap_content" app:text="App" />
+                            <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textColor="@color/grey_60" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_small" app:text="9.40 MB" />
+                        </LinearLayout>
+                        <LinearLayout app:orientation="vertical" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_weight="30.0">
+                            <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textColor="0x106000c" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="match_parent" app:layout_height="wrap_content" app:text="Data" />
+                            <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textColor="@color/grey_60" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_small" app:text="9.40 MB" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <android.support.v7.widget.AppCompatButton app:theme="@style/Button.White.TextDark" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="CLEAR DATA" />
+                </LinearLayout>
+            </LinearLayout>
+            <View app:background="@color/grey_10" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x101" />
+            <LinearLayout app:orientation="horizontal" app:paddingLeft="@dimen/spacing_middle" app:paddingTop="@dimen/spacing_large" app:paddingRight="@dimen/spacing_middle" app:paddingBottom="@dimen/spacing_large" app:layout_width="match_parent" app:layout_height="wrap_content">
+                <ImageButton app:background="?attr/selectableItemBackgroundBorderless" app:layout_width="UNKNOWN_DATA_0x7f010046" app:layout_height="UNKNOWN_DATA_0x7f010046" app:tint="@color/grey_40" app:srcCompat="@drawable/ic_data_usage" />
+                <View app:layout_width="UNKNOWN_DATA_0x7f0800d2" app:layout_height="UNKNOWN_DATA_0x1" />
+                <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content">
+                    <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textColor="@color/grey_60" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="match_parent" app:layout_height="wrap_content" app:minHeight="?attr/actionBarSize" app:text="Data usage" />
+                    <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textColor="0x106000c" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="match_parent" app:layout_height="wrap_content" app:text="Total" />
+                    <TextView app:textAppearance="@style/TextAppearance.AppCompat.Display1" app:textColor="0x106000c" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="match_parent" app:layout_height="wrap_content" app:text="3.58 MB" />
+                </LinearLayout>
+            </LinearLayout>
+            <View app:background="@color/grey_10" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x101" />
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>

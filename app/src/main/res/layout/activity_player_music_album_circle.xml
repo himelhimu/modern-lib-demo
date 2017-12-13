@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:id="@id/parent_view" app:fitsSystemWindows="true" app:layout_width="match_parent" app:layout_height="match_parent">
+    <ImageView app:layout_width="match_parent" app:layout_height="match_parent" app:foreground="@color/overlay_dark_50" app:src="@drawable/photo_singer_female" app:scaleType="centerCrop" />
+    <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_alignParentBottom="true">
+        <View app:background="@drawable/bg_gradient_hard" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0xc801" />
+        <LinearLayout app:orientation="vertical" app:id="@id/player_control" app:background="0x106000c" app:padding="@dimen/spacing_large" app:layout_width="match_parent" app:layout_height="wrap_content"
+            <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:padding="@dimen/spacing_large" app:layout_width="match_parent" app:layout_height="wrap_content">
+                <TextView app:textAppearance="@style/TextAppearance.AppCompat.Caption" app:textColor="@color/grey_60" app:id="@id/tv_song_current_duration" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="1:20" />
+                <ImageButton app:id="@id/bt_prev" app:background="?attr/selectableItemBackgroundBorderless" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="UNKNOWN_DATA_0x7f010046" app:tint="@color/grey_40" app:layout_weight="1.0" app:onClick="controlClick" app:srcCompat="@drawable/ic_skip_previous" />
+                <android.support.design.widget.FloatingActionButton app:id="@id/bt_play" app:clickable="true" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_margin="@dimen/spacing_medium" app:tint="0x106000b" app:elevation="2dp" app:srcCompat="@drawable/ic_play_arrow" app:rippleColor="0x106000b" app:fabSize="0" app:backgroundTint="@color/red_500" />
+                <ImageButton app:id="@id/bt_next" app:background="?attr/selectableItemBackgroundBorderless" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="UNKNOWN_DATA_0x7f010046" app:tint="@color/grey_40" app:layout_weight="1.0" app:onClick="controlClick" app:srcCompat="@drawable/ic_skip_next" />
+                <TextView app:textAppearance="@style/TextAppearance.AppCompat.Caption" app:textColor="@color/grey_60" app:id="@id/tv_song_total_duration" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="4:20" />
+            </LinearLayout>
+            <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginBottom="@dimen/spacing_large">
+                <ImageButton app:id="@id/bt_repeat" app:background="?attr/selectableItemBackgroundBorderless" app:layout_width="UNKNOWN_DATA_0x7f010046" app:layout_height="UNKNOWN_DATA_0x7f010046" app:tint="@color/grey_40" app:onClick="controlClick" app:srcCompat="@drawable/ic_repeat" />
+                <android.support.v7.widget.AppCompatSeekBar app:id="@id/seek_song_progressbar" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:progress="0" app:progressDrawable="@drawable/seek_progress_red_small" app:thumb="@drawable/seek_thumb_red" app:layout_weight="1.0" />
+                <ImageButton app:id="@id/bt_shuffle" app:background="?attr/selectableItemBackgroundBorderless" app:layout_width="UNKNOWN_DATA_0x7f010046" app:layout_height="UNKNOWN_DATA_0x7f010046" app:tint="@color/grey_40" app:onClick="controlClick" app:srcCompat="@drawable/ic_shuffle" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_large" app:layout_below="@id/toolbar" app:layout_centerHorizontal="true">
+        <RelativeLayout app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_margin="@dimen/spacing_large">
+            <com.mikhaellopez.circularimageview.CircularImageView app:id="@id/image" app:layout_width="UNKNOWN_DATA_0xc801" app:layout_height="UNKNOWN_DATA_0xc801" app:src="@drawable/photo_singer_female" app:civ_border_color="@color/grey_20" />
+        </RelativeLayout>
+        <TextView app:textAppearance="@style/TextAppearance.AppCompat.Large" app:textColor="0x106000b" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_middle" app:text="Day Of The Dispair" />
+        <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textColor="@color/grey_40" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_medium" app:text="The Beat" />
+    </LinearLayout>
+    <android.support.v7.widget.Toolbar app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" app:id="@id/toolbar" app:background="0x106000d" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f010046" app:contentInsetStartWithNavigation="0dp" app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+        <LinearLayout app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:layout_width="match_parent" app:layout_height="match_parent">
+            <TextView app:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" app:textStyle="bold" app:textColor="0x106000b" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="NOW PLAYING" />
+        </LinearLayout>
+    </android.support.v7.widget.Toolbar>
+</RelativeLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:layout_width="match_parent" app:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout app:layout_width="match_parent" app:layout_height="wrap_content">
+        <android.support.v7.widget.Toolbar app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" app:id="@id/toolbar" app:background="@color/pink_800" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f010046" app:contentInsetStartWithNavigation="0dp" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+    </android.support.design.widget.AppBarLayout>
+    <android.support.design.widget.CoordinatorLayout app:layout_width="match_parent" app:layout_height="match_parent">
+        <android.support.v4.widget.NestedScrollView app:id="@id/nested_scroll_view" app:background="0x106000b" app:scrollbars="UNKNOWN_DATA_0x0" app:clipToPadding="false" app:layout_width="match_parent" app:layout_height="match_parent" app:scrollingCache="true" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+            <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content"
+                <LinearLayout app:orientation="vertical" app:background="@color/grey_10" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0xe601">
+                    <ImageView app:layout_width="match_parent" app:layout_height="match_parent" app:srcCompat="@drawable/ic_person" />
+                </LinearLayout>
+                <LinearLayout app:orientation="vertical" app:id="@id/lyt_form" app:padding="@dimen/spacing_large" app:layout_width="match_parent" app:layout_height="wrap_content"
+                    <LinearLayout app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content">
+                        <ImageButton app:background="0x106000d" app:layout_width="UNKNOWN_DATA_0x7f0800d6" app:layout_height="UNKNOWN_DATA_0x7f0800d6" app:layout_marginTop="@dimen/spacing_mlarge" app:tint="@color/grey_60" app:srcCompat="@drawable/ic_person" />
+                        <View app:layout_width="UNKNOWN_DATA_0x7f0800d2" app:layout_height="match_parent" />
+                        <android.support.design.widget.TextInputLayout app:textColorHint="@color/grey_40" app:layout_width="match_parent" app:layout_height="wrap_content">
+                            <android.support.v7.widget.AppCompatEditText app:layout_width="match_parent" app:layout_height="wrap_content" app:hint="Name" />
+                        </android.support.design.widget.TextInputLayout>
+                    </LinearLayout>
+                    <View app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f0800d2" />
+                    <LinearLayout app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content"
+                        <LinearLayout app:orientation="horizontal" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_weight="3.0">
+                            <ImageButton app:background="0x106000d" app:layout_width="UNKNOWN_DATA_0x7f0800d6" app:layout_height="UNKNOWN_DATA_0x7f0800d6" app:layout_marginTop="@dimen/spacing_mlarge" app:tint="@color/grey_60" app:srcCompat="@drawable/ic_phone" />
+                            <View app:layout_width="UNKNOWN_DATA_0x7f0800d2" app:layout_height="match_parent" />
+                            <android.support.design.widget.TextInputLayout app:textColorHint="@color/grey_40" app:layout_width="match_parent" app:layout_height="wrap_content">
+                                <android.support.v7.widget.AppCompatEditText app:layout_width="match_parent" app:layout_height="wrap_content" app:hint="Phone Number" />
+                            </android.support.design.widget.TextInputLayout>
+                        </LinearLayout>
+                        <Button app:textAppearance="@style/TextAppearance.AppCompat.Medium" app:textColor="@color/grey_40" app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@id/spn_phone_type" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:text="Phone Type" app:maxLines="1" app:singleLine="true" app:layout_weight="2.0" style="@style/Base.Widget.AppCompat.Spinner.Underlined" />
+                    </LinearLayout>
+                    <View app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f0800d2" />
+                    <LinearLayout app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content"
+                        <LinearLayout app:orientation="horizontal" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_weight="3.0">
+                            <ImageButton app:background="0x106000d" app:layout_width="UNKNOWN_DATA_0x7f0800d6" app:layout_height="UNKNOWN_DATA_0x7f0800d6" app:layout_marginTop="@dimen/spacing_mlarge" app:tint="@color/grey_60" app:srcCompat="@drawable/ic_email" />
+                            <View app:layout_width="UNKNOWN_DATA_0x7f0800d2" app:layout_height="match_parent" />
+                            <android.support.design.widget.TextInputLayout app:textColorHint="@color/grey_40" app:layout_width="match_parent" app:layout_height="wrap_content">
+                                <android.support.v7.widget.AppCompatEditText app:layout_width="match_parent" app:layout_height="wrap_content" app:hint="Email" />
+                            </android.support.design.widget.TextInputLayout>
+                        </LinearLayout>
+                        <Button app:textAppearance="@style/TextAppearance.AppCompat.Medium" app:textColor="@color/grey_40" app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@id/spn_email_type" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:text="Email Type" app:maxLines="1" app:singleLine="true" app:layout_weight="2.0" style="@style/Base.Widget.AppCompat.Spinner.Underlined" />
+                    </LinearLayout>
+                    <View app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f0800d2" />
+                    <LinearLayout app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content">
+                        <ImageButton app:id="@id/imageButton2" app:background="0x106000d" app:layout_width="UNKNOWN_DATA_0x7f0800d6" app:layout_height="UNKNOWN_DATA_0x7f0800d6" app:layout_marginTop="@dimen/spacing_mlarge" app:tint="@color/grey_60" app:srcCompat="@drawable/ic_location" />
+                        <View app:layout_width="UNKNOWN_DATA_0x7f0800d2" app:layout_height="match_parent" />
+                        <android.support.design.widget.TextInputLayout app:textColorHint="@color/grey_40" app:layout_width="match_parent" app:layout_height="wrap_content">
+                            <android.support.v7.widget.AppCompatEditText app:layout_width="match_parent" app:layout_height="wrap_content" app:hint="Address" />
+                        </android.support.design.widget.TextInputLayout>
+                    </LinearLayout>
+                    <View app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f0800d2" />
+                    <LinearLayout app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content">
+                        <ImageButton app:background="0x106000d" app:layout_width="UNKNOWN_DATA_0x7f0800d6" app:layout_height="UNKNOWN_DATA_0x7f0800d6" app:layout_marginTop="@dimen/spacing_mlarge" app:tint="@color/grey_60" app:srcCompat="@drawable/ic_domain" />
+                        <View app:layout_width="UNKNOWN_DATA_0x7f0800d2" app:layout_height="match_parent" />
+                        <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content">
+                            <android.support.design.widget.TextInputLayout app:textColorHint="@color/grey_40" app:layout_width="match_parent" app:layout_height="wrap_content">
+                                <android.support.v7.widget.AppCompatEditText app:layout_width="match_parent" app:layout_height="wrap_content" app:hint="Company" />
+                            </android.support.design.widget.TextInputLayout>
+                            <View app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f0800d2" />
+                            <android.support.design.widget.TextInputLayout app:textColorHint="@color/grey_40" app:layout_width="match_parent" app:layout_height="wrap_content">
+                                <android.support.v7.widget.AppCompatEditText app:layout_width="match_parent" app:layout_height="wrap_content" app:hint="Title" />
+                            </android.support.design.widget.TextInputLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                    <View app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f0800d2" />
+                    <LinearLayout app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content">
+                        <ImageButton app:background="0x106000d" app:layout_width="UNKNOWN_DATA_0x7f0800d6" app:layout_height="UNKNOWN_DATA_0x7f0800d6" app:layout_marginTop="@dimen/spacing_mlarge" app:tint="@color/grey_60" app:srcCompat="@drawable/ic_public" />
+                        <View app:layout_width="UNKNOWN_DATA_0x7f0800d2" app:layout_height="match_parent" />
+                        <android.support.design.widget.TextInputLayout app:textColorHint="@color/grey_40" app:layout_width="match_parent" app:layout_height="wrap_content">
+                            <android.support.v7.widget.AppCompatEditText app:layout_width="match_parent" app:layout_height="wrap_content" app:hint="Website" />
+                        </android.support.design.widget.TextInputLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v4.widget.NestedScrollView>
+        <android.support.design.widget.FloatingActionButton app:clickable="true" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_margin="@dimen/spacing_smlarge" app:tint="0x106000b" app:srcCompat="@drawable/ic_photo_camera" app:layout_anchor="@id/lyt_form" app:layout_anchorGravity="800035" app:rippleColor="0x106000b" app:fabSize="0" app:backgroundTint="@color/blue_grey_800" />
+    </android.support.design.widget.CoordinatorLayout>
+</LinearLayout>

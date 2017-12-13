@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:id="@id/main_content" app:background="0x106000b" app:fitsSystemWindows="true" app:layout_width="match_parent" app:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout app:theme="@style/AppTheme.AppBarOverlay" app:id="@id/appbar" app:background="0x106000b" app:layout_width="match_parent" app:layout_height="wrap_content">
+        <android.support.v7.widget.Toolbar app:id="@id/toolbar" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f010046" app:contentInsetStartWithNavigation="0dp" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" app:layout_scrollFlags="5" app:theme="@style/Toolbar.Light" />
+    </android.support.design.widget.AppBarLayout>
+    <android.support.v4.widget.NestedScrollView app:id="@id/nested_scroll_view" app:scrollbars="UNKNOWN_DATA_0x0" app:layout_width="match_parent" app:layout_height="match_parent" app:scrollingCache="true" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <LinearLayout app:orientation="vertical" app:descendantFocusability="blocksDescendants" app:layout_width="match_parent" app:layout_height="wrap_content"
+            <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content"
+                <LinearLayout app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/spacing_large" app:layout_marginTop="@dimen/spacing_large" app:layout_marginRight="@dimen/spacing_large" app:layout_marginBottom="@dimen/spacing_medium">
+                    <ImageView app:layout_width="UNKNOWN_DATA_0x7f0800de" app:layout_height="UNKNOWN_DATA_0x7f0800de" app:foreground="@color/overlay_light_20" app:src="@drawable/photo_female_1" />
+                    <View app:layout_width="UNKNOWN_DATA_0x7f0800d2" app:layout_height="UNKNOWN_DATA_0x1" />
+                    <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content"
+                        <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content">
+                            <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textStyle="bold" app:textColor="0x106000c" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="Taylor W " />
+                            <TextView app:textAppearance="@style/TextAppearance.AppCompat.Small" app:textColor="@color/grey_40" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text=" @TaylorW" />
+                            <TextView app:textAppearance="@style/TextAppearance.AppCompat.Small" app:textColor="@color/grey_40" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:text=" . 1m" app:layout_weight="1.0" />
+                            <ImageButton app:background="?attr/selectableItemBackgroundBorderless" app:layout_width="UNKNOWN_DATA_0x7f0800d5" app:layout_height="UNKNOWN_DATA_0x7f0800d5" app:tint="@color/grey_40" app:rotation="90.0" app:srcCompat="@drawable/ic_chevron_right" />
+                        </LinearLayout>
+                        <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textColor="0x106000c" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_medium" app:text="@string/short_lorem_ipsum" app:lineSpacingExtra="2dp" />
+                        <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f0800d9" app:layout_marginTop="@dimen/spacing_medium"
+                            <LinearLayout app:orientation="horizontal" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_weight="1.0">
+                                <ImageView app:layout_width="UNKNOWN_DATA_0x7f0800d5" app:layout_height="UNKNOWN_DATA_0x7f0800d5" app:layout_marginRight="@dimen/spacing_middle" app:tint="@color/grey_20" app:srcCompat="@drawable/ic_undo" />
+                                <TextView app:textAppearance="@style/TextAppearance.AppCompat.Body1" app:textColor="@color/grey_40" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="1" />
+                            </LinearLayout>
+                            <LinearLayout app:orientation="horizontal" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_weight="1.0">
+                                <ImageView app:layout_width="UNKNOWN_DATA_0x7f0800d5" app:layout_height="UNKNOWN_DATA_0x7f0800d5" app:layout_marginRight="@dimen/spacing_middle" app:tint="@color/grey_20" app:srcCompat="@drawable/ic_repeat" />
+                                <TextView app:textAppearance="@style/TextAppearance.AppCompat.Body1" app:textColor="@color/grey_40" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="5" />
+                            </LinearLayout>
+                            <LinearLayout app:orientation="horizontal" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_weight="1.0">
+                                <ImageView app:layout_width="UNKNOWN_DATA_0x7f0800d5" app:layout_height="UNKNOWN_DATA_0x7f0800d5" app:layout_marginRight="@dimen/spacing_middle" app:tint="@color/grey_20" app:srcCompat="@drawable/ic_favorites" />
+                                <TextView app:textAppearance="@style/TextAppearance.AppCompat.Body1" app:textColor="@color/grey_40" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="10" />
+                            </LinearLayout>
+                            <LinearLayout app:orientation="horizontal" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_weight="1.0">
+                                <ImageView app:layout_width="UNKNOWN_DATA_0x7f0800d5" app:layout_height="UNKNOWN_DATA_0x7f0800d5" app:layout_marginRight="@dimen/spacing_middle" app:tint="@color/grey_20" app:srcCompat="@drawable/ic_chat" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <View app:background="@color/grey_5" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x101" />
+            <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content"
+                <LinearLayout app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/spacing_large" app:layout_marginTop="@dimen/spacing_large" app:layout_marginRight="@dimen/spacing_large" app:layout_marginBottom="@dimen/spacing_medium">
+                    <ImageView app:layout_width="UNKNOWN_DATA_0x7f0800de" app:layout_height="UNKNOWN_DATA_0x7f0800de" app:foreground="@color/overlay_light_20" app:src="@drawable/photo_male_8" />
+                    <View app:layout_width="UNKNOWN_DATA_0x7f0800d2" app:layout_height="UNKNOWN_DATA_0x1" />
+                    <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content"
+                        <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content">
+                            <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textStyle="bold" app:textColor="0x106000c" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="C. Northrop " />
+                            <TextView app:textAppearance="@style/TextAppearance.AppCompat.Small" app:textColor="@color/grey_40" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text=" @CNorthrop" />
+                            <TextView app:textAppearance="@style/TextAppearance.AppCompat.Small" app:textColor="@color/grey_40" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:text=" . 3m" app:layout_weight="1.0" />
+                            <ImageButton app:background="?attr/selectableItemBackgroundBorderless" app:layout_width="UNKNOWN_DATA_0x7f0800d5" app:layout_height="UNKNOWN_DATA_0x7f0800d5" app:tint="@color/grey_40" app:rotation="90.0" app:srcCompat="@drawable/ic_chevron_right" />
+                        </LinearLayout>
+                        <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textColor="0x106000c" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_medium" app:text="@string/medium_lorem_ipsum" app:lineSpacingExtra="2dp" />
+                        <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f0800d9" app:layout_marginTop="@dimen/spacing_medium"
+                            <LinearLayout app:orientation="horizontal" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_weight="1.0">
+                                <ImageView app:layout_width="UNKNOWN_DATA_0x7f0800d5" app:layout_height="UNKNOWN_DATA_0x7f0800d5" app:layout_marginRight="@dimen/spacing_middle" app:tint="@color/grey_20" app:srcCompat="@drawable/ic_undo" />
+                                <TextView app:textAppearance="@style/TextAppearance.AppCompat.Body1" app:textColor="@color/grey_40" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="12" />
+                            </LinearLayout>
+                            <LinearLayout app:orientation="horizontal" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_weight="1.0">
+                                <ImageView app:layout_width="UNKNOWN_DATA_0x7f0800d5" app:layout_height="UNKNOWN_DATA_0x7f0800d5" app:layout_marginRight="@dimen/spacing_middle" app:tint="@color/grey_20" app:srcCompat="@drawable/ic_repeat" />
+                                <TextView app:textAppearance="@style/TextAppearance.AppCompat.Body1" app:textColor="@color/grey_40" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="32" />
+                            </LinearLayout>
+                            <LinearLayout app:orientation="horizontal" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_weight="1.0">
+                                <ImageView app:layout_width="UNKNOWN_DATA_0x7f0800d5" app:layout_height="UNKNOWN_DATA_0x7f0800d5" app:layout_marginRight="@dimen/spacing_middle" app:tint="@color/grey_20" app:srcCompat="@drawable/ic_favorites" />
+                                <TextView app:textAppearance="@style/TextAppearance.AppCompat.Body1" app:textColor="@color/grey_40" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="67" />
+                            </LinearLayout>
+                            <LinearLayout app:orientation="horizontal" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_weight="1.0">
+                                <ImageView app:layout_width="UNKNOWN_DATA_0x7f0800d5" app:layout_height="UNKNOWN_DATA_0x7f0800d5" app:layout_marginRight="@dimen/spacing_middle" app:tint="@color/grey_20" app:srcCompat="@drawable/ic_chat" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <View app:background="@color/grey_5" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x101" />
+            <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content"
+                <LinearLayout app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/spacing_large" app:layout_marginTop="@dimen/spacing_large" app:layout_marginRight="@dimen/spacing_large" app:layout_marginBottom="@dimen/spacing_medium">
+                    <ImageView app:layout_width="UNKNOWN_DATA_0x7f0800de" app:layout_height="UNKNOWN_DATA_0x7f0800de" app:foreground="@color/overlay_light_20" app:src="@drawable/photo_male_8" />
+                    <View app:layout_width="UNKNOWN_DATA_0x7f0800d2" app:layout_height="UNKNOWN_DATA_0x1" />
+                    <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content"
+                        <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content">
+                            <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textStyle="bold" app:textColor="0x106000c" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="C. Northrop " />
+                            <TextView app:textAppearance="@style/TextAppearance.AppCompat.Small" app:textColor="@color/grey_40" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text=" @CNorthrop" />
+                            <TextView app:textAppearance="@style/TextAppearance.AppCompat.Small" app:textColor="@color/grey_40" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:text=" . 4m" app:layout_weight="1.0" />
+                            <ImageButton app:background="?attr/selectableItemBackgroundBorderless" app:layout_width="UNKNOWN_DATA_0x7f0800d5" app:layout_height="UNKNOWN_DATA_0x7f0800d5" app:tint="@color/grey_40" app:rotation="90.0" app:srcCompat="@drawable/ic_chevron_right" />
+                        </LinearLayout>
+                        <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textColor="0x106000c" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_medium" app:text="@string/short_lorem_ipsum" app:lineSpacingExtra="2dp" />
+                        <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f0800d9" app:layout_marginTop="@dimen/spacing_medium"
+                            <LinearLayout app:orientation="horizontal" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_weight="1.0">
+                                <ImageView app:layout_width="UNKNOWN_DATA_0x7f0800d5" app:layout_height="UNKNOWN_DATA_0x7f0800d5" app:layout_marginRight="@dimen/spacing_middle" app:tint="@color/grey_20" app:srcCompat="@drawable/ic_undo" />
+                                <TextView app:textAppearance="@style/TextAppearance.AppCompat.Body1" app:textColor="@color/grey_40" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="2k" />
+                            </LinearLayout>
+                            <LinearLayout app:orientation="horizontal" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_weight="1.0">
+                                <ImageView app:layout_width="UNKNOWN_DATA_0x7f0800d5" app:layout_height="UNKNOWN_DATA_0x7f0800d5" app:layout_marginRight="@dimen/spacing_middle" app:tint="@color/grey_20" app:srcCompat="@drawable/ic_repeat" />
+                                <TextView app:textAppearance="@style/TextAppearance.AppCompat.Body1" app:textColor="@color/grey_40" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="89" />
+                            </LinearLayout>
+                            <LinearLayout app:orientation="horizontal" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_weight="1.0">
+                                <ImageView app:layout_width="UNKNOWN_DATA_0x7f0800d5" app:layout_height="UNKNOWN_DATA_0x7f0800d5" app:layout_marginRight="@dimen/spacing_middle" app:tint="@color/grey_20" app:srcCompat="@drawable/ic_favorites" />
+                                <TextView app:textAppearance="@style/TextAppearance.AppCompat.Body1" app:textColor="@color/grey_40" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="17" />
+                            </LinearLayout>
+                            <LinearLayout app:orientation="horizontal" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_weight="1.0">
+                                <ImageView app:layout_width="UNKNOWN_DATA_0x7f0800d5" app:layout_height="UNKNOWN_DATA_0x7f0800d5" app:layout_marginRight="@dimen/spacing_middle" app:tint="@color/grey_20" app:srcCompat="@drawable/ic_chat" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <View app:background="@color/grey_5" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x101" />
+            <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content"
+                <LinearLayout app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/spacing_large" app:layout_marginTop="@dimen/spacing_large" app:layout_marginRight="@dimen/spacing_large" app:layout_marginBottom="@dimen/spacing_medium">
+                    <ImageView app:layout_width="UNKNOWN_DATA_0x7f0800de" app:layout_height="UNKNOWN_DATA_0x7f0800de" app:foreground="@color/overlay_light_20" app:src="@drawable/photo_female_6" />
+                    <View app:layout_width="UNKNOWN_DATA_0x7f0800d2" app:layout_height="UNKNOWN_DATA_0x1" />
+                    <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content"
+                        <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content">
+                            <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textStyle="bold" app:textColor="0x106000c" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="Lillie Hoyos " />
+                            <TextView app:textAppearance="@style/TextAppearance.AppCompat.Small" app:textColor="@color/grey_40" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text=" @LillieH" />
+                            <TextView app:textAppearance="@style/TextAppearance.AppCompat.Small" app:textColor="@color/grey_40" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:text=" . 10m" app:layout_weight="1.0" />
+                            <ImageButton app:background="?attr/selectableItemBackgroundBorderless" app:layout_width="UNKNOWN_DATA_0x7f0800d5" app:layout_height="UNKNOWN_DATA_0x7f0800d5" app:tint="@color/grey_40" app:rotation="90.0" app:srcCompat="@drawable/ic_chevron_right" />
+                        </LinearLayout>
+                        <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textColor="0x106000c" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_medium" app:text="Mauris sagittis non elit quis" app:lineSpacingExtra="2dp" />
+                        <ImageView app:layout_width="wrap_content" app:layout_height="UNKNOWN_DATA_0x8c01" app:layout_marginTop="@dimen/spacing_medium" app:src="@drawable/image_18" app:scaleType="centerCrop" />
+                        <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f0800d9" app:layout_marginTop="@dimen/spacing_medium"
+                            <LinearLayout app:orientation="horizontal" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_weight="1.0">
+                                <ImageView app:layout_width="UNKNOWN_DATA_0x7f0800d5" app:layout_height="UNKNOWN_DATA_0x7f0800d5" app:layout_marginRight="@dimen/spacing_middle" app:tint="@color/grey_20" app:srcCompat="@drawable/ic_undo" />
+                                <TextView app:textAppearance="@style/TextAppearance.AppCompat.Body1" app:textColor="@color/grey_40" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="3k" />
+                            </LinearLayout>
+                            <LinearLayout app:orientation="horizontal" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_weight="1.0">
+                                <ImageView app:layout_width="UNKNOWN_DATA_0x7f0800d5" app:layout_height="UNKNOWN_DATA_0x7f0800d5" app:layout_marginRight="@dimen/spacing_middle" app:tint="@color/grey_20" app:srcCompat="@drawable/ic_repeat" />
+                                <TextView app:textAppearance="@style/TextAppearance.AppCompat.Body1" app:textColor="@color/grey_40" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="55" />
+                            </LinearLayout>
+                            <LinearLayout app:orientation="horizontal" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_weight="1.0">
+                                <ImageView app:layout_width="UNKNOWN_DATA_0x7f0800d5" app:layout_height="UNKNOWN_DATA_0x7f0800d5" app:layout_marginRight="@dimen/spacing_middle" app:tint="@color/grey_20" app:srcCompat="@drawable/ic_favorites" />
+                                <TextView app:textAppearance="@style/TextAppearance.AppCompat.Body1" app:textColor="@color/grey_40" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="75" />
+                            </LinearLayout>
+                            <LinearLayout app:orientation="horizontal" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_weight="1.0">
+                                <ImageView app:layout_width="UNKNOWN_DATA_0x7f0800d5" app:layout_height="UNKNOWN_DATA_0x7f0800d5" app:layout_marginRight="@dimen/spacing_middle" app:tint="@color/grey_20" app:srcCompat="@drawable/ic_chat" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <View app:background="@color/grey_5" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x101" />
+            <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content"
+                <LinearLayout app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/spacing_large" app:layout_marginTop="@dimen/spacing_large" app:layout_marginRight="@dimen/spacing_large" app:layout_marginBottom="@dimen/spacing_medium">
+                    <ImageView app:layout_width="UNKNOWN_DATA_0x7f0800de" app:layout_height="UNKNOWN_DATA_0x7f0800de" app:foreground="@color/overlay_light_20" app:src="@drawable/photo_male_7" />
+                    <View app:layout_width="UNKNOWN_DATA_0x7f0800d2" app:layout_height="UNKNOWN_DATA_0x1" />
+                    <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content"
+                        <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content">
+                            <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textStyle="bold" app:textColor="0x106000c" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="Homer J. Allen " />
+                            <TextView app:textAppearance="@style/TextAppearance.AppCompat.Small" app:textColor="@color/grey_40" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text=" @Allen" />
+                            <TextView app:textAppearance="@style/TextAppearance.AppCompat.Small" app:textColor="@color/grey_40" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:text=" . 30m" app:layout_weight="1.0" />
+                            <ImageButton app:background="?attr/selectableItemBackgroundBorderless" app:layout_width="UNKNOWN_DATA_0x7f0800d5" app:layout_height="UNKNOWN_DATA_0x7f0800d5" app:tint="@color/grey_40" app:rotation="90.0" app:srcCompat="@drawable/ic_chevron_right" />
+                        </LinearLayout>
+                        <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textColor="0x106000c" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_medium" app:text="@string/middle_lorem_ipsum" app:lineSpacingExtra="2dp" />
+                        <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f0800d9" app:layout_marginTop="@dimen/spacing_medium"
+                            <LinearLayout app:orientation="horizontal" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_weight="1.0">
+                                <ImageView app:layout_width="UNKNOWN_DATA_0x7f0800d5" app:layout_height="UNKNOWN_DATA_0x7f0800d5" app:layout_marginRight="@dimen/spacing_middle" app:tint="@color/grey_20" app:srcCompat="@drawable/ic_undo" />
+                                <TextView app:textAppearance="@style/TextAppearance.AppCompat.Body1" app:textColor="@color/grey_40" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="92" />
+                            </LinearLayout>
+                            <LinearLayout app:orientation="horizontal" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_weight="1.0">
+                                <ImageView app:layout_width="UNKNOWN_DATA_0x7f0800d5" app:layout_height="UNKNOWN_DATA_0x7f0800d5" app:layout_marginRight="@dimen/spacing_middle" app:tint="@color/grey_20" app:srcCompat="@drawable/ic_repeat" />
+                                <TextView app:textAppearance="@style/TextAppearance.AppCompat.Body1" app:textColor="@color/grey_40" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@id/textView16" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="20" />
+                            </LinearLayout>
+                            <LinearLayout app:orientation="horizontal" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_weight="1.0">
+                                <ImageView app:layout_width="UNKNOWN_DATA_0x7f0800d5" app:layout_height="UNKNOWN_DATA_0x7f0800d5" app:layout_marginRight="@dimen/spacing_middle" app:tint="@color/grey_20" app:srcCompat="@drawable/ic_favorites" />
+                                <TextView app:textAppearance="@style/TextAppearance.AppCompat.Body1" app:textColor="@color/grey_40" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="6" />
+                            </LinearLayout>
+                            <LinearLayout app:orientation="horizontal" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_weight="1.0">
+                                <ImageView app:layout_width="UNKNOWN_DATA_0x7f0800d5" app:layout_height="UNKNOWN_DATA_0x7f0800d5" app:layout_marginRight="@dimen/spacing_middle" app:tint="@color/grey_20" app:srcCompat="@drawable/ic_chat" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <View app:background="@color/grey_5" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x101" />
+            <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content"
+                <LinearLayout app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/spacing_large" app:layout_marginTop="@dimen/spacing_large" app:layout_marginRight="@dimen/spacing_large" app:layout_marginBottom="@dimen/spacing_medium">
+                    <ImageView app:layout_width="UNKNOWN_DATA_0x7f0800de" app:layout_height="UNKNOWN_DATA_0x7f0800de" app:foreground="@color/overlay_light_20" app:src="@drawable/photo_male_2" />
+                    <View app:layout_width="UNKNOWN_DATA_0x7f0800d2" app:layout_height="UNKNOWN_DATA_0x1" />
+                    <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content"
+                        <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content">
+                            <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textStyle="bold" app:textColor="0x106000c" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="Nathaniel " />
+                            <TextView app:textAppearance="@style/TextAppearance.AppCompat.Small" app:textColor="@color/grey_40" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text=" @Nathaniel" />
+                            <TextView app:textAppearance="@style/TextAppearance.AppCompat.Small" app:textColor="@color/grey_40" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:text=" . 43m" app:layout_weight="1.0" />
+                            <ImageButton app:background="?attr/selectableItemBackgroundBorderless" app:layout_width="UNKNOWN_DATA_0x7f0800d5" app:layout_height="UNKNOWN_DATA_0x7f0800d5" app:tint="@color/grey_40" app:rotation="90.0" app:srcCompat="@drawable/ic_chevron_right" />
+                        </LinearLayout>
+                        <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textColor="0x106000c" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_medium" app:text="@string/short_lorem_ipsum" app:lineSpacingExtra="2dp" />
+                        <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f0800d9" app:layout_marginTop="@dimen/spacing_medium"
+                            <LinearLayout app:orientation="horizontal" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_weight="1.0">
+                                <ImageView app:layout_width="UNKNOWN_DATA_0x7f0800d5" app:layout_height="UNKNOWN_DATA_0x7f0800d5" app:layout_marginRight="@dimen/spacing_middle" app:tint="@color/grey_20" app:srcCompat="@drawable/ic_undo" />
+                                <TextView app:textAppearance="@style/TextAppearance.AppCompat.Body1" app:textColor="@color/grey_40" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="4k" />
+                            </LinearLayout>
+                            <LinearLayout app:orientation="horizontal" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_weight="1.0">
+                                <ImageView app:layout_width="UNKNOWN_DATA_0x7f0800d5" app:layout_height="UNKNOWN_DATA_0x7f0800d5" app:layout_marginRight="@dimen/spacing_middle" app:tint="@color/grey_20" app:srcCompat="@drawable/ic_repeat" />
+                                <TextView app:textAppearance="@style/TextAppearance.AppCompat.Body1" app:textColor="@color/grey_40" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="23" />
+                            </LinearLayout>
+                            <LinearLayout app:orientation="horizontal" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_weight="1.0">
+                                <ImageView app:layout_width="UNKNOWN_DATA_0x7f0800d5" app:layout_height="UNKNOWN_DATA_0x7f0800d5" app:layout_marginRight="@dimen/spacing_middle" app:tint="@color/grey_20" app:srcCompat="@drawable/ic_favorites" />
+                                <TextView app:textAppearance="@style/TextAppearance.AppCompat.Body1" app:textColor="@color/grey_40" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="90" />
+                            </LinearLayout>
+                            <LinearLayout app:orientation="horizontal" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_weight="1.0">
+                                <ImageView app:layout_width="UNKNOWN_DATA_0x7f0800d5" app:layout_height="UNKNOWN_DATA_0x7f0800d5" app:layout_marginRight="@dimen/spacing_middle" app:tint="@color/grey_20" app:srcCompat="@drawable/ic_chat" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <View app:background="@color/grey_5" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x101" />
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+    <android.support.design.widget.FloatingActionButton app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/fab_add" app:clickable="true" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_margin="@dimen/spacing_large" app:tint="0x106000b" app:srcCompat="@drawable/ic_create" app:rippleColor="@color/grey_5" app:fabSize="0" app:backgroundTint="@color/light_blue_500" />
+</android.support.design.widget.CoordinatorLayout>

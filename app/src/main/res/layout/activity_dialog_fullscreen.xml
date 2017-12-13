@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="0x106000b" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include layout="@layout/toolbar" />
+    </android.support.design.widget.AppBarLayout>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:padding="@dimen/spacing_large" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_centerHorizontal="true"
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:text="Email" android:layout_weight="1.0" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="  :  " />
+                <TextView android:id="@id/tv_email" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:text="-" android:layout_weight="3.0" />
+            </LinearLayout>
+            <View android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0800d2" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:text="Name" android:layout_weight="1.0" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="  :  " />
+                <TextView android:id="@id/tv_name" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:text="-" android:layout_weight="3.0" />
+            </LinearLayout>
+            <View android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0800d2" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:text="Location" android:layout_weight="1.0" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="  :  " />
+                <TextView android:id="@id/tv_location" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:text="-" android:layout_weight="3.0" />
+            </LinearLayout>
+            <View android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0800d2" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:text="From" android:layout_weight="1.0" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="  :  " />
+                <TextView android:id="@id/tv_from" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:text="-" android:layout_weight="3.0" />
+            </LinearLayout>
+            <View android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0800d2" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:text="To" android:layout_weight="1.0" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="  :  " />
+                <TextView android:id="@id/tv_to" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:text="-" android:layout_weight="3.0" />
+            </LinearLayout>
+            <View android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0800d2" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:text="All day" android:layout_weight="1.0" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="  :  " />
+                <TextView android:id="@id/tv_allday" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:text="-" android:layout_weight="3.0" />
+            </LinearLayout>
+            <View android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0800d2" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:text="Timezone" android:layout_weight="1.0" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="  :  " />
+                <TextView android:id="@id/tv_timezone" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:text="-" android:layout_weight="3.0" />
+            </LinearLayout>
+            <View android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0800d2" />
+        </LinearLayout>
+        <android.support.v7.widget.AppCompatButton android:theme="@style/Button.Accent" android:id="@id/fullscreen_dialog" android:paddingLeft="@dimen/spacing_large" android:paddingRight="@dimen/spacing_large" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="SHOW FULLSCREEN DIALOG" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</LinearLayout>

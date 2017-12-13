@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:id="@id/lyt_parent" app:layout_width="match_parent" app:layout_height="match_parent">
+    <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="match_parent">
+        <android.support.design.widget.AppBarLayout app:theme="@style/AppTheme.AppBarOverlay" app:layout_width="match_parent" app:layout_height="wrap_content">
+            <android.support.v7.widget.Toolbar app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" app:id="@id/toolbar" app:background="@color/red_500" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f010046" app:contentInsetStartWithNavigation="0dp" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+        </android.support.design.widget.AppBarLayout>
+        <android.support.v7.widget.RecyclerView app:id="@id/recyclerView" app:scrollbars="vertical" app:layout_width="match_parent" app:layout_height="match_parent" app:scrollingCache="true" />
+    </LinearLayout>
+    <android.support.design.widget.FloatingActionButton app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/fab" app:clickable="true" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_margin="@dimen/fab_margin" app:srcCompat="@drawable/ic_create" app:rippleColor="0x106000b" app:fabSize="0" app:backgroundTint="@color/red_500" />
+</android.support.design.widget.CoordinatorLayout>

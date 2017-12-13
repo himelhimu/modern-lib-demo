@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?attr/actionBarSize">
+    <View android:layout_width="UNKNOWN_DATA_0x4601" android:layout_height="UNKNOWN_DATA_0x1" />
+    <TextView android:textAppearance="@style/TextAppearance.AppCompat.Subhead" android:textStyle="bold" android:textColor="@color/grey_40" android:id="@id/title_section" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:text="Section Title" android:layout_weight="1.0" />
+    <View android:layout_width="UNKNOWN_DATA_0x7f0800d2" android:layout_height="UNKNOWN_DATA_0x1" />
+</LinearLayout>

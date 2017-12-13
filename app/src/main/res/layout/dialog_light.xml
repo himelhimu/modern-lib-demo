@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:background="0x106000b" app:layout_width="UNKNOWN_DATA_0x12c01" app:layout_height="wrap_content"
+    <LinearLayout app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f010046">
+        <View app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="UNKNOWN_DATA_0x1" app:layout_weight="1.0" />
+        <ImageButton app:id="@id/bt_close" app:background="?attr/selectableItemBackgroundBorderless" app:layout_width="UNKNOWN_DATA_0x7f010046" app:layout_height="UNKNOWN_DATA_0x7f010046" app:tint="@color/grey_20" app:srcCompat="@drawable/ic_close" />
+    </LinearLayout>
+    <LinearLayout app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:padding="@dimen/spacing_mlarge" app:layout_width="match_parent" app:layout_height="wrap_content" app:minHeight="120dp">
+        <de.hdodenhof.circleimageview.CircleImageView app:id="@id/image" app:layout_width="UNKNOWN_DATA_0x5a01" app:layout_height="UNKNOWN_DATA_0x5a01" app:src="@drawable/photo_female_8" app:civ_border_width="1dp" app:civ_border_color="@color/grey_5" />
+        <TextView app:textAppearance="@style/TextAppearance.AppCompat.Medium" app:textStyle="bold" app:textColor="@color/grey_80" app:id="@id/title" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_large" app:text="People name" />
+        <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textColor="@color/grey_40" app:id="@c2766e/content" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/spacing_middle" app:layout_marginTop="@dimen/spacing_medium" app:layout_marginRight="@dimen/spacing_middle" app:text="@string/short_lorem_ipsum" />
+        <android.support.v7.widget.AppCompatButton app:textColor="0x106000b" app:id="@id/bt_follow" app:background="@drawable/btn_rounded_red" app:paddingLeft="@dimen/spacing_mlarge" app:paddingRight="@dimen/spacing_mlarge" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_large" app:text="FOLLOW" />
+    </LinearLayout>
+    <LinearLayout app:orientation="horizontal" app:paddingBottom="@dimen/spacing_large" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/spacing_large" app:layout_marginRight="@dimen/spacing_large" app:layout_marginBottom="?attr/actionBarSize"
+        <LinearLayout app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_weight="1.0">
+            <TextView app:textAppearance="@style/TextAppearance.AppCompat.Medium" app:textStyle="bold" app:textColor="@color/grey_80" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="35.7K" />
+            <TextView app:textAppearance="@style/Base.TextAppearance.AppCompat.Small" app:textColor="@color/grey_60" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="Followers" />
+        </LinearLayout>
+        <LinearLayout app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_weight="1.0">
+            <TextView app:textAppearance="@style/TextAppearance.AppCompat.Medium" app:textStyle="bold" app:textColor="@color/grey_80" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="215" />
+            <TextView app:textAppearance="@style/Base.TextAppearance.AppCompat.Small" app:textColor="@color/grey_60" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="Following" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

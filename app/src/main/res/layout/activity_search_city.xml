@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:background="@color/grey_3" app:fitsSystemWindows="true" app:layout_width="match_parent" app:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" app:id="@id/app_bar_layout" app:background="0x106000d" app:fitsSystemWindows="true" app:layout_width="match_parent" app:layout_height="wrap_content">
+        <android.support.design.widget.CollapsingToolbarLayout app:id="@id/collapsing_toolbar" app:fitsSystemWindows="true" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_scrollFlags="3" app:expandedTitleMarginStart="15dp" app:expandedTitleMarginEnd="64dp" app:expandedTitleMarginBottom="20dp" app:expandedTitleTextAppearance="@style/TextAppearance.AppCompat.Title" app:contentScrim="?attr/colorPrimary" app:titleEnabled="false">
+            <ImageView app:id="@id/image" app:fitsSystemWindows="true" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0xf001" app:src="@drawable/image_16" app:scaleType="centerCrop" app:layout_collapseMode="2" />
+            <LinearLayout app:orientation="vertical" app:padding="@dimen/spacing_mlarge" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_xxlarge" app:layout_collapseMode="2">
+                <TextView app:textAppearance="@style/Base.TextAppearance.AppCompat.Large" app:textStyle="bold" app:textColor="0x106000b" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="Hey There" />
+                <TextView app:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead" app:textColor="0x106000b" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_medium" app:text="Let's experience Paris together" />
+            </LinearLayout>
+            <android.support.v7.widget.Toolbar app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@id/toolbar" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x6401" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" app:layout_collapseMode="1" />
+            <android.support.v7.widget.CardView app:theme="@style/ThemeOverlay.AppCompat.Light" app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@id/search_bar" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f0800dd" app:layout_margin="@dimen/spacing_large" app:cardBackgroundColor="0x106000b" app:cardCornerRadius="3dp" app:cardElevation="3dp" app:layout_collapseMode="1">
+                <LinearLayout app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="match_parent">
+                    <ImageButton app:background="0x106000d" app:clickable="true" app:layout_width="UNKNOWN_DATA_0x7f0800dd" app:layout_height="UNKNOWN_DATA_0x7f0800dd" app:tint="@color/grey_60" app:srcCompat="@drawable/ic_search" />
+                    <EditText app:id="@id/et_search" app:background="0x106000d" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="match_parent" app:hint="Search Locations" app:maxLines="1" app:singleLine="true" app:layout_weight="1.0" app:imeOptions="actionNone|actionGo|actionSearch|actionNext|actionDone|actionPrevious">
+                        <requestFocus />
+                    </EditText>
+                    <View app:layout_width="UNKNOWN_DATA_0x7f0800d2" app:layout_height="UNKNOWN_DATA_0x1" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </android.support.design.widget.CollapsingToolbarLayout>
+    </android.support.design.widget.AppBarLayout>
+    <android.support.v4.widget.NestedScrollView app:id="@id/nested_content" app:scrollbars="UNKNOWN_DATA_0x0" app:clipToPadding="false" app:layout_width="match_parent" app:layout_height="match_parent" app:scrollingCache="true" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <include layout="@layout/include_store_simple" />
+    </android.support.v4.widget.NestedScrollView>
+</android.support.design.widget.CoordinatorLayout>

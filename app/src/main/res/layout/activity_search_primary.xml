@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:background="@color/grey_10" app:layout_width="match_parent" app:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar app:theme="@style/ThemeOverlay.AppCompat.Light" app:id="@id/toolbar" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f010046" app:contentInsetStartWithNavigation="0dp" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+    <RelativeLayout app:layout_width="match_parent" app:layout_height="match_parent">
+        <LinearLayout app:theme="@style/ThemeOverlay.AppCompat.Light" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_centerInParent="true">
+            <android.support.v7.widget.CardView app:id="@id/search_bar" app:clipToPadding="false" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f010046" app:layout_margin="@dimen/spacing_mlarge" app:cardBackgroundColor="0x106000b" app:cardCornerRadius="3dp" app:cardElevation="1dp">
+                <LinearLayout app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="match_parent">
+                    <View app:layout_width="UNKNOWN_DATA_0x7f0800d2" app:layout_height="UNKNOWN_DATA_0x1" />
+                    <EditText app:id="@id/et_search" app:background="0x106000d" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="match_parent" app:hint="Search or type URL" app:maxLines="1" app:singleLine="true" app:layout_weight="1.0" app:imeOptions="actionNone|actionGo|actionSearch|actionNext|actionDone|actionPrevious">
+                        <requestFocus />
+                    </EditText>
+                    <ImageButton app:id="@id/bt_mic" app:background="0x106000d" app:clickable="true" app:layout_width="UNKNOWN_DATA_0x7f010046" app:layout_height="UNKNOWN_DATA_0x7f010046" app:tint="@color/grey_60" app:srcCompat="@drawable/ic_mic" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <RelativeLayout app:layout_width="wrap_content" app:layout_height="wrap_content">
+                <android.support.design.widget.FloatingActionButton app:id="@id/fab" app:clickable="true" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_margin="@dimen/spacing_middle" app:tint="0x106000b" app:elevation="4dp" app:srcCompat="@drawable/ic_search" app:rippleColor="0x106000b" app:fabSize="0" app:backgroundTint="@color/colorPrimary" />
+                <ProgressBar app:id="@id/progress_bar" app:visibility="gone" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_centerInParent="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

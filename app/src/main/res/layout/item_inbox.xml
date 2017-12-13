@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.balysv.materialripple.MaterialRippleLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:layout_width="match_parent" app:layout_height="wrap_content" style="@style/RippleStyleBlack">
+    <LinearLayout app:orientation="horizontal" app:id="@id/lyt_parent" app:background="@drawable/bg_multi_selection" app:paddingTop="@dimen/spacing_large" app:paddingBottom="@dimen/spacing_large" app:clickable="true" app:layout_width="match_parent" app:layout_height="wrap_content">
+        <View app:layout_width="UNKNOWN_DATA_0x7f0800d2" app:layout_height="UNKNOWN_DATA_0x1" />
+        <RelativeLayout app:orientation="vertical" app:layout_width="wrap_content" app:layout_height="wrap_content"
+            <RelativeLayout app:id="@id/lyt_checked" app:layout_width="wrap_content" app:layout_height="wrap_content">
+                <ImageView app:layout_width="UNKNOWN_DATA_0x7f0800db" app:layout_height="UNKNOWN_DATA_0x7f0800db" app:src="@drawable/shape_circle" app:tint="@color/blue_grey_600" />
+                <ImageView app:layout_width="UNKNOWN_DATA_0x1901" app:layout_height="UNKNOWN_DATA_0x1901" app:layout_centerInParent="true" app:srcCompat="@drawable/ic_done" />
+            </RelativeLayout>
+            <RelativeLayout app:id="@id/lyt_image" app:layout_width="wrap_content" app:layout_height="wrap_content">
+                <ImageView app:id="@id/image" app:layout_width="UNKNOWN_DATA_0x7f0800db" app:layout_height="UNKNOWN_DATA_0x7f0800db" />
+                <TextView app:textAppearance="@style/TextAppearance.AppCompat.Medium" app:textColor="0x106000b" app:id="@id/image_letter" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_centerInParent="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <View app:layout_width="UNKNOWN_DATA_0x7f0800d8" app:layout_height="UNKNOWN_DATA_0x1" />
+        <RelativeLayout app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_weight="1.0">
+            <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content">
+                <TextView app:textAppearance="@style/TextAppearance.AppCompat.Medium" app:textStyle="bold" app:textColor="@color/grey_90" app:id="@id/from" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="People Name" app:maxLines="1" app:singleLine="true" />
+                <TextView app:textAppearance="@style/TextAppearance.AppCompat.Body1" app:textStyle="bold" app:textColor="@color/grey_90" app:id="@id/email" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_small" app:text="email.address@mail.com" app:maxLines="1" app:singleLine="true" />
+                <TextView app:textAppearance="@style/TextAppearance.AppCompat.Body1" app:textColor="@color/grey_40" app:id="@id/message" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="@string/lorem_ipsum" app:maxLines="1" app:singleLine="true" />
+            </LinearLayout>
+            <TextView app:textAppearance="@style/TextAppearance.AppCompat.Body1" app:textStyle="bold" app:textColor="@color/blue_300" app:id="@id/date" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="10:30 AM" app:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <View app:layout_width="UNKNOWN_DATA_0x7f0800d2" app:layout_height="UNKNOWN_DATA_0x1" />
+    </LinearLayout>
+</com.balysv.materialripple.MaterialRippleLayout>

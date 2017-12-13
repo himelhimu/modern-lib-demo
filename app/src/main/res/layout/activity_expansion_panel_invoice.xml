@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res-auto" app:id="@id/nested_scroll_view" app:background="0x106000b" app:scrollbars="UNKNOWN_DATA_0x0" app:layout_width="match_parent" app:layout_height="match_parent" app:scrollingCache="true">
+    <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="match_parent">
+        <android.support.design.widget.AppBarLayout app:background="@color/teal_600" app:visibility="visible" app:layout_width="match_parent" app:layout_height="wrap_content">
+            <android.support.v7.widget.Toolbar app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" app:id="@id/toolbar" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f010046" app:contentInsetStartWithNavigation="0dp" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+            <LinearLayout app:orientation="vertical" app:paddingLeft="@dimen/spacing_smlarge" app:paddingTop="@dimen/spacing_medium" app:paddingRight="@dimen/spacing_smlarge" app:paddingBottom="@dimen/spacing_smlarge" app:layout_width="match_parent" app:layout_height="wrap_content">
+                <TextView app:textAppearance="@style/Base.TextAppearance.AppCompat.Display2" app:textColor="0x106000b" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="$ 2026.24" />
+                <TextView app:textAppearance="@style/TextAppearance.AppCompat.Small" app:textColor="0x106000b" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="TOTAL PRICE" />
+                <View app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="UNKNOWN_DATA_0x7f0800d4" />
+                <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content"
+                    <LinearLayout app:orientation="vertical" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_weight="1.0">
+                        <TextView app:textAppearance="@style/Base.TextAppearance.AppCompat.Large" app:textStyle="bold" app:textColor="0x106000b" app:id="@id/tv_invoice_code" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="INV-ZT45C" />
+                        <TextView app:textAppearance="@style/TextAppearance.AppCompat.Small" app:textColor="0x106000b" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="Purchase Code" />
+                    </LinearLayout>
+                    <RelativeLayout app:layout_width="UNKNOWN_DATA_0x7f0800db" app:layout_height="UNKNOWN_DATA_0x7f0800db">
+                        <ImageView app:layout_width="match_parent" app:layout_height="match_parent" app:src="@drawable/shape_circle" app:tint="0x106000b" />
+                        <ImageButton app:id="@id/bt_copy_code" app:background="0x106000d" app:layout_width="match_parent" app:layout_height="match_parent" app:tint="@color/teal_600" app:srcCompat="@drawable/ic_description" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.design.widget.AppBarLayout>
+        <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content"
+            <LinearLayout app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content" app:minHeight="?attr/actionBarSize">
+                <ImageButton app:background="0x106000d" app:layout_width="UNKNOWN_DATA_0x7f010046" app:layout_height="UNKNOWN_DATA_0x7f010046" app:tint="@color/grey_40" app:srcCompat="@drawable/ic_event" />
+                <LinearLayout app:orientation="vertical" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_weight="1.0">
+                    <TextView app:textAppearance="@style/TextAppearance.AppCompat.Medium" app:textColor="@color/grey_40" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="match_parent" app:layout_height="wrap_content" app:minHeight="?attr/actionBarSize" app:text="Invoice Date" />
+                    <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textStyle="bold" app:textColor="@color/grey_80" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginBottom="@dimen/spacing_large" app:text="2.30 PM, 22 March 2016" />
+                </LinearLayout>
+                <View app:layout_width="UNKNOWN_DATA_0x7f0800d8" app:layout_height="wrap_content" />
+            </LinearLayout>
+            <View app:background="@color/grey_10" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x100" />
+            <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content" app:minHeight="?attr/actionBarSize">
+                <ImageButton app:background="0x106000d" app:layout_width="UNKNOWN_DATA_0x7f010046" app:layout_height="UNKNOWN_DATA_0x7f010046" app:tint="@color/grey_40" app:srcCompat="@drawable/ic_apps" />
+                <TextView app:textAppearance="@style/TextAppearance.AppCompat.Medium" app:textColor="@color/grey_40" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:text="Item (s)" app:layout_weight="1.0" />
+                <View app:layout_width="UNKNOWN_DATA_0x7f0800d8" app:layout_height="wrap_content" />
+                <ImageButton app:id="@id/bt_toggle_items" app:background="?attr/selectableItemBackgroundBorderless" app:layout_width="UNKNOWN_DATA_0x7f010046" app:layout_height="UNKNOWN_DATA_0x7f010046" app:tint="@color/grey_40" app:srcCompat="@drawable/ic_arrow_drop" />
+            </LinearLayout>
+            <LinearLayout app:orientation="vertical" app:id="@id/lyt_expand_items" app:visibility="gone" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginBottom="@dimen/spacing_middle"
+                <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="?attr/actionBarSize" app:layout_marginRight="@dimen/spacing_smlarge" app:minHeight="@dimen/spacing_mxlarge">
+                    <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:text="Web Design" app:layout_weight="1.0" />
+                    <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="$ 455.62" />
+                </LinearLayout>
+                <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="?attr/actionBarSize" app:layout_marginRight="@dimen/spacing_smlarge" app:minHeight="@dimen/spacing_mxlarge">
+                    <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:text="E-Book Design" app:layout_weight="1.0" />
+                    <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="$ 278.12" />
+                </LinearLayout>
+                <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="?attr/actionBarSize" app:layout_marginRight="@dimen/spacing_smlarge" app:minHeight="@dimen/spacing_mxlarge">
+                    <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:id="@id/textView7" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:text="Hosting Plan" app:layout_weight="1.0" />
+                    <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="$ 719.00" />
+                </LinearLayout>
+                <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="?attr/actionBarSize" app:layout_marginRight="@dimen/spacing_smlarge" app:minHeight="@dimen/spacing_mxlarge">
+                    <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:id="@id/textView6" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:text="Brochure Design" app:layout_weight="1.0" />
+                    <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="$ 573.50" />
+                </LinearLayout>
+                <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="?attr/actionBarSize" app:layout_marginRight="@dimen/spacing_smlarge" app:minHeight="@dimen/spacing_xlarge">
+                    <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textStyle="bold" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:text="Total" app:layout_weight="1.0" />
+                    <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textStyle="bold" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="$ 2026.24" />
+                </LinearLayout>
+            </LinearLayout>
+            <View app:background="@color/grey_10" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x100" />
+            <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content" app:minHeight="?attr/actionBarSize">
+                <ImageButton app:background="0x106000d" app:layout_width="UNKNOWN_DATA_0x7f010046" app:layout_height="UNKNOWN_DATA_0x7f010046" app:tint="@color/grey_40" app:srcCompat="@drawable/ic_insert_drive" />
+                <TextView app:textAppearance="@style/TextAppearance.AppCompat.Medium" app:textColor="@color/grey_40" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:text="Description" app:layout_weight="1.0" />
+                <View app:layout_width="UNKNOWN_DATA_0x7f0800d2" app:layout_height="wrap_content" />
+                <ImageButton app:id="@id/bt_toggle_description" app:background="?attr/selectableItemBackgroundBorderless" app:layout_width="UNKNOWN_DATA_0x7f010046" app:layout_height="UNKNOWN_DATA_0x7f010046" app:tint="@color/grey_40" app:srcCompat="@drawable/ic_arrow_drop" />
+            </LinearLayout>
+            <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:id="@id/lyt_expand_description" app:paddingTop="@dimen/spacing_medium" app:paddingBottom="@dimen/spacing_large" app:visibility="gone" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="?attr/actionBarSize" app:layout_marginRight="@dimen/spacing_smlarge" app:layout_marginBottom="@dimen/spacing_middle">
+                <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:text="@string/lorem_ipsum" app:layout_weight="1.0" />
+            </LinearLayout>
+            <View app:background="@color/grey_10" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x100" />
+            <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content" app:minHeight="?attr/actionBarSize">
+                <ImageButton app:background="0x106000d" app:layout_width="UNKNOWN_DATA_0x7f010046" app:layout_height="UNKNOWN_DATA_0x7f010046" app:tint="@color/grey_40" app:srcCompat="@drawable/ic_location" />
+                <TextView app:textAppearance="@style/TextAppearance.AppCompat.Medium" app:textColor="@color/grey_40" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:text="Address" app:layout_weight="1.0" />
+                <View app:layout_width="UNKNOWN_DATA_0x7f0800d2" app:layout_height="wrap_content" />
+                <ImageButton app:id="@id/bt_toggle_address" app:background="?attr/selectableItemBackgroundBorderless" app:layout_width="UNKNOWN_DATA_0x7f010046" app:layout_height="UNKNOWN_DATA_0x7f010046" app:tint="@color/grey_40" app:srcCompat="@drawable/ic_arrow_drop" />
+            </LinearLayout>
+            <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:id="@id/lyt_expand_address" app:paddingTop="@dimen/spacing_medium" app:paddingBottom="@dimen/spacing_medium" app:visibility="gone" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="?attr/actionBarSize" app:layout_marginRight="@dimen/spacing_smlarge" app:layout_marginBottom="@dimen/spacing_middle">
+                <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:id="@id/textView8" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:text="@string/invoice_address" app:layout_weight="1.0" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

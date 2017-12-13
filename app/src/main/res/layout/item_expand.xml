@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:id="@id/lyt_parent" app:clickable="true" app:layout_width="match_parent" app:layout_height="wrap_content"
+    <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:background="0x106000b" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f010046" app:minHeight="?attr/actionBarSize">
+        <View app:layout_width="UNKNOWN_DATA_0x7f0800d2" app:layout_height="wrap_content" />
+        <ImageView app:id="@id/image" app:background="0x106000d" app:layout_width="UNKNOWN_DATA_0x2301" app:layout_height="UNKNOWN_DATA_0x2301" app:src="@drawable/img_social_envato" />
+        <View app:layout_width="UNKNOWN_DATA_0x7f0800d2" app:layout_height="wrap_content" />
+        <TextView app:textAppearance="@style/TextAppearance.AppCompat.Medium" app:textColor="@color/grey_80" app:id="@c2766e/name" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:text="Item Title" app:layout_weight="1.0" />
+        <View app:layout_width="UNKNOWN_DATA_0x7f0800d2" app:layout_height="wrap_content" />
+        <ImageButton app:id="@id/bt_expand" app:background="?attr/selectableItemBackgroundBorderless" app:layout_width="UNKNOWN_DATA_0x7f010046" app:layout_height="UNKNOWN_DATA_0x7f010046" app:tint="@color/grey_60" app:srcCompat="@drawable/ic_expand_arrow" />
+    </LinearLayout>
+    <LinearLayout app:orientation="vertical" app:id="@id/lyt_expand" app:background="@color/grey_3" app:visibility="gone" app:layout_width="match_parent" app:layout_height="wrap_content">
+        <TextView app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_margin="@dimen/spacing_large" app:text="@string/lorem_ipsum" />
+    </LinearLayout>
+</LinearLayout>

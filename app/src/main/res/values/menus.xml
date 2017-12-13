@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <menu name="menu_activity_main">res/menu/menu_activity_main.xml</menu>
+    <menu name="menu_activity_main_drawer">res/menu/menu_activity_main_drawer.xml</menu>
+    <menu name="menu_basic">res/menu/menu_basic.xml</menu>
+    <menu name="menu_bottom_navigation_basic">res/menu/menu_bottom_navigation_basic.xml</menu>
+    <menu name="menu_bottom_navigation_shifting">res/menu/menu_bottom_navigation_shifting.xml</menu>
+    <menu name="menu_cart_setting">res/menu/menu_cart_setting.xml</menu>
+    <menu name="menu_chips">res/menu/menu_chips.xml</menu>
+    <menu name="menu_complete">res/menu/menu_complete.xml</menu>
+    <menu name="menu_delete">res/menu/menu_delete.xml</menu>
+    <menu name="menu_done">res/menu/menu_done.xml</menu>
+    <menu name="menu_list_animation">res/menu/menu_list_animation.xml</menu>
+    <menu name="menu_music_setting">res/menu/menu_music_setting.xml</menu>
+    <menu name="menu_navigation_drawer_mail">res/menu/menu_navigation_drawer_mail.xml</menu>
+    <menu name="menu_navigation_drawer_mail_no_icon">res/menu/menu_navigation_drawer_mail_no_icon.xml</menu>
+    <menu name="menu_navigation_drawer_news">res/menu/menu_navigation_drawer_news.xml</menu>
+    <menu name="menu_navigation_drawer_profile_simple">res/menu/menu_navigation_drawer_profile_simple.xml</menu>
+    <menu name="menu_people_more">res/menu/menu_people_more.xml</menu>
+    <menu name="menu_product_more">res/menu/menu_product_more.xml</menu>
+    <menu name="menu_refresh_setting">res/menu/menu_refresh_setting.xml</menu>
+    <menu name="menu_search">res/menu/menu_search.xml</menu>
+    <menu name="menu_search_setting">res/menu/menu_search_setting.xml</menu>
+    <menu name="menu_setting">res/menu/menu_setting.xml</menu>
+    <menu name="menu_setting_round">res/menu/menu_setting_round.xml</menu>
+    <menu name="menu_song_more">res/menu/menu_song_more.xml</menu>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:background="@color/grey_20" app:layout_width="match_parent" app:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout app:layout_width="match_parent" app:layout_height="wrap_content">
+        <include layout="@layout/toolbar" />
+    </android.support.design.widget.AppBarLayout>
+    <RelativeLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="match_parent">
+        <TextView app:textAppearance="@style/TextAppearance.AppCompat.Display1" app:textStyle="bold" app:textColor="@color/grey_60" app:id="@id/status" app:paddingBottom="?attr/actionBarSize" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="Step 1 of 5" app:layout_centerInParent="true" />
+        <LinearLayout app:orientation="horizontal" app:background="@color/grey_3" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f010046" app:layout_alignParentBottom="true"
+            <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:id="@id/lyt_back" app:background="?attr/selectableItemBackground" app:padding="@dimen/spacing_middle" app:clickable="true" app:layout_width="wrap_content" app:layout_height="match_parent">
+                <ImageView app:layout_width="wrap_content" app:layout_height="wrap_content" app:tint="@color/grey_60" app:srcCompat="@drawable/ic_chevron_left" />
+                <TextView app:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead" app:textStyle="bold" app:textColor="@color/grey_60" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="@string/BACK" />
+            </LinearLayout>
+            <LinearLayout app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="horizontal" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="match_parent" app:layout_weight="1.0">
+                <ProgressBar app:id="@id/progress" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/spacing_xlarge" app:layout_marginRight="@dimen/spacing_xlarge" app:max="100" app:progress="40" app:indeterminate="false" style="@style/Widget.AppCompat.ProgressBar.Horizontal" />
+            </LinearLayout>
+            <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:id="@id/lyt_next" app:background="?attr/selectableItemBackground" app:padding="@dimen/spacing_middle" app:clickable="true" app:layout_width="wrap_content" app:layout_height="match_parent">
+                <TextView app:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead" app:textStyle="bold" app:textColor="@color/grey_60" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="@string/NEXT" />
+                <ImageView app:layout_width="wrap_content" app:layout_height="wrap_content" app:tint="@color/grey_60" app:srcCompat="@drawable/ic_chevron_right" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

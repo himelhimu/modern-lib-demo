@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:background="0x106000b" app:fitsSystemWindows="true" app:layout_width="match_parent" app:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout app:layout_width="match_parent" app:layout_height="wrap_content">
+        <include layout="@layout/toolbar" />
+    </android.support.design.widget.AppBarLayout>
+    <RelativeLayout app:layout_width="match_parent" app:layout_height="match_parent">
+        <ProgressBar app:id="@id/progress_bar" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_centerInParent="true" />
+        <LinearLayout app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:id="@id/lyt_no_connection" app:background="?attr/selectableItemBackgroundBorderless" app:clickable="true" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_centerInParent="true">
+            <ImageView app:layout_width="UNKNOWN_DATA_0x6401" app:layout_height="UNKNOWN_DATA_0x6401" app:tint="@color/grey_20" app:srcCompat="@drawable/ic_signal_wifi_off" />
+            <TextView app:textAppearance="@style/Base.TextAppearance.AppCompat.Large" app:textStyle="bold" app:textColor="@color/grey_90" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_middle" app:text="No connection" />
+            <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_medium">
+                <ImageView app:layout_width="UNKNOWN_DATA_0x7f0800d2" app:layout_height="UNKNOWN_DATA_0x7f0800d2" app:layout_marginRight="@dimen/spacing_medium" app:tint="@color/grey_90" app:srcCompat="@drawable/ic_refresh" />
+                <TextView app:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead" app:textColor="@color/grey_90" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="Tap to retry" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

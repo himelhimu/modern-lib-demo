@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:id="@id/bgLayout" app:layout_width="match_parent" app:layout_height="match_parent">
+    <LinearLayout app:orientation="vertical" app:background="0x106000b" app:layout_width="match_parent" app:layout_height="match_parent">
+        <android.support.design.widget.AppBarLayout app:layout_width="match_parent" app:layout_height="wrap_content">
+            <include layout="@layout/toolbar" />
+        </android.support.design.widget.AppBarLayout>
+        <android.support.v7.widget.RecyclerView app:id="@id/recyclerView" app:background="@color/grey_10" app:scrollbars="vertical" app:layout_width="match_parent" app:layout_height="wrap_content" app:scrollingCache="true" />
+    </LinearLayout>
+    <FrameLayout app:id="@id/bottom_sheet" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_behavior="@string/bottom_sheet_behavior" />
+</android.support.design.widget.CoordinatorLayout>

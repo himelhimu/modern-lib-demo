@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:theme="@style/ThemeOverlay.AppCompat.Dark" app:orientation="vertical" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0xaa01">
+    <ImageView app:layout_width="match_parent" app:layout_height="match_parent" app:src="@drawable/material_bg_2" app:scaleType="centerCrop" />
+    <com.mikhaellopez.circularimageview.CircularImageView app:id="@c2766e/avatar" app:layout_width="UNKNOWN_DATA_0x4001" app:layout_height="UNKNOWN_DATA_0x4001" app:layout_margin="@dimen/spacing_large" app:src="@drawable/photo_male_6" app:civ_border_width="2dp" />
+    <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_margin="@dimen/spacing_large" app:layout_alignParentBottom="true">
+        <TextView app:textAppearance="@style/TextAppearance.AppCompat.Body2" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginBottom="@dimen/spacing_medium" app:text="John Miller" />
+        <TextView app:textAppearance="@style/TextAppearance.AppCompat.Body1" app:id="@id/email" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="johnmiller@mail.com" />
+    </LinearLayout>
+</RelativeLayout>

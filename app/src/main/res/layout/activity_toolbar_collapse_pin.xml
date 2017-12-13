@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:fitsSystemWindows="true" app:layout_width="match_parent" app:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" app:id="@id/app_bar_layout" app:fitsSystemWindows="true" app:layout_width="match_parent" app:layout_height="wrap_content">
+        <android.support.design.widget.CollapsingToolbarLayout app:id="@id/collapsing_toolbar" app:fitsSystemWindows="true" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_scrollFlags="3" app:expandedTitleMarginStart="15dp" app:expandedTitleMarginEnd="64dp" app:expandedTitleMarginBottom="20dp" app:expandedTitleTextAppearance="@style/TextAppearance.AppCompat.Title" app:contentScrim="?attr/colorPrimary">
+            <ImageView app:id="@id/image" app:fitsSystemWindows="true" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0xc801" app:scaleType="centerCrop" app:layout_collapseMode="2" />
+            <android.support.v7.widget.Toolbar app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@id/toolbar" app:paddingRight="5dp" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x6401" app:contentInsetStartWithNavigation="0dp" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" app:layout_collapseMode="1" />
+            <TextView app:textAppearance="@style/TextAppearance.AppCompat.Headline" app:textColor="0x106000b" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@id/toolbar_title" app:paddingLeft="@dimen/spacing_mlarge" app:paddingRight="@dimen/spacing_mlarge" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f010046" app:text="Aliquam Non Erat Tristique" />
+        </android.support.design.widget.CollapsingToolbarLayout>
+    </android.support.design.widget.AppBarLayout>
+    <android.support.v4.widget.NestedScrollView app:id="@id/nested_content" app:background="@color/grey_10" app:scrollbars="UNKNOWN_DATA_0x0" app:clipToPadding="false" app:layout_width="match_parent" app:layout_height="match_parent" app:scrollingCache="true" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <LinearLayout app:orientation="vertical" app:background="@color/grey_10" app:layout_width="match_parent" app:layout_height="wrap_content">
+            <View app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f0800d2" />
+            <android.support.v7.widget.CardView app:background="0x106000b" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/spacing_large" app:layout_marginRight="@dimen/spacing_large" app:cardCornerRadius="2dp" app:cardElevation="2dp">
+                <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content">
+                    <TextView app:textAppearance="@style/TextAppearance.AppCompat.Title" app:textColor="@color/grey_60" app:padding="@dimen/spacing_large" app:layout_width="match_parent" app:layout_height="wrap_content" app:text="Description" />
+                    <View app:background="@color/grey_10" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x100" />
+                    <TextView app:textAppearance="@style/TextAppearance.AppCompat.Small" app:textColor="@color/grey_80" app:padding="@dimen/spacing_large" app:layout_width="match_parent" app:layout_height="wrap_content" app:text="@string/long_lorem_ipsum" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <View app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f0800d2" />
+            <android.support.v7.widget.CardView app:background="0x106000b" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/spacing_large" app:layout_marginRight="@dimen/spacing_large" app:cardCornerRadius="2dp" app:cardElevation="2dp">
+                <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content">
+                    <TextView app:textAppearance="@style/TextAppearance.AppCompat.Title" app:textColor="@color/grey_60" app:padding="@dimen/spacing_large" app:layout_width="match_parent" app:layout_height="wrap_content" app:text="About me" />
+                    <View app:background="@color/grey_10" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x100" />
+                    <TextView app:textAppearance="@style/TextAppearance.AppCompat.Small" app:textColor="@color/grey_80" app:padding="@dimen/spacing_large" app:layout_width="match_parent" app:layout_height="wrap_content" app:text="@string/long_lorem_ipsum" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <View app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f0800d2" />
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+    <android.support.design.widget.FloatingActionButton app:id="@id/fab" app:clickable="true" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_margin="@dimen/spacing_mlarge" app:tint="0x106000b" app:srcCompat="@drawable/ic_favorites" app:layout_collapseMode="2" app:layout_anchor="@id/collapsing_toolbar" app:layout_anchorGravity="800055" app:fabSize="0" />
+</android.support.design.widget.CoordinatorLayout>

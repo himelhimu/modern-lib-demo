@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+    <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content"
+        <LinearLayout app:orientation="horizontal" app:padding="@dimen/spacing_middle" app:layout_width="match_parent" app:layout_height="wrap_content">
+            <ImageView app:layout_width="UNKNOWN_DATA_0x6401" app:layout_height="UNKNOWN_DATA_0x6401" app:src="@drawable/image_6" app:scaleType="centerCrop" />
+            <View app:layout_width="UNKNOWN_DATA_0x7f0800d2" app:layout_height="wrap_content" />
+            <LinearLayout app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="vertical" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_weight="1.0">
+                <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textStyle="bold" app:textColor="@color/grey_80" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="Praesent Maximus Nisl Metus, Vitae Imperdiet Eros" app:maxLines="2" />
+                <TextView app:textAppearance="@style/TextAppearance.AppCompat.Caption" app:textColor="@color/grey_40" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_medium" app:text="02 Mar 2016" />
+                <TextView app:textAppearance="@style/TextAppearance.AppCompat.Small" app:textColor="@color/grey_80" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_medium" app:text="@string/middle_lorem_ipsum" app:maxLines="2" />
+            </LinearLayout>
+        </LinearLayout>
+        <View app:background="@color/grey_10" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x101" />
+        <LinearLayout app:orientation="horizontal" app:padding="@dimen/spacing_middle" app:layout_width="match_parent" app:layout_height="wrap_content">
+            <ImageView app:layout_width="UNKNOWN_DATA_0x6401" app:layout_height="UNKNOWN_DATA_0x6401" app:src="@drawable/image_2" app:scaleType="centerCrop" />
+            <View app:layout_width="UNKNOWN_DATA_0x7f0800d2" app:layout_height="wrap_content" />
+            <LinearLayout app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="vertical" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_weight="1.0">
+                <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textStyle="bold" app:textColor="@color/grey_80" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="Quisque Lobortis Massa Quis Augue Venenatis" app:maxLines="2" />
+                <TextView app:textAppearance="@style/TextAppearance.AppCompat.Caption" app:textColor="@color/grey_40" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_medium" app:text="02 Mar 2016" />
+                <TextView app:textAppearance="@style/TextAppearance.AppCompat.Small" app:textColor="@color/grey_80" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_medium" app:text="@string/middle_lorem_ipsum" app:maxLines="2" />
+            </LinearLayout>
+        </LinearLayout>
+        <View app:background="@color/grey_10" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x101" />
+        <LinearLayout app:orientation="horizontal" app:padding="@dimen/spacing_middle" app:layout_width="match_parent" app:layout_height="wrap_content">
+            <ImageView app:layout_width="UNKNOWN_DATA_0x6401" app:layout_height="UNKNOWN_DATA_0x6401" app:src="@drawable/image_3" app:scaleType="centerCrop" />
+            <View app:layout_width="UNKNOWN_DATA_0x7f0800d2" app:layout_height="wrap_content" />
+            <LinearLayout app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="vertical" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_weight="1.0">
+                <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textStyle="bold" app:textColor="@color/grey_80" app:id="@id/textView5" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="In Lobortis Aliquet Rutrum, Praesent Eget" app:maxLines="2" />
+                <TextView app:textAppearance="@style/TextAppearance.AppCompat.Caption" app:textColor="@color/grey_40" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_medium" app:text="02 Mar 2016" />
+                <TextView app:textAppearance="@style/TextAppearance.AppCompat.Small" app:textColor="@color/grey_80" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_medium" app:text="@string/middle_lorem_ipsum" app:maxLines="2" />
+            </LinearLayout>
+        </LinearLayout>
+        <View app:background="@color/grey_10" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x101" />
+        <LinearLayout app:orientation="horizontal" app:padding="@dimen/spacing_middle" app:layout_width="match_parent" app:layout_height="wrap_content">
+            <ImageView app:layout_width="UNKNOWN_DATA_0x6401" app:layout_height="UNKNOWN_DATA_0x6401" app:src="@drawable/image_4" app:scaleType="centerCrop" />
+            <View app:layout_width="UNKNOWN_DATA_0x7f0800d2" app:layout_height="wrap_content" />
+            <LinearLayout app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="vertical" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_weight="1.0">
+                <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textStyle="bold" app:textColor="@color/grey_80" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="Cras Finibus Tortor Quis Fermentum Suscipit" app:maxLines="2" />
+                <TextView app:textAppearance="@style/TextAppearance.AppCompat.Caption" app:textColor="@color/grey_40" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_medium" app:text="02 Mar 2016" />
+                <TextView app:textAppearance="@style/TextAppearance.AppCompat.Small" app:textColor="@color/grey_80" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_medium" app:text="@string/middle_lorem_ipsum" app:maxLines="2" />
+            </LinearLayout>
+        </LinearLayout>
+        <View app:background="@color/grey_10" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x101" />
+        <LinearLayout app:orientation="horizontal" app:padding="@dimen/spacing_middle" app:layout_width="match_parent" app:layout_height="wrap_content">
+            <ImageView app:layout_width="UNKNOWN_DATA_0x6401" app:layout_height="UNKNOWN_DATA_0x6401" app:src="@drawable/image_5" app:scaleType="centerCrop" />
+            <View app:layout_width="UNKNOWN_DATA_0x7f0800d2" app:layout_height="wrap_content" />
+            <LinearLayout app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="vertical" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_weight="1.0">
+                <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textStyle="bold" app:textColor="@color/grey_80" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="Aenean Eleifend Lorem Nec Posuere" app:maxLines="2" />
+                <TextView app:textAppearance="@style/TextAppearance.AppCompat.Caption" app:textColor="@color/grey_40" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_medium" app:text="02 Mar 2016" />
+                <TextView app:textAppearance="@style/TextAppearance.AppCompat.Small" app:textColor="@color/grey_80" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_medium" app:text="@string/middle_lorem_ipsum" app:maxLines="2" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

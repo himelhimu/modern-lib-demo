@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:background="0x106000b" app:layout_width="match_parent" app:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout app:layout_width="match_parent" app:layout_height="wrap_content">
+        <RelativeLayout app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f010046">
+            <android.support.v7.widget.Toolbar app:theme="@style/ThemeOverlay.AppCompat.Light" app:id="@id/toolbar" app:background="@color/grey_10" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f010046" app:contentInsetStartWithNavigation="0dp" app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+                <android.support.v7.widget.CardView app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/lyt_card" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_margin="@dimen/spacing_middle" app:cardBackgroundColor="0x106000b" app:cardCornerRadius="3dp" app:cardElevation="2dp">
+                    <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_marginLeft="@dimen/spacing_large" app:layout_marginRight="@dimen/spacing_large">
+                        <TextView app:textAppearance="@style/TextAppearance.AppCompat.Medium" app:textColor="@color/grey_90" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="www.material.io/guidelines" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+            </android.support.v7.widget.Toolbar>
+            <ProgressBar app:id="@id/progress_bar" app:layout_width="match_parent" app:layout_height="wrap_content" app:progress="50" app:indeterminate="false" app:progressDrawable="@drawable/progressbar_primary" app:minWidth="0dp" app:minHeight="0dp" app:layout_alignParentBottom="true" style="@style/Widget.AppCompat.ProgressBar.Horizontal" />
+        </RelativeLayout>
+    </android.support.design.widget.AppBarLayout>
+    <LinearLayout app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <WebView app:id="@id/webView" app:background="0x106000b" app:layout_width="match_parent" app:layout_height="match_parent" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:layout_width="match_parent" app:layout_height="match_parent"
+    <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:padding="@dimen/spacing_large" app:layout_width="match_parent" app:layout_height="wrap_content">
+        <com.mikhaellopez.circularimageview.CircularImageView app:layout_width="UNKNOWN_DATA_0x7f0800dd" app:layout_height="UNKNOWN_DATA_0x7f0800dd" app:src="@drawable/photo_male_8" app:civ_border="false" />
+        <View app:layout_width="UNKNOWN_DATA_0x7f0800d2" app:layout_height="UNKNOWN_DATA_0x1" />
+        <LinearLayout app:orientation="vertical" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_weight="1.0">
+            <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textStyle="bold" app:textColor="@color/grey_90" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="match_parent" app:layout_height="wrap_content" app:text="David Park" />
+            <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_small">
+                <ImageView app:layout_width="UNKNOWN_DATA_0x7f0800d5" app:layout_height="UNKNOWN_DATA_0x7f0800d5" app:tint="@color/colorPrimary" app:srcCompat="@drawable/ic_public" />
+                <View app:layout_width="UNKNOWN_DATA_0x7f0800d3" app:layout_height="UNKNOWN_DATA_0x1" />
+                <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textColor="@color/colorPrimary" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="match_parent" app:layout_height="wrap_content" app:text="Public" />
+            </LinearLayout>
+        </LinearLayout>
+        <android.support.v7.widget.AppCompatButton app:enabled="false" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/bt_submit" app:paddingLeft="@dimen/spacing_large" app:paddingRight="@dimen/spacing_large" app:layout_width="wrap_content" app:layout_height="wrap_content" app:minWidth="0dp" app:text="POST" />
+    </LinearLayout>
+    <LinearLayout app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x1" app:layout_weight="1.0">
+        <EditText app:textSize="14dp" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@id/et_post" app:background="0x106000d" app:padding="@dimen/spacing_large" app:layout_width="match_parent" app:layout_height="match_parent" app:hint="Write something ..." />
+    </LinearLayout>
+    <LinearLayout app:orientation="horizontal" app:background="@color/grey_5" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f010046">
+        <ImageButton app:id="@id/bt_photo" app:background="?attr/selectableItemBackgroundBorderless" app:layout_width="UNKNOWN_DATA_0x7f010046" app:layout_height="UNKNOWN_DATA_0x7f010046" app:tint="@color/grey_40" app:srcCompat="@drawable/ic_photo_camera" />
+        <ImageButton app:id="@id/bt_link" app:background="?attr/selectableItemBackgroundBorderless" app:layout_width="UNKNOWN_DATA_0x7f010046" app:layout_height="UNKNOWN_DATA_0x7f010046" app:tint="@color/grey_40" app:srcCompat="@drawable/ic_insert_link" />
+        <ImageButton app:id="@id/bt_file" app:background="?attr/selectableItemBackgroundBorderless" app:layout_width="UNKNOWN_DATA_0x7f010046" app:layout_height="UNKNOWN_DATA_0x7f010046" app:tint="@color/grey_40" app:srcCompat="@drawable/ic_description" />
+        <View app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_weight="1.0" />
+        <ImageButton app:id="@id/bt_setting" app:background="?attr/selectableItemBackgroundBorderless" app:layout_width="UNKNOWN_DATA_0x7f010046" app:layout_height="UNKNOWN_DATA_0x7f010046" app:tint="@color/grey_40" app:srcCompat="@drawable/ic_more_vert" />
+    </LinearLayout>
+</LinearLayout>

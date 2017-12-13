@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res-auto" app:id="@id/nested_scroll_view" app:scrollbars="UNKNOWN_DATA_0x0" app:clipToPadding="false" app:layout_width="match_parent" app:layout_height="match_parent" app:scrollingCache="true">
+    <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="match_parent"
+        <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:paddingLeft="@dimen/spacing_large" app:paddingRight="@dimen/spacing_large" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_large">
+            <TextView app:textAppearance="@style/Base.TextAppearance.AppCompat.Title" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:text="New Releases" app:layout_weight="1.0" />
+            <Button app:textColor="@color/grey_60" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_width="wrap_content" app:layout_height="wrap_content" app:minWidth="0dp" app:text="MORE" style="@style/Widget.AppCompat.Button.Borderless" />
+        </LinearLayout>
+        <LinearLayout app:orientation="horizontal" app:padding="@dimen/spacing_medium" app:visibility="visible" app:layout_width="match_parent" app:layout_height="wrap_content">
+            <android.support.v7.widget.CardView app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_margin="@dimen/spacing_medium" app:layout_weight="1.0" app:cardCornerRadius="2dp" app:cardElevation="2dp">
+                <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content">
+                    <ImageView app:id="@id/image_1" app:background="@color/grey_40" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0xb401" app:scaleType="centerCrop" />
+                    <LinearLayout app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="horizontal" app:padding="@dimen/spacing_large" app:layout_width="match_parent" app:layout_height="wrap_content"
+                        <LinearLayout app:orientation="vertical" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_weight="1.0">
+                            <TextView app:textAppearance="@style/TextAppearance.Medium.Bold" app:textColor="@color/grey_90" app:layout_width="match_parent" app:layout_height="wrap_content" app:text="Mauris sagittis non elit" app:maxLines="1" app:singleLine="true" />
+                            <TextView app:layout_width="match_parent" app:layout_height="wrap_content" app:text="Kodaline" />
+                        </LinearLayout>
+                        <ImageButton app:background="?attr/selectableItemBackgroundBorderless" app:layout_width="wrap_content" app:layout_height="wrap_content" app:tint="@color/grey_40" app:srcCompat="@drawable/ic_more_vert" />
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_margin="@dimen/spacing_medium" app:layout_weight="1.0" app:cardCornerRadius="2dp" app:cardElevation="2dp">
+                <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content">
+                    <ImageView app:id="@id/image_2" app:background="@color/grey_40" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0xb401" app:scaleType="centerCrop" />
+                    <LinearLayout app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="horizontal" app:padding="@dimen/spacing_large" app:layout_width="match_parent" app:layout_height="wrap_content"
+                        <LinearLayout app:orientation="vertical" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_weight="1.0">
+                            <TextView app:textAppearance="@style/TextAppearance.Medium.Bold" app:textColor="@color/grey_90" app:layout_width="match_parent" app:layout_height="wrap_content" app:text="Aliquam" app:maxLines="1" app:singleLine="true" />
+                            <TextView app:layout_width="match_parent" app:layout_height="wrap_content" app:text="One Republic" />
+                        </LinearLayout>
+                        <ImageButton app:background="?attr/selectableItemBackgroundBorderless" app:layout_width="wrap_content" app:layout_height="wrap_content" app:tint="@color/grey_40" app:srcCompat="@drawable/ic_more_vert" />
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+        <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:paddingLeft="@dimen/spacing_large" app:paddingRight="@dimen/spacing_large" app:layout_width="match_parent" app:layout_height="wrap_content">
+            <TextView app:textAppearance="@style/Base.TextAppearance.AppCompat.Title" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:text="Recommended" app:layout_weight="1.0" />
+            <Button app:textColor="@color/grey_60" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_width="wrap_content" app:layout_height="wrap_content" app:minWidth="0dp" app:text="MORE" style="@style/Widget.AppCompat.Button.Borderless" />
+        </LinearLayout>
+        <LinearLayout app:orientation="horizontal" app:padding="@dimen/spacing_medium" app:visibility="visible" app:layout_width="match_parent" app:layout_height="wrap_content">
+            <android.support.v7.widget.CardView app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_margin="@dimen/spacing_medium" app:layout_weight="1.0" app:cardCornerRadius="2dp" app:cardElevation="2dp">
+                <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content">
+                    <ImageView app:id="@id/image_3" app:background="@color/grey_40" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7801" app:scaleType="centerCrop" />
+                    <TextView app:textAppearance="@style/TextAppearance.Medium.Bold" app:textColor="@color/grey_90" app:padding="@dimen/spacing_large" app:layout_width="match_parent" app:layout_height="wrap_content" app:text="Curabitur tempus" app:maxLines="1" app:singleLine="true" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_margin="@dimen/spacing_medium" app:layout_weight="1.0" app:cardCornerRadius="2dp" app:cardElevation="2dp">
+                <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content">
+                    <ImageView app:id="@id/image_4" app:background="@color/grey_40" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7801" app:scaleType="centerCrop" />
+                    <TextView app:textAppearance="@style/TextAppearance.Medium.Bold" app:textColor="@color/grey_90" app:padding="@dimen/spacing_large" app:layout_width="match_parent" app:layout_height="wrap_content" app:text="Quisque" app:maxLines="1" app:singleLine="true" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_margin="@dimen/spacing_medium" app:layout_weight="1.0" app:cardCornerRadius="2dp" app:cardElevation="2dp">
+                <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content">
+                    <ImageView app:id="@id/image_5" app:background="@color/grey_40" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7801" app:scaleType="centerCrop" />
+                    <TextView app:textAppearance="@style/TextAppearance.Medium.Bold" app:textColor="@color/grey_90" app:padding="@dimen/spacing_large" app:layout_width="match_parent" app:layout_height="wrap_content" app:text="Aliquam ac elit" app:maxLines="1" app:singleLine="true" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+        <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:paddingLeft="@dimen/spacing_large" app:paddingRight="@dimen/spacing_large" app:layout_width="match_parent" app:layout_height="wrap_content">
+            <TextView app:textAppearance="@style/Base.TextAppearance.AppCompat.Title" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:text="Top Rated" app:layout_weight="1.0" />
+            <Button app:textColor="@color/grey_60" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_width="wrap_content" app:layout_height="wrap_content" app:minWidth="0dp" app:text="MORE" style="@style/Widget.AppCompat.Button.Borderless" />
+        </LinearLayout>
+        <LinearLayout app:orientation="horizontal" app:padding="@dimen/spacing_medium" app:visibility="visible" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginBottom="@dimen/spacing_large">
+            <android.support.v7.widget.CardView app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_margin="@dimen/spacing_medium" app:layout_weight="1.0" app:cardCornerRadius="2dp" app:cardElevation="2dp">
+                <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content">
+                    <ImageView app:id="@id/image_6" app:background="@color/grey_40" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0xb401" app:scaleType="centerCrop" />
+                    <LinearLayout app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="horizontal" app:padding="@dimen/spacing_large" app:layout_width="match_parent" app:layout_height="wrap_content"
+                        <LinearLayout app:orientation="vertical" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_weight="1.0">
+                            <TextView app:textAppearance="@style/TextAppearance.Medium.Bold" app:textColor="@color/grey_90" app:layout_width="match_parent" app:layout_height="wrap_content" app:text="Suspendisse ornare" app:maxLines="1" app:singleLine="true" />
+                            <TextView app:layout_width="match_parent" app:layout_height="wrap_content" app:text="Adipiscing" />
+                        </LinearLayout>
+                        <ImageButton app:background="?attr/selectableItemBackgroundBorderless" app:layout_width="wrap_content" app:layout_height="wrap_content" app:tint="@color/grey_40" app:srcCompat="@drawable/ic_more_vert" />
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_margin="@dimen/spacing_medium" app:layout_weight="1.0" app:cardCornerRadius="2dp" app:cardElevation="2dp">
+                <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content">
+                    <ImageView app:id="@id/image_7" app:background="@color/grey_40" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0xb401" app:scaleType="centerCrop" />
+                    <LinearLayout app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="horizontal" app:padding="@dimen/spacing_large" app:layout_width="match_parent" app:layout_height="wrap_content"
+                        <LinearLayout app:orientation="vertical" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_weight="1.0">
+                            <TextView app:textAppearance="@style/TextAppearance.Medium.Bold" app:textColor="@color/grey_90" app:layout_width="match_parent" app:layout_height="wrap_content" app:text="Placerat vel ipsum" app:maxLines="1" app:singleLine="true" />
+                            <TextView app:layout_width="match_parent" app:layout_height="wrap_content" app:text="amet rutrum" />
+                        </LinearLayout>
+                        <ImageButton app:background="?attr/selectableItemBackgroundBorderless" app:layout_width="wrap_content" app:layout_height="wrap_content" app:tint="@color/grey_40" app:srcCompat="@drawable/ic_more_vert" />
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

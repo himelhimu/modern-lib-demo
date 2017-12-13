@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:layout_width="match_parent" app:layout_height="wrap_content">
+    <include layout="@layout/item_swipe_undo" />
+    <com.balysv.materialripple.MaterialRippleLayout app:id="@id/lyt_parent" app:background="0x106000b" app:focusable="true" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f010046" style="@style/RippleStyleBlack">
+        <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="match_parent">
+            <View app:background="@color/grey_10" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x100" />
+            <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x1" app:layout_weight="1.0">
+                <View app:layout_width="UNKNOWN_DATA_0x7f0800d2" app:layout_height="wrap_content" />
+                <ImageView app:id="@id/image" app:background="0x106000d" app:layout_width="UNKNOWN_DATA_0x2301" app:layout_height="UNKNOWN_DATA_0x2301" app:src="@drawable/img_social_envato" />
+                <View app:layout_width="UNKNOWN_DATA_0x7f0800d2" app:layout_height="wrap_content" />
+                <TextView app:textAppearance="@style/TextAppearance.AppCompat.Medium" app:textColor="@color/grey_80" app:id="@c2766e/name" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:text="Item Title" app:layout_weight="1.0" />
+                <View app:layout_width="UNKNOWN_DATA_0x7f0800d2" app:layout_height="wrap_content" />
+                <ImageButton app:id="@id/bt_move" app:background="0x106000d" app:layout_width="UNKNOWN_DATA_0x7f010046" app:layout_height="UNKNOWN_DATA_0x7f010046" app:tint="@color/grey_40" app:srcCompat="@drawable/ic_swap_horiz" />
+            </LinearLayout>
+            <View app:background="@color/grey_10" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x100" />
+        </LinearLayout>
+    </com.balysv.materialripple.MaterialRippleLayout>
+</RelativeLayout>

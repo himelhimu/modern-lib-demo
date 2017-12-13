@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:layout_width="match_parent" app:layout_height="match_parent">
+    <LinearLayout app:orientation="vertical" app:background="0x106000b" app:layout_width="match_parent" app:layout_height="match_parent">
+        <android.support.design.widget.AppBarLayout app:id="@id/app_bar_layout" app:layout_width="match_parent" app:layout_height="wrap_content">
+            <include layout="@layout/toolbar" />
+            <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:id="@id/lyt_title" app:layout_width="match_parent" app:layout_height="wrap_content" app:minHeight="70dp">
+                <View app:layout_width="UNKNOWN_DATA_0x4601" app:layout_height="UNKNOWN_DATA_0x1" />
+                <TextView app:textAppearance="@style/TextAppearance.AppCompat.Headline" app:textColor="0x106000b" app:layout_width="match_parent" app:layout_height="wrap_content" app:text="My files" />
+            </LinearLayout>
+        </android.support.design.widget.AppBarLayout>
+        <RelativeLayout app:layout_width="match_parent" app:layout_height="match_parent">
+            <android.support.v7.widget.RecyclerView app:id="@id/recyclerView" app:scrollbars="vertical" app:layout_width="match_parent" app:layout_height="match_parent" app:scrollingCache="true" />
+            <LinearLayout app:orientation="vertical" app:id="@id/lyt_progress" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_margin="@dimen/spacing_medium" app:layout_centerInParent="true">
+                <ProgressBar app:layout_width="match_parent" app:layout_height="wrap_content" app:indeterminate="true" style="@style/Widget.AppCompat.ProgressBar" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <android.support.design.widget.FloatingActionButton app:clickable="true" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_margin="@dimen/spacing_large" app:tint="0x106000b" app:srcCompat="@drawable/ic_add" app:layout_anchor="@id/lyt_title" app:layout_anchorGravity="800053" app:rippleColor="0x106000b" app:fabSize="1" />
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="0x106000b" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include layout="@layout/toolbar" />
+    </android.support.design.widget.AppBarLayout>
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:padding="@dimen/spacing_large" android:layout_width="match_parent" android:layout_height="match_parent"
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/spacing_medium">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Determinate" />
+            <ProgressBar android:id="@id/progress_determinate" android:layout_width="match_parent" android:layout_height="wrap_content" android:max="100" android:progress="10" android:indeterminate="false" style="@style/Widget.AppCompat.ProgressBar.Horizontal" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/spacing_medium">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Indeterminate" />
+            <ProgressBar android:id="@id/progress_indeterminate" android:layout_width="match_parent" android:layout_height="wrap_content" android:indeterminate="true" style="@style/Widget.AppCompat.ProgressBar.Horizontal" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/spacing_medium">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Buffer" />
+            <ProgressBar android:id="@id/progress_buffered" android:layout_width="match_parent" android:layout_height="wrap_content" android:max="100" android:progress="10" android:secondaryProgress="20" android:indeterminate="false" style="@style/Widget.AppCompat.ProgressBar.Horizontal" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/spacing_medium">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Query Indeterminate and Determinate" />
+            <ProgressBar android:id="@id/progress_indeterminate_determinate" android:layout_width="match_parent" android:layout_height="wrap_content" android:max="100" android:progress="20" android:indeterminate="false" style="@style/Widget.AppCompat.ProgressBar.Horizontal" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/spacing_medium"
+            <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_margin="@dimen/spacing_medium" android:layout_weight="1.0">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/spacing_large" android:text="Indeterminate" />
+                <ProgressBar android:layout_width="match_parent" android:layout_height="wrap_content" android:indeterminate="true" style="@style/Widget.AppCompat.ProgressBar" />
+            </LinearLayout>
+            <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_margin="@dimen/spacing_medium" android:layout_weight="1.0">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/spacing_large" android:text="Determine" />
+                <ProgressBar android:id="@id/progress_indeterminate_circular" android:background="@drawable/circle_shape" android:layout_width="UNKNOWN_DATA_0x7f010046" android:layout_height="UNKNOWN_DATA_0x7f010046" android:max="100" android:progress="0" android:indeterminate="false" android:progressDrawable="@drawable/circular_progress_bar" style="@style/Widget.AppCompat.ProgressBar.Horizontal" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

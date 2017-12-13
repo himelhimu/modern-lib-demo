@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:id="@id/main_content" app:fitsSystemWindows="true" app:layout_width="match_parent" app:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout app:theme="@style/AppTheme.AppBarOverlay" app:id="@id/appbar" app:layout_width="match_parent" app:layout_height="wrap_content">
+        <android.support.v7.widget.CardView app:id="@id/search_bar" app:clipToPadding="false" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/spacing_middle" app:layout_marginTop="@dimen/spacing_large" app:layout_marginRight="@dimen/spacing_middle" app:layout_marginBottom="@dimen/spacing_middle" app:cardBackgroundColor="0x106000b" app:cardCornerRadius="3dp" app:cardElevation="3dp" app:cardUseCompatPadding="false">
+            <LinearLayout app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="match_parent">
+                <ImageButton app:id="@id/bt_menu" app:background="?attr/selectableItemBackgroundBorderless" app:layout_width="UNKNOWN_DATA_0x7f010046" app:layout_height="UNKNOWN_DATA_0x7f010046" app:tint="@color/grey_60" app:srcCompat="@drawable/ic_search" />
+                <TextView app:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead" app:textColor="@color/grey_40" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@id/search_text" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="match_parent" app:text="Search People & Places" app:layout_weight="1.0" />
+                <ImageButton app:background="?attr/selectableItemBackgroundBorderless" app:layout_width="UNKNOWN_DATA_0x7f010046" app:layout_height="UNKNOWN_DATA_0x7f010046" app:tint="@color/grey_60" app:srcCompat="@drawable/ic_mic" />
+                <ImageButton app:background="?attr/selectableItemBackgroundBorderless" app:layout_width="UNKNOWN_DATA_0x7f010046" app:layout_height="UNKNOWN_DATA_0x7f010046" app:tint="@color/grey_60" app:srcCompat="@drawable/ic_more_vert" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.design.widget.TabLayout app:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/tab_layout" app:background="@color/colorPrimary" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f010046" app:tabMode="1" app:tabGravity="0" app:tabTextAppearance="@style/TextAppearance.AppCompat.Subhead" style="@style/CustomTabLayout">
+            <android.support.design.widget.TabItem app:id="@id/tab_speed_dial" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="SPEED DIAL" />
+            <android.support.design.widget.TabItem app:id="@id/tab_recents" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="RECENTS" />
+            <android.support.design.widget.TabItem app:id="@id/tab_contacts" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="CONTACS" />
+        </android.support.design.widget.TabLayout>
+    </android.support.design.widget.AppBarLayout>
+    <android.support.v7.widget.RecyclerView app:id="@id/recyclerView" app:scrollbars="vertical" app:layout_width="match_parent" app:layout_height="match_parent" app:scrollingCache="true" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+</android.support.design.widget.CoordinatorLayout>

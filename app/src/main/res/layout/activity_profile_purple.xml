@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:background="0x106000b" app:layout_width="match_parent" app:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout app:layout_width="match_parent" app:layout_height="wrap_content">
+        <android.support.v7.widget.Toolbar app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" app:id="@id/toolbar" app:background="@color/purple_500" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f010046" app:contentInsetStartWithNavigation="0dp" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+    </android.support.design.widget.AppBarLayout>
+    <android.support.v4.widget.NestedScrollView app:id="@id/nested_content" app:scrollbars="UNKNOWN_DATA_0x0" app:clipToPadding="false" app:layout_width="match_parent" app:layout_height="match_parent" app:scrollingCache="true" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <LinearLayout app:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content">
+            <TextView app:textAppearance="@style/Base.TextAppearance.AppCompat.Title" app:textColor="@color/grey_90" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_xlarge" app:text="Julianna Carter" />
+            <TextView app:textAppearance="@style/Base.TextAppearance.AppCompat.Small" app:textColor="@color/grey_60" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_medium" app:text="Photographer" />
+            <LinearLayout app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="horizontal" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_mlarge">
+                <ImageButton app:background="?attr/selectableItemBackgroundBorderless" app:layout_width="UNKNOWN_DATA_0x7f010046" app:layout_height="UNKNOWN_DATA_0x7f010046" app:layout_margin="@dimen/spacing_middle" app:tint="@color/light_green_600" app:srcCompat="@drawable/ic_chat" />
+                <com.mikhaellopez.circularimageview.CircularImageView app:id="@id/image" app:layout_width="UNKNOWN_DATA_0x6401" app:layout_height="UNKNOWN_DATA_0x6401" app:src="@drawable/photo_female_5" app:civ_border_width="2dp" app:civ_border_color="@color/purple_500" app:civ_border="true" />
+                <ImageButton app:background="?attr/selectableItemBackgroundBorderless" app:layout_width="UNKNOWN_DATA_0x7f010046" app:layout_height="UNKNOWN_DATA_0x7f010046" app:layout_margin="@dimen/spacing_middle" app:tint="@color/light_green_600" app:srcCompat="@drawable/ic_call" />
+            </LinearLayout>
+            <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_large">
+                <View app:background="@color/grey_10" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x101" />
+                <LinearLayout app:orientation="horizontal" app:paddingTop="@dimen/spacing_large" app:paddingBottom="@dimen/spacing_large" app:layout_width="match_parent" app:layout_height="wrap_content"
+                    <LinearLayout app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:background="?attr/selectableItemBackgroundBorderless" app:clickable="true" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="match_parent" app:layout_weight="1.0">
+                        <TextView app:textAppearance="@style/TextAppearance.AppCompat.Title" app:textColor="@color/purple_500" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="1.5 K" />
+                        <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textColor="@color/grey_60" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_medium" app:text="Posts" />
+                    </LinearLayout>
+                    <LinearLayout app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:background="?attr/selectableItemBackgroundBorderless" app:clickable="true" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="match_parent" app:layout_weight="1.0">
+                        <TextView app:textAppearance="@style/TextAppearance.AppCompat.Title" app:textColor="@color/purple_500" app:id="@id/textView11" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="17.8 K" />
+                        <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textColor="@color/grey_60" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_medium" app:text="Followers" />
+                    </LinearLayout>
+                    <LinearLayout app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:background="?attr/selectableItemBackgroundBorderless" app:clickable="true" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="match_parent" app:layout_weight="1.0">
+                        <TextView app:textAppearance="@style/TextAppearance.AppCompat.Title" app:textColor="@color/purple_500" app:id="@id/textView12" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="1.3 K" />
+                        <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textColor="@color/grey_60" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_medium" app:text="Following" />
+                    </LinearLayout>
+                </LinearLayout>
+                <View app:background="@color/grey_10" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x101" />
+            </LinearLayout>
+            <TextView app:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead" app:textColor="@color/grey_90" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/spacing_xlarge" app:layout_marginTop="@dimen/spacing_large" app:layout_marginRight="@dimen/spacing_xlarge" app:text="@string/middle_lorem_ipsum" app:lineSpacingExtra="2dp" />
+            <View app:background="@color/grey_10" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x101" app:layout_marginTop="@dimen/spacing_large" />
+            <LinearLayout app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/spacing_xlarge" app:layout_marginTop="@dimen/spacing_large" app:layout_marginRight="@dimen/spacing_xlarge"
+                <LinearLayout app:orientation="vertical" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_weight="1.0">
+                    <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textStyle="bold" app:textColor="@color/purple_500" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="Website" />
+                    <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textColor="@color/grey_60" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_medium" app:text="visual-photo.me" />
+                </LinearLayout>
+                <LinearLayout app:orientation="vertical" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_weight="1.0">
+                    <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textStyle="bold" app:textColor="@color/purple_500" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="Email" />
+                    <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textColor="@color/grey_60" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_medium" app:text="juliana.c@mail.com" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/spacing_xlarge" app:layout_marginTop="@dimen/spacing_large" app:layout_marginRight="@dimen/spacing_xlarge"
+                <LinearLayout app:orientation="vertical" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_weight="1.0">
+                    <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textStyle="bold" app:textColor="@color/purple_500" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="Phone" />
+                    <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textColor="@color/grey_60" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_medium" app:text="(022)77723287" />
+                </LinearLayout>
+                <LinearLayout app:orientation="vertical" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_weight="1.0">
+                    <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textStyle="bold" app:textColor="@color/purple_500" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="Location" />
+                    <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textColor="@color/grey_60" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_medium" app:text="United State" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/spacing_xlarge" app:layout_marginTop="@dimen/spacing_large" app:layout_marginRight="@dimen/spacing_xlarge"
+                <LinearLayout app:orientation="vertical" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_weight="1.0">
+                    <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textStyle="bold" app:textColor="@color/purple_500" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="Zip Code" />
+                    <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textColor="@color/grey_60" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_medium" app:text="6525" />
+                </LinearLayout>
+                <LinearLayout app:orientation="vertical" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_weight="1.0">
+                    <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textStyle="bold" app:textColor="@color/purple_500" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="Address" />
+                    <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textColor="@color/grey_60" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_medium" app:text="160th St, Fresh Meadows, NY, 11365" />
+                </LinearLayout>
+            </LinearLayout>
+            <View app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f0800dd" />
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+    <android.support.design.widget.FloatingActionButton app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/fab_add" app:clickable="true" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_margin="@dimen/spacing_smlarge" app:tint="0x106000b" app:srcCompat="@drawable/ic_person_add" app:rippleColor="0x106000b" app:fabSize="0" app:backgroundTint="@color/light_green_600" />
+</android.support.design.widget.CoordinatorLayout>

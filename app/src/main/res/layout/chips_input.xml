@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.pchmn.materialchips.views.ScrollViewMaxHeight xmlns:android="http://schemas.android.com/apk/res-auto" app:id="@c2766e/container" app:scrollbars="vertical" app:layout_width="match_parent" app:layout_height="wrap_content" app:maxHeight="150dp">
+    <android.support.v7.widget.RecyclerView app:id="@c2766e/chips_recycler" app:paddingTop="8dp" app:paddingBottom="8dp" app:layout_width="match_parent" app:layout_height="wrap_content" />
+</com.pchmn.materialchips.views.ScrollViewMaxHeight>

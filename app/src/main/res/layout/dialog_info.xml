@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="0x106000b"
+    android:layout_height="wrap_content"
+    android:layout_width="UNKNOWN_DATA_0x10401"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end"
+android:orientation="vertical"
+android:background="@color/light_green_400"
+android:padding="@dimen/spacing_mlarge"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:minHeight="120dp">
+<ImageView
+    android:id="@id/icon"
+    android:layout_width="UNKNOWN_DATA_0x5001"
+    android:layout_height="UNKNOWN_DATA_0x5001"
+    android:tint="0x106000b"
+    android:srcCompat="@drawable/ic_verified_user" />
+
+<TextView
+    android:textandroidearance="@style/Textandroidearance.androidCompat.Medium"
+    android:textStyle="bold"
+    android:textColor="0x106000b"
+    android:id="@id/title"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/spacing_middle"
+    android:text="Account confirmed!" />
+</LinearLayout>
+<LinearLayout
+android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end"
+android:orientation="vertical"
+android:padding="@dimen/spacing_mlarge"
+android:layout_width="match_parent"
+android:layout_height="wrap_content">
+<TextView
+    android:textandroidearance="@style/Textandroidearance.androidCompat.Subhead"
+    android:textColor="@color/grey_60"
+    android:id="@c2766e/content"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/spacing_small"
+    android:text="@string/short_lorem_ipsum" />
+</LinearLayout>
+<LinearLayout
+android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end"
+android:orientation="horizontal"
+android:id="@id/lyt_action"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_marginBottom="@dimen/spacing_large">
+<android.support.v7.widget.androidCompatButton
+    android:textColor="0x106000b"
+    android:id="@id/bt_close"
+    android:background="@drawable/btn_rounded_green"
+    android:paddingLeft="@dimen/spacing_mlarge"
+    android:paddingRight="@dimen/spacing_mlarge"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Get Started" />
+</LinearLayout>
+    </LinearLayout>

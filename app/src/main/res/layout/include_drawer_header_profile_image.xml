@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:theme="@style/ThemeOverlay.AppCompat.Dark" app:orientation="vertical" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x10401">
+    <ImageView app:layout_width="match_parent" app:layout_height="wrap_content" app:foreground="@color/overlay_dark_40" app:src="@drawable/image_2" app:scaleType="centerCrop" />
+    <LinearLayout app:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:id="@id/lyt_profile" app:padding="@dimen/spacing_mlarge" app:clickable="true" app:layout_width="match_parent" app:layout_height="wrap_content">
+        <com.mikhaellopez.circularimageview.CircularImageView app:id="@id/image" app:layout_width="UNKNOWN_DATA_0x4601" app:layout_height="UNKNOWN_DATA_0x4601" app:src="@drawable/photo_male_7" app:civ_border_width="2dp" app:civ_border_color="0x106000b" app:civ_border="true" />
+        <LinearLayout app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_large">
+            <TextView app:textAppearance="@style/TextAppearance.AppCompat.Medium" app:textColor="0x106000b" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="James Pratterson" />
+            <LinearLayout app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="horizontal" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_medium">
+                <ImageView app:layout_width="UNKNOWN_DATA_0x7f0800d2" app:layout_height="UNKNOWN_DATA_0x7f0800d2" app:layout_marginRight="@dimen/spacing_medium" app:tint="@color/grey_10" app:srcCompat="@drawable/ic_location" />
+                <TextView app:textAppearance="@style/TextAppearance.AppCompat.Body1" app:textColor="@color/grey_10" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="San Francisco, CA" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_below="@id/lyt_profile"
+        <LinearLayout app:orientation="horizontal" app:paddingTop="@dimen/spacing_large" app:paddingBottom="@dimen/spacing_medium" app:layout_width="match_parent" app:layout_height="wrap_content"
+            <LinearLayout app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:background="?attr/selectableItemBackgroundBorderless" app:clickable="true" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="match_parent" app:layout_weight="1.0">
+                <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textColor="0x106000b" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="1.5 K" />
+                <TextView app:textAppearance="@style/TextAppearance.AppCompat.Caption" app:textColor="@color/grey_10" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_medium" app:text="Posts" />
+            </LinearLayout>
+            <LinearLayout app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:background="?attr/selectableItemBackgroundBorderless" app:clickable="true" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="match_parent" app:layout_weight="1.0">
+                <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textColor="0x106000b" app:id="@id/textView11" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="17.8 K" />
+                <TextView app:textAppearance="@style/TextAppearance.AppCompat.Caption" app:textColor="@color/grey_10" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_medium" app:text="Followers" />
+            </LinearLayout>
+            <LinearLayout app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:background="?attr/selectableItemBackgroundBorderless" app:clickable="true" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="match_parent" app:layout_weight="1.0">
+                <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textColor="0x106000b" app:id="@id/textView12" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="1.3 K" />
+                <TextView app:textAppearance="@style/TextAppearance.AppCompat.Caption" app:textColor="@color/grey_10" app:id="@id/textView13" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_medium" app:text="Following" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

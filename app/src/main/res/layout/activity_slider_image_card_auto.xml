@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:id="@id/parent_view" app:background="@color/grey_10" app:layout_width="match_parent" app:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout app:id="@id/appbar" app:layout_width="match_parent" app:layout_height="wrap_content">
+        <include layout="@layout/toolbar" />
+    </android.support.design.widget.AppBarLayout>
+    <android.support.v4.widget.NestedScrollView app:id="@id/nested_scroll_view" app:scrollbars="UNKNOWN_DATA_0x0" app:clipToPadding="false" app:layout_width="match_parent" app:layout_height="match_parent" app:scrollingCache="true" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content">
+            <View app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="UNKNOWN_DATA_0x7f0800d4" />
+            <android.support.v7.widget.CardView app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/spacing_middle" app:layout_marginRight="@dimen/spacing_middle" app:cardCornerRadius="3dp" app:cardElevation="2dp">
+                <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content">
+                    <android.support.v4.view.ViewPager app:id="@id/pager" app:background="@color/grey_20" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0xdc01" app:foreground="@color/overlay_dark_10" />
+                    <LinearLayout app:orientation="vertical" app:background="0x106000b" app:paddingLeft="@dimen/spacing_large" app:paddingTop="@dimen/spacing_middle" app:paddingRight="@dimen/spacing_large" app:paddingBottom="@dimen/spacing_large" app:layout_width="match_parent" app:layout_height="wrap_content">
+                        <TextView app:textAppearance="@style/TextAppearance.AppCompat.Medium" app:textColor="@color/grey_90" app:id="@id/title" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="Suspendisse ornare est ac auctor pulvinar" app:maxLines="1" app:singleLine="true" />
+                        <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_medium"
+                            <LinearLayout app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="horizontal" app:layout_width="wrap_content" app:layout_height="wrap_content">
+                                <ImageView app:layout_width="UNKNOWN_DATA_0x7f0800d2" app:layout_height="UNKNOWN_DATA_0x7f0800d2" app:layout_marginRight="@dimen/spacing_medium" app:tint="@color/grey_60" app:srcCompat="@drawable/ic_location" />
+                                <TextView app:textAppearance="@style/TextAppearance.AppCompat.Small" app:textColor="@color/grey_60" app:id="@id/brief" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="The Backpacker" />
+                            </LinearLayout>
+                            <View app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="UNKNOWN_DATA_0x1" app:layout_weight="1.0" />
+                            <LinearLayout app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="horizontal" app:id="@id/layout_dots" app:layout_width="wrap_content" app:layout_height="wrap_content" /> /> /> />
+            </android.support.v7.widget.CardView>
+            <View app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="UNKNOWN_DATA_0x7f0800d4" />
+            <android.support.v7.widget.CardView app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/spacing_middle" app:layout_marginRight="@dimen/spacing_middle" app:cardBackgroundColor="0x106000b" app:cardCornerRadius="3dp" app:cardElevation="2dp">
+                <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_margin="@dimen/spacing_large">
+                    <TextView app:textAppearance="@style/TextAppearance.AppCompat.Large" app:textColor="@color/grey_90" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="match_parent" app:layout_height="wrap_content" app:text="Description" />
+                    <View app:background="@color/grey_10" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x101" app:layout_marginTop="@dimen/spacing_middle" app:layout_marginBottom="@dimen/spacing_middle" />
+                    <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textColor="@color/grey_60" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="@string/very_long_lorem_ipsum" app:lineSpacingExtra="@dimen/spacing_small" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <View app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="UNKNOWN_DATA_0x7f0800d4" />
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</android.support.design.widget.CoordinatorLayout>

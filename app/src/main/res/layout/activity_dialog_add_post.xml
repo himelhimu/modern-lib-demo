@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:background="0x106000b" app:layout_width="match_parent" app:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout app:layout_width="match_parent" app:layout_height="wrap_content">
+        <include layout="@layout/toolbar" />
+    </android.support.design.widget.AppBarLayout>
+    <android.support.design.widget.CoordinatorLayout app:id="@id/coordinator_lyt" app:layout_width="match_parent" app:layout_height="match_parent">
+        <RelativeLayout app:layout_width="match_parent" app:layout_height="match_parent">
+            <TextView app:textAppearance="@style/Base.TextAppearance.AppCompat.Large" app:textStyle="bold" app:textColor="@color/grey_20" app:layout_width="wrap_content" app:layout_height="wrap_content" app:maxWidth="200dp" app:text="Click button to add new post" app:layout_centerInParent="true" />
+        </RelativeLayout>
+        <android.support.design.widget.FloatingActionButton app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/fab_add" app:clickable="true" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_margin="@dimen/spacing_smlarge" app:tint="0x106000b" app:srcCompat="@drawable/ic_create" app:rippleColor="0x106000b" app:fabSize="0" />
+    </android.support.design.widget.CoordinatorLayout>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:background="0x106000b" app:fitsSystemWindows="false" app:layout_width="match_parent" app:layout_height="match_parent">
+    <RelativeLayout app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x1" app:layout_weight="5.0">
+        <android.support.v4.view.ViewPager app:id="@id/view_pager" app:background="0x106000b" app:layout_width="match_parent" app:layout_height="match_parent" />
+        <ImageButton app:id="@id/bt_close" app:background="?attr/selectableItemBackgroundBorderless" app:layout_width="UNKNOWN_DATA_0x7f010046" app:layout_height="UNKNOWN_DATA_0x7f010046" app:tint="@color/grey_40" app:layout_alignParentRight="true" app:srcCompat="@drawable/ic_close" />
+    </RelativeLayout>
+    <LinearLayout app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="horizontal" app:id="@id/layoutDots" app:background="0x106000b" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x1" app:layout_weight="1.0" />
+    <com.balysv.materialripple.MaterialRippleLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content" style="@style/RippleStyleBlack">
+        <Button app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textStyle="bold" app:textColor="@color/grey_90" app:id="@id/btn_next" app:background="@color/grey_10" app:layout_width="match_parent" app:layout_height="wrap_content" app:text="@string/NEXT" />
+    </com.balysv.materialripple.MaterialRippleLayout>
+</LinearLayout>

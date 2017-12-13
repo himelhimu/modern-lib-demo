@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:id="@id/parent_view" app:background="@color/grey_10" app:layout_width="match_parent" app:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout app:layout_width="match_parent" app:layout_height="wrap_content">
+        <include layout="@layout/toolbar" />
+    </android.support.design.widget.AppBarLayout>
+    <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <android.support.v4.widget.NestedScrollView app:id="@id/nested_scroll_view" app:scrollbars="UNKNOWN_DATA_0x0" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x1" app:scrollingCache="true" app:layout_weight="1.0">
+            <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="match_parent">
+                <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textStyle="bold" app:textColor="@color/grey_40" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@id/textView14" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f010046" app:layout_marginLeft="@dimen/spacing_large" app:layout_marginRight="@dimen/spacing_large" app:text="Cart" />
+                <android.support.v7.widget.CardView app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/spacing_middle" app:layout_marginRight="@dimen/spacing_middle" app:cardBackgroundColor="0x106000b" app:cardCornerRadius="2dp" app:cardElevation="2dp">
+                    <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content"
+                        <LinearLayout app:orientation="horizontal" app:clickable="true" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_margin="@dimen/spacing_large">
+                            <ImageView app:layout_width="UNKNOWN_DATA_0x5001" app:layout_height="UNKNOWN_DATA_0x5001" app:scaleType="centerCrop" app:srcCompat="@drawable/image_shop_2" />
+                            <View app:layout_width="UNKNOWN_DATA_0x7f0800d4" app:layout_height="UNKNOWN_DATA_0x1" />
+                            <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content"
+                                <LinearLayout app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content"
+                                    <LinearLayout app:orientation="vertical" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_weight="1.0">
+                                        <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textColor="@color/grey_90" app:id="@id/textView" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_xmedium" app:text="Coup Hoodie Jacket" />
+                                        <TextView app:textAppearance="@style/TextAppearance.AppCompat.Small" app:textColor="@color/grey_60" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_medium" app:text="Green M" />
+                                    </LinearLayout>
+                                    <ImageButton app:background="?attr/selectableItemBackgroundBorderless" app:layout_width="wrap_content" app:layout_height="UNKNOWN_DATA_0x7f0800d9" app:tint="@color/grey_40" app:srcCompat="@drawable/ic_more_vert" />
+                                    <View app:layout_width="UNKNOWN_DATA_0x7f0800d7" app:layout_height="UNKNOWN_DATA_0x1" />
+                                </LinearLayout>
+                                <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_middle">
+                                    <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textColor="@color/grey_60" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="QTY : 1" />
+                                    <View app:layout_width="UNKNOWN_DATA_0x7f0800d4" app:layout_height="UNKNOWN_DATA_0x1" />
+                                    <ImageView app:background="@color/grey_40" app:layout_width="UNKNOWN_DATA_0x7f0800d8" app:layout_height="UNKNOWN_DATA_0x7f0800d8" app:tint="0x106000b" app:srcCompat="@drawable/ic_arrow_drop" />
+                                    <View app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="UNKNOWN_DATA_0x1" app:layout_weight="1.0" />
+                                    <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textColor="@color/light_green_600" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="$ 89.00" />
+                                    <View app:layout_width="UNKNOWN_DATA_0x7f0800d4" app:layout_height="UNKNOWN_DATA_0x1" />
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+                        <View app:background="@color/grey_5" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x101" />
+                        <LinearLayout app:orientation="horizontal" app:clickable="true" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_margin="@dimen/spacing_large">
+                            <ImageView app:layout_width="UNKNOWN_DATA_0x5001" app:layout_height="UNKNOWN_DATA_0x5001" app:scaleType="centerCrop" app:srcCompat="@drawable/image_shop_4" />
+                            <View app:layout_width="UNKNOWN_DATA_0x7f0800d4" app:layout_height="UNKNOWN_DATA_0x1" />
+                            <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content"
+                                <LinearLayout app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content"
+                                    <LinearLayout app:orientation="vertical" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_weight="1.0">
+                                        <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textColor="@color/grey_90" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_xmedium" app:text="Qonnoq Checked Blouse" />
+                                        <TextView app:textAppearance="@style/TextAppearance.AppCompat.Small" app:textColor="@color/grey_60" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_medium" app:text="Blue L" />
+                                    </LinearLayout>
+                                    <ImageButton app:background="?attr/selectableItemBackgroundBorderless" app:layout_width="wrap_content" app:layout_height="UNKNOWN_DATA_0x7f0800d9" app:tint="@color/grey_40" app:srcCompat="@drawable/ic_more_vert" />
+                                    <View app:layout_width="UNKNOWN_DATA_0x7f0800d7" app:layout_height="UNKNOWN_DATA_0x1" />
+                                </LinearLayout>
+                                <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_middle">
+                                    <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textColor="@color/grey_60" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="QTY : 1" />
+                                    <View app:layout_width="UNKNOWN_DATA_0x7f0800d4" app:layout_height="UNKNOWN_DATA_0x1" />
+                                    <ImageView app:background="@color/grey_40" app:layout_width="UNKNOWN_DATA_0x7f0800d8" app:layout_height="UNKNOWN_DATA_0x7f0800d8" app:tint="0x106000b" app:srcCompat="@drawable/ic_arrow_drop" />
+                                    <View app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="UNKNOWN_DATA_0x1" app:layout_weight="1.0" />
+                                    <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textColor="@color/light_green_600" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="$ 34.50" />
+                                    <View app:layout_width="UNKNOWN_DATA_0x7f0800d4" app:layout_height="UNKNOWN_DATA_0x1" />
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textStyle="bold" app:textColor="@color/grey_40" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f010046" app:layout_marginLeft="@dimen/spacing_large" app:layout_marginRight="@dimen/spacing_large" app:text="Shipping details" />
+                <android.support.v7.widget.CardView app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/spacing_middle" app:layout_marginRight="@dimen/spacing_middle" app:cardBackgroundColor="0x106000b" app:cardCornerRadius="2dp" app:cardElevation="2dp">
+                    <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content"
+                        <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_margin="@dimen/spacing_large">
+                            <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textColor="@color/grey_90" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="Ship to : " />
+                            <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textColor="@color/grey_40" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_middle" app:text="United State, County 455 Rd, 
+Mineola, TX, 75773
+(903) 569-3465" />
+                        </LinearLayout>
+                        <View app:background="@color/grey_5" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x101" />
+                        <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_margin="@dimen/spacing_large">
+                            <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textColor="@color/grey_90" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="Express (DHL)" />
+                            <View app:layout_width="UNKNOWN_DATA_0x7f0800d4" app:layout_height="UNKNOWN_DATA_0x1" />
+                            <TextView app:textAppearance="@style/TextAppearance.AppCompat.Body1" app:textColor="@color/grey_60" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="1 day" />
+                            <View app:layout_width="UNKNOWN_DATA_0x7f0800d4" app:layout_height="UNKNOWN_DATA_0x1" />
+                            <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textColor="@color/light_green_600" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="$20" />
+                            <View app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="UNKNOWN_DATA_0x1" app:layout_weight="1.0" />
+                            <android.support.v7.widget.AppCompatCheckBox app:id="@id/cbx_dhl" app:layout_width="wrap_content" app:layout_height="wrap_content" app:checked="true" app:buttonTint="@color/deep_orange_500" />
+                        </LinearLayout>
+                        <View app:background="@color/grey_5" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x101" />
+                        <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_margin="@dimen/spacing_large">
+                            <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textColor="@color/grey_90" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="UK Post" />
+                            <View app:layout_width="UNKNOWN_DATA_0x7f0800d4" app:layout_height="UNKNOWN_DATA_0x1" />
+                            <TextView app:textAppearance="@style/TextAppearance.AppCompat.Body1" app:textColor="@color/grey_60" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="10 day" />
+                            <View app:layout_width="UNKNOWN_DATA_0x7f0800d4" app:layout_height="UNKNOWN_DATA_0x1" />
+                            <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textColor="@color/light_green_600" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="Free" />
+                            <View app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="UNKNOWN_DATA_0x1" app:layout_weight="1.0" />
+                            <android.support.v7.widget.AppCompatCheckBox app:id="@id/cbx_uk" app:layout_width="wrap_content" app:layout_height="wrap_content" app:buttonTint="@color/deep_orange_500" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textStyle="bold" app:textColor="@color/grey_40" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f010046" app:layout_marginLeft="@dimen/spacing_large" app:layout_marginRight="@dimen/spacing_large" app:text="Payment" />
+                <android.support.v7.widget.CardView app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/spacing_middle" app:layout_marginRight="@dimen/spacing_middle" app:cardBackgroundColor="0x106000b" app:cardCornerRadius="2dp" app:cardElevation="2dp">
+                    <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content"
+                        <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_margin="@dimen/spacing_large">
+                            <ImageView app:layout_width="UNKNOWN_DATA_0x7f0800d6" app:layout_height="UNKNOWN_DATA_0x7f0800d6" app:src="@drawable/ic_master_card" />
+                            <View app:layout_width="UNKNOWN_DATA_0x7f0800d4" app:layout_height="UNKNOWN_DATA_0x1" />
+                            <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textColor="@color/grey_90" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="Master Card" />
+                            <View app:layout_width="UNKNOWN_DATA_0x7f0800d4" app:layout_height="UNKNOWN_DATA_0x1" />
+                            <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textColor="@color/grey_60" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="5543 **** **** ****" />
+                        </LinearLayout>
+                        <View app:background="@color/grey_5" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x101" />
+                        <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_margin="@dimen/spacing_large">
+                            <ImageView app:layout_width="UNKNOWN_DATA_0x7f0800d6" app:layout_height="UNKNOWN_DATA_0x7f0800d6" app:src="@drawable/ic_paypal" />
+                            <View app:layout_width="UNKNOWN_DATA_0x7f0800d4" app:layout_height="UNKNOWN_DATA_0x1" />
+                            <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textColor="@color/grey_90" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="Pay Pal" />
+                            <View app:layout_width="UNKNOWN_DATA_0x7f0800d4" app:layout_height="UNKNOWN_DATA_0x1" />
+                            <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textColor="@color/grey_60" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="Login required" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <View app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f0800d5" />
+            </LinearLayout>
+        </android.support.v4.widget.NestedScrollView>
+        <View app:background="@color/grey_5" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x101" />
+        <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:background="0x106000b" app:paddingLeft="@dimen/spacing_middle" app:paddingRight="@dimen/spacing_middle" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f0800dd">
+            <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textColor="@color/grey_90" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="Total : " />
+            <View app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="UNKNOWN_DATA_0x1" app:layout_weight="1.0" />
+            <TextView app:textAppearance="@style/TextAppearance.AppCompat.Medium" app:textStyle="bold" app:textColor="@color/light_green_700" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="$ 143.50" />
+        </LinearLayout>
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:background="0x106000b" app:layout_width="match_parent" app:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout app:layout_width="match_parent" app:layout_height="wrap_content">
+        <android.support.v7.widget.Toolbar app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" app:id="@id/toolbar" app:background="@color/pink_600" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f010046" app:contentInsetStartWithNavigation="0dp" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+    </android.support.design.widget.AppBarLayout>
+    <android.support.v4.widget.NestedScrollView app:id="@id/nested_content" app:scrollbars="UNKNOWN_DATA_0x0" app:clipToPadding="false" app:layout_width="match_parent" app:layout_height="match_parent" app:scrollingCache="true" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <LinearLayout app:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content">
+            <TextView app:textAppearance="@style/Base.TextAppearance.AppCompat.Title" app:textColor="@color/grey_90" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_xlarge" app:text="James Pratterson" />
+            <TextView app:textAppearance="@style/Base.TextAppearance.AppCompat.Small" app:textColor="@color/grey_60" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_medium" app:text="Graphic Designer" />
+            <com.mikhaellopez.circularimageview.CircularImageView app:id="@id/image" app:layout_width="UNKNOWN_DATA_0x6e01" app:layout_height="UNKNOWN_DATA_0x6e01" app:layout_marginTop="@dimen/spacing_mlarge" app:src="@drawable/photo_male_7" app:civ_border_width="2dp" app:civ_border_color="@color/pink_600" app:civ_border="true" />
+            <TextView app:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead" app:textColor="@color/grey_90" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/spacing_xlarge" app:layout_marginTop="@dimen/spacing_large" app:layout_marginRight="@dimen/spacing_xlarge" app:text="@string/medium_lorem_ipsum" app:lineSpacingExtra="2dp" />
+            <LinearLayout app:orientation="vertical" app:paddingLeft="@dimen/spacing_xlarge" app:paddingRight="@dimen/spacing_xlarge" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_large">
+                <TextView app:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead" app:textStyle="bold" app:textColor="@color/grey_90" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_medium" app:text="Recent Activity" />
+                <LinearLayout app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_mlarge">
+                    <ImageView app:layout_width="UNKNOWN_DATA_0x7f0800db" app:layout_height="UNKNOWN_DATA_0x7f0800db" app:src="@drawable/photo_male_7" app:scaleType="centerCrop" />
+                    <View app:layout_width="UNKNOWN_DATA_0x7f0800d4" app:layout_height="UNKNOWN_DATA_0x1" />
+                    <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content">
+                        <TextView app:textAppearance="@style/Base.TextAppearance.AppCompat.Small" app:textColor="@color/grey_90" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="James Pratterson liked Marry's photo" />
+                        <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_small">
+                            <ImageView app:layout_width="UNKNOWN_DATA_0x7f0800d2" app:layout_height="UNKNOWN_DATA_0x7f0800d2" app:layout_marginRight="@dimen/spacing_middle" app:tint="@color/grey_40" app:srcCompat="@drawable/ic_event" />
+                            <TextView app:textAppearance="@style/Base.TextAppearance.AppCompat.Small" app:textColor="@color/grey_40" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="25 minutes ago" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_mlarge">
+                    <ImageView app:layout_width="UNKNOWN_DATA_0x7f0800db" app:layout_height="UNKNOWN_DATA_0x7f0800db" app:src="@drawable/photo_male_7" app:scaleType="centerCrop" />
+                    <View app:layout_width="UNKNOWN_DATA_0x7f0800d4" app:layout_height="UNKNOWN_DATA_0x1" />
+                    <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content">
+                        <TextView app:textAppearance="@style/Base.TextAppearance.AppCompat.Small" app:textColor="@color/grey_90" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="James Pratterson posted a note" />
+                        <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_small">
+                            <ImageView app:layout_width="UNKNOWN_DATA_0x7f0800d2" app:layout_height="UNKNOWN_DATA_0x7f0800d2" app:layout_marginRight="@dimen/spacing_middle" app:tint="@color/grey_40" app:srcCompat="@drawable/ic_event" />
+                            <TextView app:textAppearance="@style/Base.TextAppearance.AppCompat.Small" app:textColor="@color/grey_40" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="30 minutes ago" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_mlarge">
+                    <ImageView app:layout_width="UNKNOWN_DATA_0x7f0800db" app:layout_height="UNKNOWN_DATA_0x7f0800db" app:src="@drawable/photo_male_7" app:scaleType="centerCrop" />
+                    <View app:layout_width="UNKNOWN_DATA_0x7f0800d4" app:layout_height="UNKNOWN_DATA_0x1" />
+                    <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content">
+                        <TextView app:textAppearance="@style/Base.TextAppearance.AppCompat.Small" app:textColor="@color/grey_90" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="James Pratterson liked Marry's photo" />
+                        <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_small">
+                            <ImageView app:layout_width="UNKNOWN_DATA_0x7f0800d9" app:layout_height="UNKNOWN_DATA_0x7f0800d9" app:layout_marginRight="@dimen/spacing_middle" app:src="@drawable/image_5" app:scaleType="centerCrop" />
+                            <ImageView app:layout_width="UNKNOWN_DATA_0x7f0800d9" app:layout_height="UNKNOWN_DATA_0x7f0800d9" app:layout_marginRight="@dimen/spacing_middle" app:src="@drawable/image_6" app:scaleType="centerCrop" />
+                            <ImageView app:layout_width="UNKNOWN_DATA_0x7f0800d9" app:layout_height="UNKNOWN_DATA_0x7f0800d9" app:layout_marginRight="@dimen/spacing_middle" app:src="@drawable/image_7" app:scaleType="centerCrop" />
+                            <ImageView app:layout_width="UNKNOWN_DATA_0x7f0800d9" app:layout_height="UNKNOWN_DATA_0x7f0800d9" app:layout_marginRight="@dimen/spacing_middle" app:src="@drawable/image_8" app:scaleType="centerCrop" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <View app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f0800dd" />
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+    <android.support.design.widget.FloatingActionButton app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/fab_add" app:clickable="true" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_margin="@dimen/spacing_smlarge" app:tint="0x106000b" app:srcCompat="@drawable/ic_star" app:rippleColor="0x106000b" app:fabSize="0" app:backgroundTint="@color/light_green_600" />
+</android.support.design.widget.CoordinatorLayout>

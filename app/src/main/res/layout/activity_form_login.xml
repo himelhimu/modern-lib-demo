@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:layout_width="match_parent" app:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_width="match_parent" app:layout_height="wrap_content" app:minHeight="220dp">
+        <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="60dp" app:layout_marginRight="60dp" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+            <TextView app:textAppearance="@style/TextAppearance.AppCompat.Headline" app:textStyle="bold" app:textColor="0x106000b" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="Login" />
+            <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textColor="0x106000b" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_medium" app:text="and you can discover best news around the world " />
+        </LinearLayout>
+    </android.support.design.widget.AppBarLayout>
+    <LinearLayout app:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:layout_width="match_parent" app:layout_height="match_parent">
+        <ProgressBar app:id="@id/login_progress" app:visibility="gone" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_margin="@dimen/spacing_xlarge" style="?unknown_attr_ref: 101007a" />
+        <ScrollView app:id="@id/login_form" app:layout_width="match_parent" app:layout_height="match_parent" app:fillViewport="true">
+            <RelativeLayout app:orientation="vertical" app:id="@id/email_login_form" app:padding="@dimen/spacing_xlarge" app:layout_width="match_parent" app:layout_height="wrap_content">
+                <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_centerInParent="true">
+                    <android.support.design.widget.TextInputLayout app:layout_width="match_parent" app:layout_height="wrap_content">
+                        <AutoCompleteTextView app:id="@id/email" app:layout_width="match_parent" app:layout_height="wrap_content" app:hint="Email" app:maxLines="1" app:singleLine="true" app:inputType="text|textCapCharacters|textCapWords|textCapSentences|textAutoCorrect|textAutoComplete|textMultiLine|textImeMultiLine|textNoSuggestions|textUri|textEmailAddress|textEmailSubject|textShortMessage|textLongMessage|textPersonName|textPostalAddress|textPassword|textVisiblePassword|textWebEditText|textFilter|textPhonetic|textWebEmailAddress|textWebPassword|phone|time" />
+                    </android.support.design.widget.TextInputLayout>
+                    <android.support.design.widget.TextInputLayout app:layout_width="match_parent" app:layout_height="wrap_content">
+                        <EditText app:id="@id/password" app:layout_width="match_parent" app:layout_height="wrap_content" app:hint="Password (optional)" app:maxLines="1" app:singleLine="true" app:inputType="text|textCapCharacters|textCapWords|textCapSentences|textAutoCorrect|textAutoComplete|textMultiLine|textImeMultiLine|textNoSuggestions|textUri|textEmailAddress|textEmailSubject|textShortMessage|textLongMessage|textPersonName|textPostalAddress|textPassword|textVisiblePassword|textWebEditText|textFilter|textPhonetic|textWebEmailAddress|textWebPassword|phone" app:imeOptions="UNKNOWN_DATA_0x0" app:imeActionId="@id/login" />
+                    </android.support.design.widget.TextInputLayout>
+                    <android.support.v7.widget.AppCompatCheckBox app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_middle" app:text="Remember me" />
+                    <Button app:textColor="0x106000b" app:id="@id/email_sign_in_button" app:background="@drawable/btn_rounded_accent" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_xlarge" app:text="LOGIN" />
+                </LinearLayout>
+            </RelativeLayout>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

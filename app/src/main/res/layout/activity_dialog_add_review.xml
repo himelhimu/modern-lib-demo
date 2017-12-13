@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="0x106000b"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.design.widget.androidBarLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <include layout="@layout/toolbar" />
+    </android.support.design.widget.androidBarLayout>
+
+    <android.support.design.widget.CoordinatorLayout
+        android:id="@id/coordinator_lyt"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+        <ListView
+            android:id="@id/listView"
+            android:layout_behavior="@string/androidbar_scrolling_view_behavior"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:scrollbars="vertical"
+            android:scrollingCache="true" />
+
+        <TextView
+            android:id="@id/txt_no_item"
+            android:layout_centerInParent="true"
+            android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:maxWidth="200dp"
+            android:text="Click button to add new review"
+            android:textandroidearance="@style/Base.Textandroidearance.androidCompat.Large"
+            android:textColor="@color/grey_20"
+            android:textStyle="bold" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:clickable="true"
+            android:fabSize="0"
+            android:id="@id/fab_add"
+            android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/spacing_smlarge"
+            android:layout_width="wrap_content"
+            android:rippleColor="0x106000b"
+            android:srcCompat="@drawable/ic_create"
+            android:tint="0x106000b" />
+    </android.support.design.widget.CoordinatorLayout>
+</LinearLayout>

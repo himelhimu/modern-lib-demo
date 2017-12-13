@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="0x106000b" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include layout="@layout/toolbar" />
+    </android.support.design.widget.AppBarLayout>
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0">
+        <TextView android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" android:textStyle="bold" android:id="@id/tv_result" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacing_xxlarge" android:text="RGB(127, 127, 210)" />
+        <android.support.v7.widget.AppCompatButton android:textColor="0x106000b" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/bt_pick_color" android:background="@drawable/btn_rounded_accent" android:paddingLeft="@dimen/spacing_xlarge" android:paddingRight="@dimen/spacing_xlarge" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/spacing_medium" android:text="PICK COLOR" />
+    </LinearLayout>
+</LinearLayout>

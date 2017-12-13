@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:background="@color/grey_5" android:padding="@dimen/spacing_large" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textAppearance="@style/TextAppearance.AppCompat.Title" android:textColor="@color/grey_90" android:id="@c2766e/name" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginTop="@dimen/spacing_middle" android:layout_marginBottom="@dimen/spacing_middle" android:text="Name" />
+    <TextView android:textAppearance="@style/TextAppearance.AppCompat.Subhead" android:textColor="@color/grey_60" android:id="@id/address" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginTop="@dimen/spacing_medium" android:text="Details Content" />
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_large">
+        <Button android:id="@id/bt_close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="CLOSE" style="@style/Base.Widget.AppCompat.Button.Borderless.Colored" />
+        <Button android:theme="@style/Button.Primary" android:id="@id/bt_details" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="DETAILS" />
+    </LinearLayout>
+</LinearLayout>

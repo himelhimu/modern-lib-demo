@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:background="@color/grey_10" app:fitsSystemWindows="true" app:layout_width="match_parent" app:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout app:theme="@style/AppTheme.AppBarOverlay" app:background="0x106000b" app:layout_width="match_parent" app:layout_height="wrap_content">
+        <android.support.v7.widget.Toolbar app:id="@id/toolbar" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f010046" app:contentInsetStartWithNavigation="0dp" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" app:theme="@style/Toolbar.Light" />
+    </android.support.design.widget.AppBarLayout>
+    <android.support.design.widget.CoordinatorLayout app:id="@id/coordinator_lyt" app:layout_width="match_parent" app:layout_height="match_parent">
+        <RelativeLayout app:layout_width="match_parent" app:layout_height="match_parent">
+            <ImageView app:id="@id/bg_image" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x17c01" app:src="@drawable/bg_no_item_cactus" app:layout_alignParentBottom="true" />
+            <LinearLayout app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_xxlarge" app:layout_alignParentTop="true" app:layout_centerHorizontal="true">
+                <TextView app:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" app:textColor="@color/grey_60" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_medium" app:text="There is no account available 
+Tap button below to add new account" app:lineSpacingExtra="@dimen/spacing_middle" />
+            </LinearLayout>
+        </RelativeLayout>
+        <android.support.design.widget.FloatingActionButton app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/fab_add" app:clickable="true" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_margin="@dimen/spacing_smlarge" app:tint="@color/colorPrimary" app:srcCompat="@drawable/ic_person_add" app:rippleColor="@color/grey_80" app:fabSize="0" app:backgroundTint="0x106000b" />
+    </android.support.design.widget.CoordinatorLayout>
+</LinearLayout>

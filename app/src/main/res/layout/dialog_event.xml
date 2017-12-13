@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:background="0x106000b" app:fitsSystemWindows="true" app:layout_width="match_parent" app:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f010046">
+        <LinearLayout app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="match_parent">
+            <ImageButton app:id="@id/bt_close" app:background="?attr/selectableItemBackgroundBorderless" app:layout_width="UNKNOWN_DATA_0x7f010046" app:layout_height="UNKNOWN_DATA_0x7f010046" app:tint="0x106000b" app:srcCompat="@drawable/ic_close" />
+            <TextView app:textAppearance="@style/Base.TextAppearance.AppCompat.Title" app:textColor="0x106000b" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="match_parent" app:text="New event" app:layout_weight="1.0" />
+            <Button app:textColor="0x106000b" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/bt_save" app:paddingLeft="@dimen/spacing_xsmall" app:paddingRight="@dimen/spacing_xsmall" app:layout_width="wrap_content" app:layout_height="match_parent" app:text="@string/SAVE" style="@style/Widget.AppCompat.Button.Borderless" />
+        </LinearLayout>
+    </android.support.design.widget.AppBarLayout>
+    <android.support.v4.widget.NestedScrollView app:id="@id/nested_scroll_view" app:scrollbars="UNKNOWN_DATA_0x0" app:layout_width="match_parent" app:layout_height="match_parent" app:scrollingCache="true">
+        <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content"
+            <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content">
+                <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textColor="@color/grey_60" app:id="@id/tv_email" app:paddingLeft="@dimen/spacing_large" app:paddingRight="@dimen/spacing_large" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/spacing_xsmall" app:text="heyfromjonathan@gmail.com" app:layout_weight="1.0" />
+                <ImageButton app:background="?attr/selectableItemBackgroundBorderless" app:layout_width="UNKNOWN_DATA_0x7f010046" app:layout_height="UNKNOWN_DATA_0x7f010046" app:tint="@color/grey_60" app:srcCompat="@drawable/ic_arrow_drop" />
+            </LinearLayout>
+            <View app:background="@color/grey_10" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x101" />
+            <LinearLayout app:orientation="vertical" app:padding="@dimen/spacing_large" app:layout_width="match_parent" app:layout_height="wrap_content">
+                <EditText app:textAppearance="@style/Base.TextAppearance.AppCompat.Display1" app:textColorHint="@color/grey_40" app:id="@id/et_name" app:layout_width="match_parent" app:layout_height="wrap_content" app:hint="Event name" />
+                <View app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f0800d2" />
+                <EditText app:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" app:textColorHint="@color/grey_40" app:id="@id/et_location" app:layout_width="match_parent" app:layout_height="wrap_content" app:minHeight="@dimen/spacing_xxlarge" app:hint="Location" />
+                <View app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f0800d2" />
+                <TextView app:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead" app:textColor="@color/grey_60" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/spacing_xsmall" app:text="From" />
+                <LinearLayout app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content">
+                    <Button app:textAppearance="@style/TextAppearance.AppCompat.Medium" app:textColor="@color/grey_80" app:id="@id/spn_from_date" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:text="Fry, May 12 2017" app:layout_weight="2.0" style="@style/Base.Widget.AppCompat.Spinner.Underlined" />
+                    <View app:layout_width="UNKNOWN_DATA_0x7f0800d2" app:layout_height="UNKNOWN_DATA_0x1" />
+                    <Button app:textAppearance="@style/TextAppearance.AppCompat.Medium" app:textColor="@color/grey_80" app:id="@id/spn_from_time" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:text="4:30 PM" app:singleLine="true" app:layout_weight="1.0" app:spinnerMode="dialog" style="@style/Base.Widget.AppCompat.Spinner.Underlined" />
+                </LinearLayout>
+                <View app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f0800d2" />
+                <TextView app:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead" app:textColor="@color/grey_60" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/spacing_xsmall" app:text="To" />
+                <LinearLayout app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content">
+                    <Button app:textAppearance="@style/TextAppearance.AppCompat.Medium" app:textColor="@color/grey_80" app:id="@id/spn_to_date" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="UNKNOWN_DATA_0x7f010046" app:text="Fry, May 12 2017" app:layout_weight="2.0" style="@style/Base.Widget.AppCompat.Spinner.Underlined" />
+                    <View app:layout_width="UNKNOWN_DATA_0x7f0800d2" app:layout_height="UNKNOWN_DATA_0x1" />
+                    <Button app:textAppearance="@style/TextAppearance.AppCompat.Medium" app:textColor="@color/grey_80" app:id="@id/spn_to_time" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="UNKNOWN_DATA_0x7f010046" app:text="5:30 PM" app:singleLine="true" app:layout_weight="1.0" app:spinnerMode="dialog" style="@style/Base.Widget.AppCompat.Spinner.Underlined" />
+                </LinearLayout>
+                <View app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f0800d2" />
+                <android.support.v7.widget.AppCompatCheckBox app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textColor="@color/grey_60" app:id="@id/cb_allday" app:layout_width="match_parent" app:layout_height="wrap_content" app:text="All day" />
+                <View app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f0800d2" />
+                <android.support.v7.widget.AppCompatSpinner app:id="@id/spn_timezone" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f010046" app:spinnerMode="dialog" style="@style/Base.Widget.AppCompat.Spinner.Underlined" />
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>

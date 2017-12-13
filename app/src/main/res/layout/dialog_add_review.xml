@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content"
+    <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:padding="@dimen/spacing_large" app:layout_width="match_parent" app:layout_height="wrap_content">
+        <com.mikhaellopez.circularimageview.CircularImageView app:layout_width="UNKNOWN_DATA_0x7f0800db" app:layout_height="UNKNOWN_DATA_0x7f0800db" app:src="@drawable/photo_male_7" app:civ_border="false" />
+        <View app:layout_width="UNKNOWN_DATA_0x7f0800d2" app:layout_height="UNKNOWN_DATA_0x1" />
+        <LinearLayout app:orientation="vertical" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_weight="1.0">
+            <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textStyle="bold" app:textColor="@color/grey_90" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="match_parent" app:layout_height="wrap_content" app:text="David Park" />
+            <TextView app:textAppearance="@style/TextAppearance.AppCompat.Small" app:textColor="@color/grey_40" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_small" app:text="Customer services" />
+        </LinearLayout>
+    </LinearLayout>
+    <View app:background="@color/grey_10" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x100" app:layout_marginLeft="@dimen/spacing_large" app:layout_marginRight="@dimen/spacing_large" />
+    <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="vertical" app:paddingLeft="@dimen/spacing_large" app:paddingRight="@dimen/spacing_large" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f010046">
+        <android.support.v7.widget.AppCompatRatingBar app:theme="@style/Yellow.AppCompatRatingBar" app:id="@id/rating_bar" app:layout_width="wrap_content" app:layout_height="wrap_content" app:numStars="5" app:rating="5.0" app:stepSize="1.0" app:isIndicator="false" style="@style/Yellow.AppCompatRatingBar" />
+    </LinearLayout>
+    <LinearLayout app:padding="@dimen/spacing_large" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x1" app:layout_weight="1.0">
+        <EditText app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@id/et_post" app:background="@color/grey_3" app:padding="@dimen/spacing_middle" app:layout_width="match_parent" app:layout_height="match_parent" app:hint="Write review ..." app:lines="4" />
+    </LinearLayout>
+    <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f010046">
+        <View app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_weight="1.0" />
+        <android.support.v7.widget.AppCompatButton app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/bt_cancel" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="CANCEL" style="@style/Button.Accent.Borderless" />
+        <android.support.v7.widget.AppCompatButton app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/bt_submit" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="SUBMIT" style="@style/Widget.AppCompat.Button.Borderless" />
+    </LinearLayout>
+</LinearLayout>

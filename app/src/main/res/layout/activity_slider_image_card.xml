@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:id="@id/parent_view" app:background="@color/grey_10" app:layout_width="match_parent" app:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout app:id="@id/appbar" app:layout_width="match_parent" app:layout_height="wrap_content">
+        <include layout="@layout/toolbar" />
+    </android.support.design.widget.AppBarLayout>
+    <android.support.v4.widget.NestedScrollView app:id="@id/nested_scroll_view" app:scrollbars="UNKNOWN_DATA_0x0" app:clipToPadding="false" app:layout_width="match_parent" app:layout_height="match_parent" app:scrollingCache="true" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content">
+            <View app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="UNKNOWN_DATA_0x7f0800d2" />
+            <android.support.v7.widget.CardView app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/spacing_large" app:layout_marginRight="@dimen/spacing_large" app:cardCornerRadius="3dp" app:cardElevation="2dp">
+                <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content">
+                    <android.support.v4.view.ViewPager app:id="@id/pager" app:background="@color/grey_20" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0xe601" />
+                    <LinearLayout app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="horizontal" app:id="@id/layout_dots" app:background="0x106000b" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f0800db" /> />
+            </android.support.v7.widget.CardView>
+            <View app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="UNKNOWN_DATA_0x7f0800d2" />
+            <android.support.v7.widget.CardView app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/spacing_large" app:layout_marginRight="@dimen/spacing_large" app:cardBackgroundColor="0x106000b" app:cardCornerRadius="3dp" app:cardElevation="2dp">
+                <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_margin="@dimen/spacing_large">
+                    <TextView app:textAppearance="@style/TextAppearance.AppCompat.Large" app:textColor="@color/grey_90" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="Roll-Up Neocity Backpack" />
+                    <TextView app:textAppearance="@style/TextAppearance.AppCompat.Small" app:textColor="@color/grey_60" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_medium" app:text="Shop Adidas" />
+                    <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_large">
+                        <android.support.v7.widget.AppCompatRatingBar app:theme="@style/Yellow.Small.AppCompatRatingBar" app:clickable="false" app:layout_width="wrap_content" app:layout_height="wrap_content" app:numStars="5" app:rating="3.5" app:stepSize="1.0" style="@style/Yellow.Small.AppCompatRatingBar" />
+                        <TextView app:textAppearance="@style/TextAppearance.AppCompat.Caption" app:textColor="@color/grey_40" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/spacing_medium" app:text="381,380" />
+                        <View app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="UNKNOWN_DATA_0x1" app:layout_weight="1.0" />
+                        <TextView app:textAppearance="@style/TextAppearance.AppCompat.Large" app:textStyle="bold" app:textColor="@color/light_green_700" app:id="@id/price" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="$ 80.00" />
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <View app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="UNKNOWN_DATA_0x7f0800d2" />
+            <android.support.v7.widget.CardView app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/spacing_large" app:layout_marginRight="@dimen/spacing_large" app:cardBackgroundColor="0x106000b" app:cardCornerRadius="3dp" app:cardElevation="2dp">
+                <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_margin="@dimen/spacing_large">
+                    <TextView app:textAppearance="@style/TextAppearance.AppCompat.Large" app:textColor="@color/grey_90" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="Description" />
+                    <TextView app:textAppearance="@style/TextAppearance.AppCompat.Small" app:textColor="@color/grey_60" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_medium" app:text="@string/long_lorem_ipsum" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <View app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="UNKNOWN_DATA_0x7f0800d2" />
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</android.support.design.widget.CoordinatorLayout>

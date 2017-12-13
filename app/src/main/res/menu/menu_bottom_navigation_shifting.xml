@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_movie" android:id="@id/navigation_movie" android:title="Movie & TV" />
+    <item android:icon="@drawable/ic_music" android:id="@id/navigation_music" android:title="Music" />
+    <item android:icon="@drawable/ic_book" android:id="@id/navigation_books" android:title="Books" />
+    <item android:icon="@drawable/ic_news" android:id="@id/navigation_newsstand" android:title="Newsstand" />
+</menu>

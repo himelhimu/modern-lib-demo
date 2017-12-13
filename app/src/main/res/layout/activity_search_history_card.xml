@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:background="@color/grey_10" app:layout_width="match_parent" app:layout_height="match_parent">
+    <RelativeLayout app:layout_width="match_parent" app:layout_height="wrap_content">
+        <LinearLayout app:id="@id/card_appbar" app:background="@color/colorPrimary" app:layout_width="match_parent" app:layout_height="wrap_content">
+            <View app:background="@color/colorPrimary" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f010046" app:layout_margin="@dimen/spacing_middle" />
+        </LinearLayout>
+        <android.support.v7.widget.CardView app:theme="@style/ThemeOverlay.AppCompat.Light" app:id="@id/search_bar" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_margin="@dimen/spacing_middle" app:cardBackgroundColor="0x106000b" app:cardCornerRadius="2dp" app:cardElevation="2dp">
+            <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content"
+                <LinearLayout app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="match_parent">
+                    <ImageButton app:id="@id/bt_back" app:background="0x106000d" app:layout_width="UNKNOWN_DATA_0x7f010046" app:layout_height="UNKNOWN_DATA_0x7f010046" app:tint="@color/grey_60" app:srcCompat="@drawable/ic_arrow_back" />
+                    <EditText app:id="@id/et_search" app:background="0x106000d" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="match_parent" app:hint="Search" app:maxLines="1" app:singleLine="true" app:layout_weight="1.0" app:imeOptions="actionNone|actionGo|actionSearch|actionNext|actionDone|actionPrevious">
+                        <requestFocus />
+                    </EditText>
+                    <ImageButton app:id="@id/bt_clear" app:background="0x106000d" app:clickable="true" app:layout_width="UNKNOWN_DATA_0x7f010046" app:layout_height="UNKNOWN_DATA_0x7f010046" app:tint="@color/grey_60" app:srcCompat="@drawable/ic_close" />
+                </LinearLayout>
+                <LinearLayout app:orientation="vertical" app:id="@id/lyt_suggestion" app:visibility="visible" app:layout_width="match_parent" app:layout_height="match_parent">
+                    <View app:background="@color/grey_10" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x101" />
+                    <android.support.v7.widget.RecyclerView app:id="@id/recyclerSuggestion" app:scrollbars="UNKNOWN_DATA_0x0" app:layout_width="match_parent" app:layout_height="wrap_content" app:scrollingCache="true" app:cacheColorHint="#0000" />
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </RelativeLayout>
+    <RelativeLayout app:layout_width="match_parent" app:layout_height="match_parent">
+        <ProgressBar app:id="@id/progress_bar" app:visibility="gone" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_centerInParent="true" />
+        <LinearLayout app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:id="@id/lyt_no_result" app:layout_width="UNKNOWN_DATA_0xc801" app:layout_height="wrap_content" app:layout_centerInParent="true">
+            <TextView app:textAppearance="@style/Base.TextAppearance.AppCompat.Headline" app:textStyle="bold" app:textColor="@color/grey_40" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="No result" />
+            <TextView app:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" app:textColor="@color/grey_40" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_medium" app:text="Try input more general keyword" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

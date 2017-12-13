@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:id="@c2766e/container" app:background="@c2765d/bg_chip_view" app:layout_width="wrap_content" app:layout_height="wrap_content">
+    <LinearLayout app:orientation="horizontal" app:id="@c2766e/content" app:background="@c2765d/ripple_chip_view" app:clickable="true" app:layout_width="wrap_content" app:layout_height="UNKNOWN_DATA_0x2001">
+        <de.hdodenhof.circleimageview.CircleImageView app:id="@id/icon" app:visibility="gone" app:layout_width="UNKNOWN_DATA_0x2001" app:layout_height="UNKNOWN_DATA_0x2001" app:src="@c2765d/avatar" />
+        <TextView app:textSize="14sp" app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@c2766e/label" app:paddingLeft="8dp" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="Paulcito" />
+        <ImageButton app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@c2766e/delete_button" app:background="?attr/selectableItemBackgroundBorderless" app:layout_width="UNKNOWN_DATA_0x1801" app:layout_height="UNKNOWN_DATA_0x1801" app:layout_marginLeft="4dp" app:layout_marginRight="4dp" app:src="@c2765d/ic_cancel_grey_24dp" />
+    </LinearLayout>
+</RelativeLayout>

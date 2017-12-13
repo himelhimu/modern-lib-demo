@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res-auto">
+    <item app:id="@id/action_play" app:orderInCategory="100" app:title="Play" app:showAsAction="UNKNOWN_DATA_0x0" />
+    <item app:id="@id/action_queue" app:orderInCategory="100" app:title="Add to queue" app:showAsAction="UNKNOWN_DATA_0x0" />
+    <item app:id="@id/action_playlist" app:orderInCategory="100" app:title="Add to playlist" app:showAsAction="UNKNOWN_DATA_0x0" />
+    <item app:id="@id/action_share" app:orderInCategory="100" app:title="Share" app:showAsAction="UNKNOWN_DATA_0x0" />
+</menu>

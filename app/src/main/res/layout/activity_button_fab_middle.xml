@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:id="@c2766e/container" app:background="@color/grey_5" app:layout_width="match_parent" app:layout_height="match_parent">
+    <android.support.design.widget.CoordinatorLayout app:background="0x106000f" app:layout_width="match_parent" app:layout_height="match_parent">
+        <android.support.design.widget.FloatingActionButton app:clickable="true" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_margin="@dimen/spacing_smlarge" app:tint="0x106000b" app:srcCompat="@drawable/ic_directions_car" app:layout_anchor="@id/nested_scroll_view" app:layout_anchorGravity="800035" app:rippleColor="0x106000b" app:fabSize="0" />
+        <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="match_parent">
+            <fragment app:name="com.google.android.gms.maps.SupportMapFragment" app:id="@id/map" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x19001" />
+            <android.support.v4.widget.NestedScrollView app:id="@id/nested_scroll_view" app:background="0x106000b" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+                <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="50dp">
+                    <TextView app:textAppearance="@style/TextAppearance.AppCompat.Headline" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_medium" app:minHeight="@dimen/spacing_xxlarge" app:text="Dandelion Chocolate" />
+                    <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content">
+                        <android.support.v7.widget.AppCompatRatingBar app:theme="@style/Yellow.Small.AppCompatRatingBar" app:layout_width="wrap_content" app:layout_height="wrap_content" app:numStars="5" app:rating="3.5" app:stepSize="0.5" style="@style/Yellow.Small.AppCompatRatingBar" />
+                        <TextView app:textAppearance="@style/TextAppearance.AppCompat.Medium" app:layout_width="match_parent" app:layout_height="wrap_content" app:text="4.7 (51)" />
+                    </LinearLayout>
+                    <View app:background="@color/grey_10" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x101" app:layout_marginTop="@dimen/spacing_mlarge" app:layout_marginBottom="@dimen/spacing_mlarge" />
+                    <TextView app:textAppearance="@style/TextAppearance.AppCompat.Medium" app:textColor="@color/colorPrimary" app:layout_width="match_parent" app:layout_height="wrap_content" app:text="12 min away" />
+                </LinearLayout>
+            </android.support.v4.widget.NestedScrollView>
+        </LinearLayout>
+    </android.support.design.widget.CoordinatorLayout>
+    <include app:id="@id/search_bar" layout="@layout/include_card_view_search_bar" />
+</RelativeLayout>

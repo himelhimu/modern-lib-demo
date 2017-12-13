@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="0x106000b" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include layout="@layout/toolbar" />
+    </android.support.design.widget.AppBarLayout>
+    <android.support.v4.widget.NestedScrollView android:id="@id/nested_scroll_view" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0xc801" android:src="@drawable/image_3" android:scaleType="centerCrop" />
+            <LinearLayout android:orientation="vertical" android:padding="@dimen/spacing_smlarge" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textAppearance="@style/TextAppearance.AppCompat.Caption" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Title" />
+                <EditText android:textAppearance="@style/TextAppearance.AppCompat.Medium" android:textColor="@color/grey_90" android:id="@id/title" android:background="0x106000d" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_middle" android:text="My Photograph Masterpiece" android:hint="Write title" />
+            </LinearLayout>
+            <View android:background="@color/grey_10" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" />
+            <LinearLayout android:orientation="vertical" android:padding="@dimen/spacing_smlarge" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textAppearance="@style/TextAppearance.AppCompat.Caption" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Project Tag(s)" />
+                <com.hootsuite.nachos.NachoTextView android:id="@id/et_tag" android:background="0x106000d" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_middle">
+                    <requestFocus />
+                </com.hootsuite.nachos.NachoTextView>
+            </LinearLayout>
+            <View android:background="@color/grey_10" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" />
+            <LinearLayout android:orientation="vertical" android:padding="@dimen/spacing_smlarge" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textAppearance="@style/TextAppearance.AppCompat.Caption" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Description" />
+                <EditText android:textAppearance="@style/TextAppearance.AppCompat.Subhead" android:scrollbarStyle="insideInset" android:textColor="@color/grey_90" android:id="@id/description" android:background="0x106000d" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_middle" android:minHeight="?attr/actionBarSize" android:text="@string/long_lorem_ipsum" android:hint="Write description" android:inputType="text|textCapCharacters|textCapWords|textCapSentences|textAutoCorrect|textAutoComplete|textMultiLine|textImeMultiLine|textNoSuggestions|textUri|textEmailAddress|textEmailSubject|textShortMessage|textLongMessage|textPersonName|textPostalAddress|textPassword|textVisiblePassword|textWebEditText|textFilter|textPhonetic|textWebEmailAddress|textWebPassword|phone" android:overScrollMode="always" />
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:id="@id/parent_view" app:background="@color/grey_10" app:layout_width="match_parent" app:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout app:layout_width="match_parent" app:layout_height="wrap_content">
+        <include layout="@layout/toolbar" />
+    </android.support.design.widget.AppBarLayout>
+    <android.support.v4.widget.NestedScrollView app:id="@id/nested_scroll_view" app:scrollbars="UNKNOWN_DATA_0x0" app:clipToPadding="false" app:layout_width="match_parent" app:layout_height="match_parent" app:scrollingCache="true" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content">
+            <ImageView app:id="@id/image" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0xfa01" app:foreground="@color/overlay_dark_30" app:src="@drawable/image_shop_9" app:scaleType="centerCrop" app:layout_collapseMode="2" />
+            <android.support.v7.widget.CardView app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/spacing_middle" app:layout_marginTop="-40dp" app:layout_marginRight="@dimen/spacing_middle" app:cardBackgroundColor="0x106000b" app:cardCornerRadius="3dp" app:cardElevation="2dp">
+                <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_margin="@dimen/spacing_middle">
+                    <TextView app:textAppearance="@style/TextAppearance.AppCompat.Headline" app:textColor="@color/grey_90" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="Roll-Up Neocity Backpack" />
+                    <TextView app:textAppearance="@style/TextAppearance.AppCompat.Small" app:textColor="@color/grey_60" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_medium" app:text="Shop Adidas" />
+                    <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_large">
+                        <android.support.v7.widget.AppCompatRatingBar app:theme="@style/Yellow.Small.AppCompatRatingBar" app:clickable="false" app:layout_width="wrap_content" app:layout_height="wrap_content" app:numStars="5" app:rating="3.5" app:stepSize="1.0" style="@style/Yellow.Small.AppCompatRatingBar" />
+                        <TextView app:textAppearance="@style/TextAppearance.AppCompat.Caption" app:textColor="@color/grey_40" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/spacing_medium" app:text="381,380" />
+                        <View app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="UNKNOWN_DATA_0x1" app:layout_weight="1.0" />
+                        <TextView app:textAppearance="@style/TextAppearance.AppCompat.Large" app:textStyle="bold" app:textColor="@color/light_green_700" app:id="@id/price" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="$ 80.00" />
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <View app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="UNKNOWN_DATA_0x7f0800d4" />
+            <android.support.v7.widget.CardView app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/spacing_middle" app:layout_marginRight="@dimen/spacing_middle" app:cardBackgroundColor="0x106000b" app:cardCornerRadius="3dp" app:cardElevation="2dp">
+                <HorizontalScrollView app:scrollbarSize="1dp" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_margin="@dimen/spacing_middle">
+                    <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:layout_width="wrap_content" app:layout_height="wrap_content">
+                        <ImageView app:id="@id/image_1" app:layout_width="UNKNOWN_DATA_0x5a01" app:layout_height="UNKNOWN_DATA_0x5a01" app:layout_marginRight="@dimen/spacing_medium" app:src="@color/grey_20" app:scaleType="centerCrop" />
+                        <ImageView app:id="@id/image_2" app:layout_width="UNKNOWN_DATA_0x5a01" app:layout_height="UNKNOWN_DATA_0x5a01" app:layout_marginRight="@dimen/spacing_medium" app:src="@color/grey_20" app:scaleType="centerCrop" />
+                        <ImageView app:id="@id/image_3" app:layout_width="UNKNOWN_DATA_0x5a01" app:layout_height="UNKNOWN_DATA_0x5a01" app:layout_marginRight="@dimen/spacing_medium" app:src="@color/grey_20" app:scaleType="centerCrop" />
+                        <ImageView app:id="@id/image_4" app:layout_width="UNKNOWN_DATA_0x5a01" app:layout_height="UNKNOWN_DATA_0x5a01" app:layout_marginRight="@dimen/spacing_medium" app:src="@color/grey_20" app:scaleType="centerCrop" />
+                        <ImageView app:id="@id/image_5" app:layout_width="UNKNOWN_DATA_0x5a01" app:layout_height="UNKNOWN_DATA_0x5a01" app:layout_marginRight="@dimen/spacing_medium" app:src="@color/grey_20" app:scaleType="centerCrop" />
+                    </LinearLayout>
+                </HorizontalScrollView>
+            </android.support.v7.widget.CardView>
+            <View app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="UNKNOWN_DATA_0x7f0800d4" />
+            <android.support.v7.widget.CardView app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/spacing_middle" app:layout_marginRight="@dimen/spacing_middle" app:cardBackgroundColor="0x106000b" app:cardCornerRadius="3dp" app:cardElevation="2dp">
+                <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_margin="@dimen/spacing_middle">
+                    <TextView app:textAppearance="@style/TextAppearance.AppCompat.Large" app:textColor="@color/grey_90" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="Description" />
+                    <TextView app:textAppearance="@style/TextAppearance.AppCompat.Small" app:textColor="@color/grey_60" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_medium" app:text="@string/long_lorem_ipsum" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <View app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="UNKNOWN_DATA_0x7f0800d4" />
+            <android.support.v7.widget.CardView app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/spacing_middle" app:layout_marginRight="@dimen/spacing_middle" app:cardBackgroundColor="0x106000b" app:cardCornerRadius="3dp" app:cardElevation="2dp">
+                <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_margin="@dimen/spacing_middle">
+                    <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textColor="@color/grey_60" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="Colors" />
+                    <LinearLayout app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content">
+                        <android.support.design.widget.FloatingActionButton app:id="@id/fab_color_blue" app:clickable="true" app:layout_width="UNKNOWN_DATA_0x7f0800db" app:layout_height="UNKNOWN_DATA_0x7f0800db" app:layout_margin="@dimen/spacing_middle" app:tint="0x106000b" app:onClick="setColor" app:elevation="0dp" app:rippleColor="0x106000b" app:fabSize="1" app:backgroundTint="@color/indigo_500" />
+                        <android.support.design.widget.FloatingActionButton app:id="@id/fab_color_pink" app:clickable="true" app:layout_width="UNKNOWN_DATA_0x7f0800db" app:layout_height="UNKNOWN_DATA_0x7f0800db" app:layout_margin="@dimen/spacing_middle" app:tint="0x106000b" app:onClick="setColor" app:elevation="0dp" app:srcCompat="@drawable/ic_done" app:rippleColor="0x106000b" app:fabSize="1" app:backgroundTint="@color/pink_700" />
+                        <android.support.design.widget.FloatingActionButton app:id="@id/fab_color_grey" app:clickable="true" app:layout_width="UNKNOWN_DATA_0x7f0800db" app:layout_height="UNKNOWN_DATA_0x7f0800db" app:layout_margin="@dimen/spacing_middle" app:tint="0x106000b" app:onClick="setColor" app:elevation="0dp" app:rippleColor="0x106000b" app:fabSize="1" app:backgroundTint="@color/grey_500" />
+                        <android.support.design.widget.FloatingActionButton app:id="@id/fab_color_green" app:clickable="true" app:layout_width="UNKNOWN_DATA_0x7f0800db" app:layout_height="UNKNOWN_DATA_0x7f0800db" app:layout_margin="@dimen/spacing_middle" app:tint="0x106000b" app:onClick="setColor" app:elevation="0dp" app:rippleColor="0x106000b" app:fabSize="1" app:backgroundTint="@color/green_500" />
+                    </LinearLayout>
+                    <View app:background="@color/grey_10" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x101" app:layout_marginTop="@dimen/spacing_middle" app:layout_marginBottom="@dimen/spacing_middle" />
+                    <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textColor="@color/grey_60" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="Sizes" />
+                    <LinearLayout app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content">
+                        <Button app:textColor="0x106000c" app:id="@id/bt_size_s" app:background="@drawable/btn_rounded_green_selection" app:layout_width="UNKNOWN_DATA_0x7f0800db" app:layout_height="UNKNOWN_DATA_0x7f0800db" app:layout_margin="@dimen/spacing_middle" app:text="S" app:onClick="setSize" />
+                        <Button app:enabled="false" app:textColor="0x106000b" app:id="@id/bt_size_m" app:background="@drawable/btn_rounded_green_selection" app:layout_width="UNKNOWN_DATA_0x7f0800db" app:layout_height="UNKNOWN_DATA_0x7f0800db" app:layout_margin="@dimen/spacing_middle" app:text="M" app:onClick="setSize" />
+                        <Button app:textColor="0x106000c" app:id="@id/bt_size_l" app:background="@drawable/btn_rounded_green_selection" app:layout_width="UNKNOWN_DATA_0x7f0800db" app:layout_height="UNKNOWN_DATA_0x7f0800db" app:layout_margin="@dimen/spacing_middle" app:text="L" app:onClick="setSize" />
+                        <Button app:textColor="0x106000c" app:id="@id/bt_size_xl" app:background="@drawable/btn_rounded_green_selection" app:layout_width="UNKNOWN_DATA_0x7f0800db" app:layout_height="UNKNOWN_DATA_0x7f0800db" app:layout_margin="@dimen/spacing_middle" app:text="XL" app:onClick="setSize" />
+                    </LinearLayout>
+                    <View app:background="@color/grey_10" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x101" app:layout_marginTop="@dimen/spacing_middle" app:layout_marginBottom="@dimen/spacing_middle" />
+                    <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textColor="@color/grey_60" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="Quantity" />
+                    <LinearLayout app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content">
+                        <android.support.design.widget.FloatingActionButton app:id="@id/fab_qty_sub" app:clickable="true" app:layout_width="UNKNOWN_DATA_0x7f0800db" app:layout_height="UNKNOWN_DATA_0x7f0800db" app:layout_margin="@dimen/spacing_middle" app:tint="0x106000b" app:elevation="0dp" app:srcCompat="@drawable/ic_remove" app:rippleColor="0x106000b" app:fabSize="1" app:backgroundTint="@color/grey_40" />
+                        <TextView app:textAppearance="@style/Base.TextAppearance.AppCompat.Large" app:textStyle="bold" app:textColor="@color/grey_80" app:id="@id/tv_qty" app:layout_width="UNKNOWN_DATA_0x7301" app:layout_height="wrap_content" app:text="1" />
+                        <android.support.design.widget.FloatingActionButton app:id="@id/fab_qty_add" app:clickable="true" app:layout_width="UNKNOWN_DATA_0x7f0800db" app:layout_height="UNKNOWN_DATA_0x7f0800db" app:layout_margin="@dimen/spacing_middle" app:tint="0x106000b" app:elevation="0dp" app:srcCompat="@drawable/ic_add" app:rippleColor="0x106000b" app:fabSize="1" app:backgroundTint="@color/grey_40" />
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <View app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="UNKNOWN_DATA_0x7f0800d4" />
+            <LinearLayout app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/spacing_xmedium" app:layout_marginRight="@dimen/spacing_xmedium">
+                <android.support.v7.widget.AppCompatButton app:theme="@style/Button.White" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/bt_add_to_wishlist" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="UNKNOWN_DATA_0x7f010046" app:text="ADD TO WISHLIST" app:layout_weight="1.0" />
+                <View app:layout_width="UNKNOWN_DATA_0x7f0800d4" app:layout_height="UNKNOWN_DATA_0x1" />
+                <android.support.v7.widget.AppCompatButton app:theme="@style/Button.Green" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/bt_add_to_cart" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="UNKNOWN_DATA_0x7f010046" app:text="ADD TO CART" app:layout_weight="1.0" />
+            </LinearLayout>
+            <View app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="UNKNOWN_DATA_0x7f0800d4" />
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.balysv.materialripple.MaterialRippleLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:id="@id/lyt_parent" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0xf001" style="@style/RippleStyleBlack">
+    <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content">
+        <RelativeLayout app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x1" app:layout_weight="1.0">
+            <ImageView app:id="@id/image" app:layout_width="match_parent" app:layout_height="match_parent" app:src="@drawable/image_2" app:scaleType="centerCrop" />
+        </RelativeLayout>
+        <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:background="@color/blue_grey_800" app:padding="@dimen/spacing_large" app:layout_width="match_parent" app:layout_height="wrap_content"
+            <LinearLayout app:orientation="vertical" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_weight="1.0">
+                <TextView app:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead" app:textStyle="bold" app:textColor="0x106000b" app:id="@c2766e/name" app:layout_width="match_parent" app:layout_height="wrap_content" app:text="Two Line" app:maxLines="1" app:singleLine="true" />
+                <TextView app:textAppearance="@style/Base.TextAppearance.AppCompat.Caption" app:textColor="0x106000b" app:id="@id/brief" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_small" app:text="Support Text" app:maxLines="1" app:singleLine="true" />
+            </LinearLayout>
+            <View app:layout_width="UNKNOWN_DATA_0x7f0800d2" app:layout_height="UNKNOWN_DATA_0x1" />
+            <ImageButton app:background="0x106000d" app:layout_width="wrap_content" app:layout_height="wrap_content" app:tint="@color/grey_5" app:srcCompat="@drawable/ic_star_border" />
+        </LinearLayout>
+    </LinearLayout>
+</com.balysv.materialripple.MaterialRippleLayout>

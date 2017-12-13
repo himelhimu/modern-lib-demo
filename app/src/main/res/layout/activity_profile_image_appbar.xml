@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:layout_width="match_parent" app:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" app:id="@id/app_bar_layout" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x10401">
+        <android.support.design.widget.CollapsingToolbarLayout app:id="@id/collapsing_toolbar" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_scrollFlags="3" app:expandedTitleTextAppearance="@style/TextAppearance.AppCompat.Headline" app:contentScrim="?attr/colorPrimary" app:titleEnabled="false">
+            <ImageView app:id="@id/image" app:layout_width="match_parent" app:layout_height="match_parent" app:src="@drawable/photo_female_8" app:scaleType="centerCrop" app:layout_collapseMode="2" />
+            <View app:background="@color/overlay_dark_10" app:layout_width="match_parent" app:layout_height="match_parent" />
+            <android.support.v7.widget.Toolbar app:id="@id/toolbar" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f010046" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" app:layout_collapseMode="1" />
+        </android.support.design.widget.CollapsingToolbarLayout>
+    </android.support.design.widget.AppBarLayout>
+    <android.support.v4.widget.NestedScrollView app:background="0x106000b" app:scrollbars="UNKNOWN_DATA_0x0" app:clipToPadding="false" app:layout_width="match_parent" app:layout_height="match_parent" app:scrollingCache="true" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content"
+            <LinearLayout app:orientation="vertical" app:id="@id/lyt_form" app:padding="@dimen/spacing_large" app:layout_width="match_parent" app:layout_height="wrap_content"
+                <LinearLayout app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content">
+                    <View app:layout_width="UNKNOWN_DATA_0x7f0800db" app:layout_height="match_parent" />
+                    <TextView app:textAppearance="@style/Base.TextAppearance.AppCompat.Headline" app:textColor="@color/grey_90" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_large" app:text="Irene J. Fritz" />
+                </LinearLayout>
+                <View app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f0800d2" />
+                <LinearLayout app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content">
+                    <ImageButton app:background="0x106000d" app:layout_width="UNKNOWN_DATA_0x7f0800d6" app:layout_height="UNKNOWN_DATA_0x7f0800d6" app:tint="@color/grey_60" app:srcCompat="@drawable/ic_person" />
+                    <View app:layout_width="UNKNOWN_DATA_0x7f0800d2" app:layout_height="match_parent" />
+                    <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content">
+                        <TextView app:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" app:textStyle="bold" app:textColor="@color/colorPrimary" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="About Me" />
+                        <TextView app:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead" app:textColor="@color/grey_60" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_middle" app:text="@string/lorem_ipsum" app:lineSpacingExtra="2dp" />
+                    </LinearLayout>
+                </LinearLayout>
+                <View app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f0800d2" />
+                <LinearLayout app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content">
+                    <ImageButton app:background="0x106000d" app:layout_width="UNKNOWN_DATA_0x7f0800d6" app:layout_height="UNKNOWN_DATA_0x7f0800d6" app:tint="@color/grey_60" app:srcCompat="@drawable/ic_directions_bike" />
+                    <View app:layout_width="UNKNOWN_DATA_0x7f0800d2" app:layout_height="match_parent" />
+                    <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content">
+                        <TextView app:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" app:textStyle="bold" app:textColor="@color/colorPrimary" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="Hobbies" />
+                        <TextView app:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead" app:textColor="@color/grey_60" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_middle" app:text="Swimming, playing tennis, cooking are my favorite hobbies" app:lineSpacingExtra="2dp" />
+                    </LinearLayout>
+                </LinearLayout>
+                <View app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f0800d2" />
+                <LinearLayout app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content">
+                    <ImageButton app:background="0x106000d" app:layout_width="UNKNOWN_DATA_0x7f0800d6" app:layout_height="UNKNOWN_DATA_0x7f0800d6" app:tint="@color/grey_60" app:srcCompat="@drawable/ic_photo_camera" />
+                    <View app:layout_width="UNKNOWN_DATA_0x7f0800d2" app:layout_height="match_parent" />
+                    <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content">
+                        <TextView app:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" app:textStyle="bold" app:textColor="@color/colorPrimary" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="Photos" />
+                        <HorizontalScrollView app:scrollbarSize="2dp" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_middle">
+                            <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:layout_width="wrap_content" app:layout_height="wrap_content">
+                                <ImageView app:id="@id/image_1" app:layout_width="UNKNOWN_DATA_0x5a01" app:layout_height="UNKNOWN_DATA_0x5a01" app:layout_marginRight="@dimen/spacing_medium" app:src="@color/grey_20" app:scaleType="centerCrop" />
+                                <ImageView app:id="@id/image_2" app:layout_width="UNKNOWN_DATA_0x5a01" app:layout_height="UNKNOWN_DATA_0x5a01" app:layout_marginRight="@dimen/spacing_medium" app:src="@color/grey_20" app:scaleType="centerCrop" />
+                                <ImageView app:id="@id/image_3" app:layout_width="UNKNOWN_DATA_0x5a01" app:layout_height="UNKNOWN_DATA_0x5a01" app:layout_marginRight="@dimen/spacing_medium" app:src="@color/grey_20" app:scaleType="centerCrop" />
+                                <ImageView app:id="@id/image_4" app:layout_width="UNKNOWN_DATA_0x5a01" app:layout_height="UNKNOWN_DATA_0x5a01" app:layout_marginRight="@dimen/spacing_medium" app:src="@color/grey_20" app:scaleType="centerCrop" />
+                                <ImageView app:id="@id/image_5" app:layout_width="UNKNOWN_DATA_0x5a01" app:layout_height="UNKNOWN_DATA_0x5a01" app:layout_marginRight="@dimen/spacing_medium" app:src="@color/grey_20" app:scaleType="centerCrop" />
+                            </LinearLayout>
+                        </HorizontalScrollView>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+    <android.support.design.widget.FloatingActionButton app:id="@id/fab" app:clickable="true" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_margin="@dimen/spacing_mlarge" app:tint="0x106000b" app:srcCompat="@drawable/ic_create" app:layout_anchor="@id/app_bar_layout" app:layout_anchorGravity="800055" app:fabSize="0" app:backgroundTint="@color/deep_orange_500" />
+</android.support.design.widget.CoordinatorLayout>

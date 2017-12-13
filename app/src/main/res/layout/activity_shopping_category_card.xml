@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:id="@id/parent_view" app:background="@color/grey_5" app:layout_width="match_parent" app:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout app:layout_width="match_parent" app:layout_height="wrap_content">
+        <include layout="@layout/toolbar" />
+    </android.support.design.widget.AppBarLayout>
+    <android.support.v4.widget.NestedScrollView app:id="@id/nested_content" app:scrollbars="UNKNOWN_DATA_0x0" app:clipToPadding="false" app:layout_width="match_parent" app:layout_height="match_parent" app:scrollingCache="true" app:fillViewport="true" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <LinearLayout app:orientation="vertical" app:focusableInTouchMode="true" app:layout_width="match_parent" app:layout_height="wrap_content">
+            <RelativeLayout app:layout_width="match_parent" app:layout_height="wrap_content">
+                <ImageView app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0xb401" app:foreground="@color/overlay_dark_40" app:src="@drawable/image_18" app:scaleType="centerCrop" app:layout_collapseMode="2" />
+                <TextView app:textAppearance="@style/TextAppearance.AppCompat.Medium" app:textStyle="bold" app:textColor="0x106000b" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="Browse Through Million of Products
+in Many Category" app:layout_centerInParent="true" />
+            </RelativeLayout>
+            <android.support.v7.widget.RecyclerView app:id="@id/recyclerView" app:paddingLeft="@dimen/spacing_middle" app:paddingRight="@dimen/spacing_middle" app:scrollbars="vertical" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_marginTop="-30dp" app:scrollingCache="true" />
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</android.support.design.widget.CoordinatorLayout>

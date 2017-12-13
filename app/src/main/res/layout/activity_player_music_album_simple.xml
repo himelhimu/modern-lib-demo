@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:id="@id/parent_view" app:fitsSystemWindows="true" app:layout_width="match_parent" app:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar app:id="@id/toolbar" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f010046" app:contentInsetStartWithNavigation="0dp" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" app:theme="@style/Toolbar.Light" />
+    <RelativeLayout app:layout_width="match_parent" app:layout_height="match_parent">
+        <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_centerInParent="true"
+            <LinearLayout app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content">
+                <RelativeLayout app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_margin="@dimen/spacing_large">
+                    <com.mikhaellopez.circularimageview.CircularImageView app:id="@id/image" app:layout_width="UNKNOWN_DATA_0xeb01" app:layout_height="UNKNOWN_DATA_0xeb01" app:src="@drawable/photo_singer_male" app:layout_centerInParent="true" app:civ_border_width="1dp" app:civ_border_color="@color/grey_20" />
+                    <ProgressBar app:id="@id/song_progressbar" app:background="@drawable/circle_shape_music" app:layout_width="UNKNOWN_DATA_0xff01" app:layout_height="UNKNOWN_DATA_0xff01" app:max="1000" app:progress="0" app:indeterminate="false" app:progressDrawable="@drawable/circular_progress_bar_music" app:minWidth="250dp" app:minHeight="250dp" app:layout_centerInParent="true" style="@style/Widget.AppCompat.ProgressBar.Horizontal" />
+                </RelativeLayout>
+                <TextView app:textAppearance="@style/TextAppearance.AppCompat.Medium" app:textStyle="bold" app:textColor="@color/colorPrimaryLight" app:id="@id/textView15" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_middle" app:text="Locking Up Your Symptoms" />
+                <TextView app:textAppearance="@style/TextAppearance.AppCompat.Small" app:textColor="@color/grey_40" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_medium" app:text="Who He Should Be" />
+            </LinearLayout>
+            <LinearLayout app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:padding="@dimen/spacing_large" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_middle">
+                <ImageButton app:id="@id/bt_prev" app:background="?attr/selectableItemBackgroundBorderless" app:layout_width="UNKNOWN_DATA_0x7f0800de" app:layout_height="UNKNOWN_DATA_0x7f0800de" app:tint="@color/grey_40" app:onClick="controlClick" app:srcCompat="@drawable/ic_skip_previous" />
+                <View app:layout_width="UNKNOWN_DATA_0x7f0800d9" app:layout_height="UNKNOWN_DATA_0x1" />
+                <android.support.design.widget.FloatingActionButton app:id="@id/bt_play" app:clickable="true" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_margin="@dimen/spacing_medium" app:tint="0x106000b" app:elevation="0dp" app:srcCompat="@drawable/ic_play_arrow" app:rippleColor="0x106000b" app:fabSize="0" app:backgroundTint="@color/colorPrimary" />
+                <View app:layout_width="UNKNOWN_DATA_0x7f0800d9" app:layout_height="UNKNOWN_DATA_0x1" />
+                <ImageButton app:id="@id/bt_next" app:background="?attr/selectableItemBackgroundBorderless" app:layout_width="UNKNOWN_DATA_0x7f0800de" app:layout_height="UNKNOWN_DATA_0x7f0800de" app:tint="@color/grey_40" app:onClick="controlClick" app:srcCompat="@drawable/ic_skip_next" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

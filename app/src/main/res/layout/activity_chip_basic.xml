@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:background="0x106000b" app:fitsSystemWindows="true" app:layout_width="match_parent" app:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout app:layout_width="match_parent" app:layout_height="wrap_content">
+        <include layout="@layout/toolbar" />
+    </android.support.design.widget.AppBarLayout>
+    <LinearLayout app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content">
+        <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textColor="@color/grey_60" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/spacing_smlarge" app:layout_marginRight="@dimen/spacing_smlarge" app:minHeight="?attr/actionBarSize" app:text="To" />
+        <com.pchmn.materialchips.ChipsInput app:id="@id/chips_input" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_weight="1.0" app:maxRows="3" app:chip_deletable="true" app:showChipDetailed="false" />
+        <ImageButton app:id="@id/contacts" app:background="?attr/selectableItemBackgroundBorderless" app:layout_width="UNKNOWN_DATA_0x7f010046" app:layout_height="UNKNOWN_DATA_0x7f010046" app:tint="@c2763b/colorAccent" app:srcCompat="@drawable/ic_contacts" />
+    </LinearLayout>
+    <View app:background="@color/grey_10" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x101" />
+    <EditText app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textColor="@color/grey_80" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@id/subject" app:background="0x106000d" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/spacing_smlarge" app:layout_marginRight="@dimen/spacing_smlarge" app:minHeight="?attr/actionBarSize" app:hint="Subject" />
+    <View app:background="@color/grey_10" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x101" />
+    <EditText app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textColor="@color/grey_80" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@c2766e/content" app:background="@color/transparent" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_margin="@dimen/spacing_smlarge" app:minHeight="?attr/actionBarSize" app:hint="Compose Mail" />
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="vertical" app:background="@color/grey_5" app:paddingTop="@dimen/spacing_medium" app:paddingBottom="@dimen/spacing_medium" app:layout_width="match_parent" app:layout_height="wrap_content">
+    <com.balysv.materialripple.MaterialRippleLayout app:paddingLeft="@dimen/spacing_middle" app:paddingRight="@dimen/spacing_middle" app:layout_width="match_parent" app:layout_height="wrap_content" style="@style/RippleStyleBlack">
+        <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:id="@id/lyt_preview" app:clickable="true" app:layout_width="match_parent" app:layout_height="wrap_content">
+            <ImageView app:padding="@dimen/spacing_large" app:layout_width="UNKNOWN_DATA_0x7f010046" app:layout_height="UNKNOWN_DATA_0x7f010046" app:tint="@color/grey_60" app:srcCompat="@drawable/ic_visibility" />
+            <TextView app:textAppearance="@style/TextAppearance.AppCompat.Medium" app:textColor="@color/grey_90" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/spacing_middle" app:layout_marginRight="@dimen/spacing_middle" app:text="Preview" />
+        </LinearLayout>
+    </com.balysv.materialripple.MaterialRippleLayout>
+    <com.balysv.materialripple.MaterialRippleLayout app:paddingLeft="@dimen/spacing_middle" app:paddingRight="@dimen/spacing_middle" app:layout_width="match_parent" app:layout_height="wrap_content" style="@style/RippleStyleBlack">
+        <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:id="@id/lyt_share" app:clickable="true" app:layout_width="match_parent" app:layout_height="wrap_content">
+            <ImageView app:padding="@dimen/spacing_large" app:layout_width="UNKNOWN_DATA_0x7f010046" app:layout_height="UNKNOWN_DATA_0x7f010046" app:tint="@color/grey_60" app:srcCompat="@drawable/ic_person_add" />
+            <TextView app:textAppearance="@style/TextAppearance.AppCompat.Medium" app:textColor="@color/grey_90" app:id="@id/textView2" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/spacing_middle" app:layout_marginRight="@dimen/spacing_middle" app:text="Share" />
+        </LinearLayout>
+    </com.balysv.materialripple.MaterialRippleLayout>
+    <com.balysv.materialripple.MaterialRippleLayout app:paddingLeft="@dimen/spacing_middle" app:paddingRight="@dimen/spacing_middle" app:layout_width="match_parent" app:layout_height="wrap_content" style="@style/RippleStyleBlack">
+        <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:id="@id/lyt_get_link" app:clickable="true" app:layout_width="match_parent" app:layout_height="wrap_content">
+            <ImageView app:padding="@dimen/spacing_large" app:layout_width="UNKNOWN_DATA_0x7f010046" app:layout_height="UNKNOWN_DATA_0x7f010046" app:tint="@color/grey_60" app:srcCompat="@drawable/ic_insert_link" />
+            <TextView app:textAppearance="@style/TextAppearance.AppCompat.Medium" app:textColor="@color/grey_90" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/spacing_middle" app:layout_marginRight="@dimen/spacing_middle" app:text="Get link" />
+        </LinearLayout>
+    </com.balysv.materialripple.MaterialRippleLayout>
+    <com.balysv.materialripple.MaterialRippleLayout app:paddingLeft="@dimen/spacing_middle" app:paddingRight="@dimen/spacing_middle" app:layout_width="match_parent" app:layout_height="wrap_content" style="@style/RippleStyleBlack">
+        <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:id="@id/lyt_make_copy" app:clickable="true" app:layout_width="match_parent" app:layout_height="wrap_content">
+            <ImageView app:padding="@dimen/spacing_large" app:layout_width="UNKNOWN_DATA_0x7f010046" app:layout_height="UNKNOWN_DATA_0x7f010046" app:tint="@color/grey_60" app:srcCompat="@drawable/ic_content_copy" />
+            <TextView app:textAppearance="@style/TextAppearance.AppCompat.Medium" app:textColor="@color/grey_90" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/spacing_middle" app:layout_marginRight="@dimen/spacing_middle" app:text="Make a copy" />
+        </LinearLayout>
+    </com.balysv.materialripple.MaterialRippleLayout>
+</LinearLayout>

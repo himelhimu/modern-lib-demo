@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res-auto">
+    <group app:id="@id/grp_1" app:checkableBehavior="single">
+        <item app:icon="@drawable/ic_move_to_inbox" app:id="@id/nav_all_inbox" app:checked="true" app:title="All inboxes" app:actionLayout="@layout/badge_navigation_plain" />
+    </group>
+    <group app:id="@id/grp_2" app:checkableBehavior="single">
+        <item app:icon="@drawable/ic_inbox" app:id="@id/nav_inbox" app:title="Inbox" app:actionLayout="@layout/badge_navigation_plain" />
+        <item app:icon="@drawable/ic_label" app:id="@id/nav_priority_inbox" app:title="Priority inbox" app:actionLayout="@layout/badge_navigation_colored" />
+        <item app:icon="@drawable/ic_peoples" app:id="@id/nav_social" app:title="Social" app:actionLayout="@layout/badge_navigation_colored" />
+    </group>
+    <item app:checkableBehavior="single" app:title="All labels">
+        <group app:id="@id/grp_3" app:checkableBehavior="single">
+            <item app:icon="@drawable/ic_star" app:id="@id/nav_starred" app:title="Starred" />
+            <item app:icon="@drawable/ic_send" app:id="@id/nav_sent" app:title="Sent" />
+            <item app:icon="@drawable/ic_report" app:id="@id/nav_spam" app:title="Spam" app:actionLayout="@layout/badge_navigation_plain" />
+            <item app:icon="@drawable/ic_delete" app:id="@id/nav_trash" app:title="Trash" />
+        </group> />
+    <group app:id="@id/grp_5" app:checkableBehavior="single">
+        <item app:icon="@drawable/ic_settings" app:id="@id/nav_settings" app:title="Settings" />
+        <item app:icon="@drawable/ic_help" app:id="@id/nav_help" app:title="Help & Feedback" />
+    </group>
+</menu>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:id="@id/lyt_parent" app:background="?attr/selectableItemBackground" app:clickable="true" app:layout_width="match_parent" app:layout_height="wrap_content" app:minHeight="@dimen/spacing_xxlarge">
+    <View app:layout_width="UNKNOWN_DATA_0x7f0800d8" app:layout_height="UNKNOWN_DATA_0x1" />
+    <ImageView app:layout_width="UNKNOWN_DATA_0x7f0800d5" app:layout_height="UNKNOWN_DATA_0x7f0800d5" app:tint="@color/grey_40" app:srcCompat="@drawable/ic_history" />
+    <View app:layout_width="UNKNOWN_DATA_0x7f0800d8" app:layout_height="UNKNOWN_DATA_0x1" />
+    <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textColor="@color/grey_40" app:id="@id/title" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:text="Text Suggestion" app:maxLines="1" app:singleLine="true" app:layout_weight="1.0" />
+    <View app:layout_width="UNKNOWN_DATA_0x7f0800d2" app:layout_height="UNKNOWN_DATA_0x1" />
+</LinearLayout>

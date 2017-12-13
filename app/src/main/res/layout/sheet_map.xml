@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:id="@id/bottom_sheet" app:background="0x106000d" app:layout_width="match_parent" app:layout_height="wrap_content" app:behavior_peekHeight="85dp" app:behavior_hideable="true" app:layout_behavior="android.support.design.widget.BottomSheetBehavior">
+    <android.support.v7.widget.CardView app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="5dp" app:cardCornerRadius="1dp" app:cardElevation="20dp">
+        <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content">
+            <View app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:background="@drawable/swipe_up_handle" app:layout_width="UNKNOWN_DATA_0x1e01" app:layout_height="UNKNOWN_DATA_0x501" app:layout_marginTop="10dp" />
+            <TextView app:textAppearance="@style/TextAppearance.AppCompat.Headline" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:paddingLeft="@dimen/spacing_large" app:paddingRight="@dimen/spacing_large" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/spacing_xxlarge" app:minHeight="50dp" app:text="Dandelion Chocolate" />
+            <LinearLayout app:orientation="vertical" app:padding="@dimen/spacing_large" app:layout_width="match_parent" app:layout_height="wrap_content"
+                <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="@dimen/spacing_xxlarge" app:layout_marginBottom="@dimen/spacing_middle">
+                    <android.support.v7.widget.AppCompatRatingBar app:theme="@style/Yellow.Small.AppCompatRatingBar" app:layout_width="wrap_content" app:layout_height="wrap_content" app:numStars="5" app:rating="3.5" app:stepSize="0.5" style="@style/Yellow.Small.AppCompatRatingBar" />
+                    <TextView app:textAppearance="@style/TextAppearance.AppCompat.Medium" app:layout_width="match_parent" app:layout_height="wrap_content" app:text="4.7 (51)" />
+                </LinearLayout>
+                <View app:background="@color/grey_10" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x101" app:layout_marginLeft="@dimen/spacing_xxlarge" />
+                <TextView app:textAppearance="@style/TextAppearance.AppCompat.Medium" app:textColor="@color/colorPrimary" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f010046" app:layout_marginLeft="@dimen/spacing_xxlarge" app:text="12 min away" />
+                <View app:background="@color/grey_10" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x101" app:layout_marginLeft="@dimen/spacing_xxlarge" />
+                <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_middle"
+                    <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content">
+                        <ImageButton app:background="0x106000d" app:layout_width="wrap_content" app:layout_height="UNKNOWN_DATA_0x7f010046" app:tint="@color/grey_20" app:srcCompat="@drawable/ic_location" />
+                        <View app:layout_width="UNKNOWN_DATA_0x7f0800d6" app:layout_height="UNKNOWN_DATA_0x1" />
+                        <TextView app:textAppearance="@style/TextAppearance.AppCompat.Medium" app:textColor="@color/grey_90" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="match_parent" app:layout_height="wrap_content" app:text="740 Valencia St, San Francisco, CA" />
+                    </LinearLayout>
+                    <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content">
+                        <ImageButton app:background="0x106000d" app:layout_width="wrap_content" app:layout_height="UNKNOWN_DATA_0x7f010046" app:tint="@color/grey_20" app:srcCompat="@drawable/ic_phone" />
+                        <View app:layout_width="UNKNOWN_DATA_0x7f0800d6" app:layout_height="UNKNOWN_DATA_0x1" />
+                        <TextView app:textAppearance="@style/TextAppearance.AppCompat.Medium" app:textColor="@color/grey_90" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="match_parent" app:layout_height="wrap_content" app:text="(415) 349-0942" />
+                    </LinearLayout>
+                    <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content">
+                        <ImageButton app:background="0x106000d" app:layout_width="wrap_content" app:layout_height="UNKNOWN_DATA_0x7f010046" app:tint="@color/grey_20" app:srcCompat="@drawable/ic_schedule" />
+                        <View app:layout_width="UNKNOWN_DATA_0x7f0800d6" app:layout_height="UNKNOWN_DATA_0x1" />
+                        <TextView app:textAppearance="@style/TextAppearance.AppCompat.Medium" app:textColor="@color/grey_90" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="match_parent" app:layout_height="wrap_content" app:text="Wed, 10 AM - 9 PM" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

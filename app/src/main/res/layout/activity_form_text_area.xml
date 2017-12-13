@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:background="@color/grey_90" app:layout_width="match_parent" app:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout app:layout_width="match_parent" app:layout_height="wrap_content">
+        <android.support.v7.widget.Toolbar app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" app:id="@id/toolbar" app:background="@color/amber_500" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f010046" app:contentInsetStartWithNavigation="0dp" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+    </android.support.design.widget.AppBarLayout>
+    <android.support.v4.widget.NestedScrollView app:padding="@dimen/spacing_large" app:scrollbars="UNKNOWN_DATA_0x0" app:clipToPadding="false" app:layout_width="match_parent" app:layout_height="match_parent" app:scrollingCache="true" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content">
+            <android.support.design.widget.TextInputLayout app:textColorHint="@color/grey_40" app:layout_width="match_parent" app:layout_height="wrap_content">
+                <android.support.v7.widget.AppCompatEditText app:theme="@style/EditText.Yellow" app:textColor="0x106000b" app:layout_width="match_parent" app:layout_height="wrap_content" app:hint="Name" />
+            </android.support.design.widget.TextInputLayout>
+            <View app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f0800d4" />
+            <android.support.design.widget.TextInputLayout app:textColorHint="@color/grey_40" app:background="@drawable/txt_area_dark_yellow" app:padding="@dimen/spacing_large" app:layout_width="match_parent" app:layout_height="wrap_content">
+                <android.support.v7.widget.AppCompatEditText app:theme="@style/EditText.Yellow" app:textColor="0x106000b" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:background="0x106000d" app:layout_width="match_parent" app:layout_height="wrap_content" app:hint="Message" app:maxLines="12" app:minLines="7" app:inputType="text|textCapCharacters|textCapWords|textCapSentences|textAutoCorrect|textAutoComplete|textMultiLine|textImeMultiLine|textNoSuggestions|textUri|textEmailAddress|textEmailSubject|textShortMessage|textLongMessage|textPersonName|textPostalAddress|textPassword|textVisiblePassword|textWebEditText|textFilter|textPhonetic|textWebEmailAddress|textWebPassword|phone" />
+            </android.support.design.widget.TextInputLayout>
+            <View app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f0800d4" />
+            <android.support.design.widget.TextInputLayout app:textColorHint="@color/grey_40" app:layout_width="match_parent" app:layout_height="wrap_content">
+                <android.support.v7.widget.AppCompatEditText app:theme="@style/EditText.Yellow" app:textColor="0x106000b" app:layout_width="match_parent" app:layout_height="wrap_content" app:hint="Phone number" app:inputType="text|textCapCharacters|textCapWords|textCapSentences|textAutoCorrect|textAutoComplete|textMultiLine|textImeMultiLine|textNoSuggestions|textUri|textEmailAddress|textEmailSubject|textShortMessage|textLongMessage|textPersonName|textPostalAddress|textPassword|textVisiblePassword|textWebEditText|textFilter|textPhonetic|textWebEmailAddress|textWebPassword|number|numberSigned|numberDecimal|numberPassword|phone" />
+            </android.support.design.widget.TextInputLayout>
+            <View app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f0800d4" />
+            <android.support.design.widget.TextInputLayout app:textColorHint="@color/grey_40" app:layout_width="match_parent" app:layout_height="wrap_content">
+                <android.support.v7.widget.AppCompatEditText app:theme="@style/EditText.Yellow" app:textColor="0x106000b" app:layout_width="match_parent" app:layout_height="wrap_content" app:hint="Email address" app:inputType="text|textCapCharacters|textCapWords|textCapSentences|textAutoCorrect|textAutoComplete|textMultiLine|textImeMultiLine|textNoSuggestions|textUri|textEmailAddress|textEmailSubject|textShortMessage|textLongMessage|textPersonName|textPostalAddress|textPassword|textVisiblePassword|textWebEditText|textFilter|textPhonetic|textWebEmailAddress|textWebPassword|phone|time" />
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>

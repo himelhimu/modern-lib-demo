@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:id="@id/parent_view" app:background="0x106000c" app:fitsSystemWindows="true" app:layout_width="match_parent" app:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout app:id="@id/appbar" app:background="@color/grey_900" app:layout_width="match_parent" app:layout_height="wrap_content">
+        <android.support.v7.widget.Toolbar app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" app:id="@id/toolbar" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f010046" app:title="Now Playing" app:contentInsetStartWithNavigation="0dp" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" app:layout_scrollFlags="5" app:titleTextAppearance="@style/TextAppearance.AppCompat.Medium" app:titleTextColor="@color/grey_20" />
+    </android.support.design.widget.AppBarLayout>
+    <RelativeLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="match_parent">
+        <ImageView app:layout_width="match_parent" app:layout_height="match_parent" app:layout_marginBottom="120dp" app:foreground="@color/overlay_dark_30" app:src="@drawable/photo_singer_male" app:scaleType="centerCrop" />
+        <android.support.design.widget.CoordinatorLayout app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_alignParentBottom="true">
+            <LinearLayout app:orientation="vertical" app:id="@id/player_control" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_middle"
+                <LinearLayout app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="horizontal" app:background="@color/grey_1000" app:paddingLeft="@dimen/spacing_middle" app:paddingTop="@dimen/spacing_mlarge" app:paddingRight="@dimen/spacing_middle" app:paddingBottom="@dimen/spacing_mlarge" app:layout_width="match_parent" app:layout_height="wrap_content">
+                    <ImageButton app:id="@id/bt_repeat" app:background="?attr/selectableItemBackgroundBorderless" app:layout_width="UNKNOWN_DATA_0x7f010046" app:layout_height="UNKNOWN_DATA_0x7f010046" app:tint="0x106000b" app:onClick="controlClick" app:srcCompat="@drawable/ic_repeat" />
+                    <LinearLayout app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_weight="1.0">
+                        <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textColor="0x106000b" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="Locking Up Your Symptoms" />
+                        <TextView app:textAppearance="@style/TextAppearance.AppCompat.Caption" app:textColor="@color/grey_40" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_medium" app:text="Who He Should Be" />
+                    </LinearLayout>
+                    <ImageButton app:id="@id/bt_shuffle" app:background="?attr/selectableItemBackgroundBorderless" app:layout_width="UNKNOWN_DATA_0x7f010046" app:layout_height="UNKNOWN_DATA_0x7f010046" app:tint="0x106000b" app:onClick="controlClick" app:srcCompat="@drawable/ic_shuffle" />
+                </LinearLayout>
+                <LinearLayout app:background="@color/grey_900" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f010046">
+                    <ImageButton app:id="@id/bt_prev" app:background="?attr/selectableItemBackgroundBorderless" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="UNKNOWN_DATA_0x7f010046" app:tint="0x106000b" app:layout_weight="1.0" app:onClick="controlClick" app:srcCompat="@drawable/ic_skip_previous" />
+                    <ImageButton app:id="@id/bt_play" app:background="?attr/selectableItemBackgroundBorderless" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="UNKNOWN_DATA_0x7f010046" app:tint="0x106000b" app:layout_weight="1.0" app:srcCompat="@drawable/ic_play_arrow" />
+                    <ImageButton app:id="@id/bt_next" app:background="?attr/selectableItemBackgroundBorderless" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="UNKNOWN_DATA_0x7f010046" app:tint="0x106000b" app:layout_weight="1.0" app:onClick="controlClick" app:srcCompat="@drawable/ic_skip_next" />
+                </LinearLayout>
+            </LinearLayout>
+            <android.support.v7.widget.AppCompatSeekBar app:id="@id/seek_song_progressbar" app:padding="0dp" app:layout_width="match_parent" app:layout_height="wrap_content" app:progress="0" app:progressDrawable="@drawable/seek_progress_red" app:thumb="@drawable/seek_thumb_red" app:layout_anchor="@id/player_control" app:layout_anchorGravity="31" />
+        </android.support.design.widget.CoordinatorLayout>
+    </RelativeLayout>
+</LinearLayout>

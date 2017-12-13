@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.balysv.materialripple.MaterialRippleLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:layout_width="match_parent" app:layout_height="wrap_content" style="@style/RippleStyleBlack">
+    <LinearLayout app:orientation="horizontal" app:id="@id/lyt_parent" app:clickable="true" app:layout_width="match_parent" app:layout_height="wrap_content" app:minHeight="?attr/actionBarSize">
+        <View app:layout_width="UNKNOWN_DATA_0x7f0800d5" app:layout_height="UNKNOWN_DATA_0x1" />
+        <ImageView app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@id/image" app:layout_width="UNKNOWN_DATA_0x7f0800d6" app:layout_height="UNKNOWN_DATA_0x7f0800d6" app:tint="@color/grey_60" app:srcCompat="@drawable/ic_event" />
+        <View app:layout_width="UNKNOWN_DATA_0x7f0800d5" app:layout_height="UNKNOWN_DATA_0x1" />
+        <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content">
+            <View app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f0800d3" />
+            <LinearLayout app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content"
+                <LinearLayout app:orientation="vertical" app:paddingTop="@dimen/spacing_middle" app:paddingBottom="@dimen/spacing_middle" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="wrap_content" app:layout_weight="1.0">
+                    <TextView app:textAppearance="@style/TextAppearance.AppCompat.Subhead" app:textColor="@color/grey_90" app:id="@id/title" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginRight="@dimen/spacing_middle" app:text="Category Name" />
+                    <TextView app:textAppearance="@style/TextAppearance.AppCompat.Small" app:textColor="@color/grey_40" app:id="@id/brief" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_small" app:layout_marginRight="@dimen/spacing_middle" app:text="Sub text" app:maxLines="2" />
+                </LinearLayout>
+                <ImageButton app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:background="0x106000d" app:layout_width="UNKNOWN_DATA_0x7f010046" app:layout_height="UNKNOWN_DATA_0x7f010046" app:tint="@color/grey_40" app:srcCompat="@drawable/ic_chevron_right" />
+            </LinearLayout>
+            <View app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f0800d3" />
+            <View app:background="@color/grey_20" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x101" />
+        </LinearLayout>
+    </LinearLayout>
+</com.balysv.materialripple.MaterialRippleLayout>

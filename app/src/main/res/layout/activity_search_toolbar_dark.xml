@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:layout_width="match_parent" app:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout app:id="@id/appbar" app:background="@color/grey_900" app:layout_width="match_parent" app:layout_height="wrap_content">
+        <android.support.v7.widget.Toolbar app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" app:id="@id/toolbar" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7f010046" app:contentInsetStartWithNavigation="0dp" app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+            <LinearLayout app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="match_parent">
+                <EditText app:id="@id/et_search" app:background="0x106000d" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="match_parent" app:hint="Search" app:maxLines="1" app:singleLine="true" app:layout_weight="1.0" app:imeOptions="actionNone|actionGo|actionSearch|actionNext|actionDone|actionPrevious">
+                    <requestFocus />
+                </EditText>
+                <ImageButton app:id="@id/bt_clear" app:background="0x106000d" app:visibility="visible" app:layout_width="UNKNOWN_DATA_0x7f010046" app:layout_height="UNKNOWN_DATA_0x7f010046" app:tint="0x106000b" app:srcCompat="@drawable/ic_close" />
+            </LinearLayout>
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+    <RelativeLayout app:background="@color/grey_90" app:layout_width="match_parent" app:layout_height="match_parent">
+        <ProgressBar app:id="@id/progress_bar" app:visibility="gone" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_centerInParent="true" />
+        <LinearLayout app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:id="@id/lyt_no_result" app:layout_width="UNKNOWN_DATA_0xc801" app:layout_height="wrap_content" app:layout_centerInParent="true">
+            <TextView app:textAppearance="@style/Base.TextAppearance.AppCompat.Headline" app:textStyle="bold" app:textColor="@color/grey_40" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="No result" />
+            <TextView app:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" app:textColor="@color/grey_40" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="@dimen/spacing_medium" app:text="Try input more general keyword" />
+        </LinearLayout>
+        <LinearLayout app:orientation="vertical" app:id="@id/lyt_suggestion" app:visibility="gone" app:layout_width="match_parent" app:layout_height="match_parent">
+            <android.support.v7.widget.RecyclerView app:id="@id/recyclerSuggestion" app:background="@color/grey_90" app:scrollbars="UNKNOWN_DATA_0x0" app:layout_width="match_parent" app:layout_height="wrap_content" app:scrollingCache="true" app:cacheColorHint="#0000" />
+            <View app:background="@color/overlay_dark_40" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x1" app:layout_weight="1.0" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

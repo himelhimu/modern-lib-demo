@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:fitsSystemWindows="true" app:layout_width="match_parent" app:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" app:id="@id/app_bar_layout" app:fitsSystemWindows="true" app:layout_width="match_parent" app:layout_height="wrap_content">
+        <include layout="@layout/toolbar" />
+    </android.support.design.widget.AppBarLayout>
+    <android.support.v4.widget.DrawerLayout app:id="@id/drawer_layout" app:layout_width="match_parent" app:layout_height="match_parent">
+        <android.support.design.widget.CoordinatorLayout app:id="@id/main_content" app:layout_width="match_parent" app:layout_height="match_parent">
+            <include layout="@layout/include_drawer_content" />
+        </android.support.design.widget.CoordinatorLayout>
+        <android.support.design.widget.NavigationView app:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/nav_view" app:background="@color/blue_grey_800" app:paddingTop="@dimen/spacing_large" app:fitsSystemWindows="false" app:layout_width="UNKNOWN_DATA_0xdc01" app:layout_height="match_parent" app:menu="@menu/menu_navigation_drawer_news" app:itemIconTint="@color/grey_600" app:itemTextColor="@color/grey_300" app:itemTextAppearance="@style/TextAppearance.AppCompat.Subhead" app:theme="@style/Drawer.Custom.Dark" />
+    </android.support.v4.widget.DrawerLayout>
+</LinearLayout>
